@@ -1,0 +1,567 @@
+rank,title,score,user_score,release_date
+1,Command & Conquer,8.9,8.9,1995-09-26
+2,Company of Heroes,8.8,8.8,2006-09-13
+3,Starcraft II: Wings of Liberty,8.3,8.3,2010-07-27
+4,Homeworld,8.8,8.8,1999-08-31
+5,Warcraft III: Reign of Chaos,9.2,9.2,2002-07-03
+6,Sid Meier's Gettysburg!,7.4,7.4,1997-09-30
+7,Rome: Total War,9.1,9.1,2004-09-22
+8,Age of Empires II: The Age of Kings,9.0,9.0,1999-09-30
+9,Myth: The Fallen Lords,8.5,8.5,1997-10-31
+10,Black & White,7.8,7.8,2001-03-26
+11,Dota 2,6.5,6.5,2013-07-09
+12,Empire: Total War,7.0,7.0,2009-03-03
+13,Command & Conquer: Red Alert,8.8,8.8,1996-10-31
+14,Age of Mythology,8.9,8.9,2002-11-01
+15,Sacrifice,8.7,8.7,2000-11-05
+16,Homeworld: Cataclysm,8.8,8.8,2000-09-07
+17,Combat Mission: Barbarossa to Berlin,7.7,7.7,2002-10-29
+18,World in Conflict,8.1,8.1,2007-09-18
+19,Rise of Nations,8.8,8.8,2003-05-20
+20,Medieval: Total War,8.7,8.7,2002-08-19
+21,Crusader Kings II: The Old Gods,8.7,8.7,2013-05-28
+22,Age of Empires II: The Conquerors Expansion,9.1,9.1,2000-08-24
+23,Starcraft,9.1,9.1,1998-03-31
+24,Warcraft III: The Frozen Throne,9.3,9.3,2003-07-01
+25,Myth II: Soulblighter,8.7,8.7,1998-11-30
+26,Medieval II: Total War,9.0,9.0,2006-11-13
+27,Starcraft II: Legacy of the Void,8.3,8.3,2015-11-10
+28,Rise of Nations: Thrones & Patriots,8.8,8.8,2004-04-27
+29,Plants vs. Zombies,8.9,8.9,2009-05-05
+30,Europa Universalis II,8.7,8.7,2001-11-12
+31,RimWorld,8.9,8.9,2018-10-17
+32,Sins of a Solar Empire,8.2,8.2,2008-02-04
+33,Orcs Must Die! Unchained,6.3,6.3,2017-04-19
+34,Kohan: Immortal Sovereigns,7.7,7.7,2001-03-14
+35,Shogun: Total War Warlord Edition,8.7,8.7,2001-08-13
+36,Company of Heroes: Opposing Fronts,8.7,8.7,2007-09-24
+37,Europa Universalis IV,8.7,8.7,2013-08-13
+38,Total War: WARHAMMER II,7.7,7.7,2017-09-28
+39,Warhammer 40000: Dawn of War - Dark Crusade,8.8,8.8,2006-10-09
+40,Commandos 2: Men of Courage,8.9,8.9,2001-09-20
+41,Supreme Commander,8.3,8.3,2007-02-20
+42,Ground Control,7.6,7.6,2000-05-31
+43,Total Annihilation,8.8,8.8,1997-09-27
+44,Starcraft II: Heart of the Swarm,8.0,8.0,2013-03-12
+45,Europa Universalis III: Heir to the Throne,8.7,8.7,2009-12-15
+46,Warhammer 40000: Dawn of War,8.8,8.8,2004-09-20
+47,Command & Conquer: Red Alert 2 - Yuri's Revenge,8.9,8.9,2001-10-10
+48,Heroes of the Storm,6.4,6.4,2015-06-02
+49,Warhammer 40000: Dawn of War II,8.1,8.1,2009-02-18
+50,Battlerite,7.3,7.3,2017-11-08
+51,Command & Conquer 3: Tiberium Wars,8.0,8.0,2007-03-26
+52,Tropico,8.2,8.2,2001-04-05
+53,Shadow Tactics: Blades of the Shogun,8.5,8.5,2016-12-06
+54,Medieval II: Total War Kingdoms,8.8,8.8,2007-08-28
+55,Warhammer 40000: Dawn of War II - Chaos Rising,8.6,8.6,2010-03-10
+56,Total War: Three Kingdoms,7.8,7.8,2019-05-23
+57,Warhammer 40000: Dawn of War - Winter Assault,8.4,8.4,2005-09-21
+58,Starcraft Remastered,7.8,7.8,2017-08-14
+59,Sid Meier's SimGolf,7.6,7.6,2002-01-23
+60,Command & Conquer: Generals,8.4,8.4,2003-02-10
+61,Shogun: Total War,8.6,8.6,2000-06-13
+62,Command & Conquer: Red Alert 2,8.9,8.9,2000-10-21
+63,Total War: WARHAMMER II - Rise of the Tomb Kings,6.9,6.9,2018-01-23
+64,Europa Universalis IV: Wealth of Nations,8.4,8.4,2014-05-29
+65,Age of Mythology: The Titans,8.8,8.8,2003-09-30
+66,Rise of Nations: Rise of Legends,8.5,8.5,2006-05-09
+67,DEFCON: Everybody Dies,8.3,8.3,2006-09-29
+68,Age of Empires II: Definitive Edition,8.9,8.9,2019-11-14
+69,The Lord of the Rings: The Battle for Middle-Earth II,7.7,7.7,2006-03-02
+70,Medieval: Total War - Viking Invasion,8.6,8.6,2003-05-07
+71,Darwinia,7.7,7.7,2005-07-14
+72,Ultimate General: Gettysburg,7.8,7.8,2014-10-16
+73,Anno 2070,7.1,7.1,2011-11-17
+74,SMITE,8.1,8.1,2014-03-25
+75,Homeworld 2,8.3,8.3,2003-09-16
+76,Command & Conquer: Generals - Zero Hour,8.9,8.9,2003-09-22
+77,Orcs Must Die!,8.0,8.0,2011-10-11
+78,This War of Mine,8.3,8.3,2014-11-14
+79,Hearts of Iron II,8.5,8.5,2005-01-04
+80,Total War: WARHAMMER II - Curse of the Vampire Coast,7.6,7.6,2018-11-08
+81,Age of Empires,8.7,8.7,1997-09-30
+82,Orcs Must Die! 2,7.9,7.9,2012-07-30
+83,Steel Division: Normandy 44,7.5,7.5,2017-05-23
+84,Hearts of Iron IV,7.3,7.3,2016-06-06
+85,Door Kickers,7.8,7.8,2014-10-20
+86,Stellaris: Synthetic Dawn,7.0,7.0,2017-09-21
+87,One Step From Eden,7.0,7.0,2020-03-26
+88,Dawn of Discovery,8.8,8.8,2009-06-17
+89,Act of War: Direct Action,7.8,7.8,2005-03-15
+90,Rome: Total War Barbarian Invasion,8.4,8.4,2005-09-27
+91,Warlords Battlecry II,7.9,7.9,2002-03-11
+92,Stellaris: Utopia,7.8,7.8,2017-04-06
+93,Crusader Kings II,8.7,8.7,2012-02-14
+94,Battle Realms,8.5,8.5,2001-11-07
+95,Europa 1400: The Guild,8.4,8.4,2002-11-18
+96,Command & Conquer: Red Alert 3,6.9,6.9,2008-10-28
+97,Celtic Kings: Rage of War,7.8,7.8,2002-08-21
+98,The Lord of the Rings: The Battle for Middle-Earth,8.6,8.6,2004-12-06
+99,Starships Unlimited: Divided Galaxies,tbd,tbd,2002-12-02
+100,Airborne Assault: Highway to the Reich,6.1,6.1,2003-12-10
+101,Supreme Commander: Forged Alliance,8.8,8.8,2007-11-06
+102,Crusader Kings II: The Republic,8.2,8.2,2013-01-14
+103,MORDHAU,8.1,8.1,2019-04-29
+104,Age of Empires III,7.7,7.7,2005-10-18
+105,Ashes of the Singularity: Escalation,7.3,7.3,2016-11-10
+106,Empires: Dawn of the Modern World,7.9,7.9,2003-10-21
+107,Company of Heroes 2: Ardennes Assault,6.2,6.2,2014-11-17
+108,DG2: Defense Grid 2,6.8,6.8,2014-09-23
+109,Napoleon: Total War,7.9,7.9,2010-02-23
+110,Stronghold,8.9,8.9,2001-10-21
+111,Victoria II: Heart of Darkness,8.8,8.8,2013-04-16
+112,Vietnam '65,6.8,6.8,2015-03-05
+113,Rails Across America,7.0,7.0,2001-09-18
+114,Combat Mission 3: Afrika Korps,7.6,7.6,2003-12-03
+115,Kohan II: Kings of War,7.9,7.9,2004-09-22
+116,Darkest Hour: A Hearts of Iron Game,8.0,8.0,2011-04-05
+117,Empire Earth,8.3,8.3,2001-11-12
+118,Wargame: European Escalation,8.1,8.1,2012-02-22
+119,Total War: Three Kingdoms - A World Betrayed,7.0,7.0,2020-03-19
+120,Age of Empires III: The Asian Dynasties,8.5,8.5,2007-10-23
+121,Defense Grid: The Awakening,8.7,8.7,2008-12-08
+122,Codename: Panzers Phase One,8.8,8.8,2004-09-30
+123,Ghost Master,7.8,7.8,2003-08-26
+124,Europa Universalis IV: Conquest of Paradise,7.7,7.7,2014-01-14
+125,Company of Heroes 2: The Western Front Armies,6.9,6.9,2014-06-23
+126,Age of Empires III: The WarChiefs,7.8,7.8,2006-10-17
+127,Crusader Kings II: Charlemagne,6.8,6.8,2014-10-14
+128,Anomaly: Warzone Earth,7.3,7.3,2011-04-08
+129,SpellForce 3: Soul Harvest,8.5,8.5,2019-05-28
+130,Hearts of Iron II: Doomsday,8.8,8.8,2006-04-07
+131,Codename: Panzers Phase Two,7.9,7.9,2005-07-25
+132,Full Spectrum Warrior,7.1,7.1,2004-09-21
+133,AI War: Fleet Command,7.9,7.9,2009-05-14
+134,Company of Heroes 2: The British Forces,6.3,6.3,2015-09-02
+135,Ground Control II: Operation Exodus,7.8,7.8,2004-06-23
+136,Company of Heroes 2,2.1,2.1,2013-06-25
+137,Crusader Kings II: Rajas of India,7.2,7.2,2014-03-25
+138,Dragonshard,7.4,7.4,2005-10-02
+139,Warhammer 40000: Dawn of War II - Retribution,7.7,7.7,2011-02-28
+140,Panzer Corps,7.5,7.5,2011-07-11
+141,Tooth and Tail,7.2,7.2,2017-09-12
+142,Men of War,8.0,8.0,2009-03-16
+143,Sins of a Solar Empire: Entrenchment,7.3,7.3,2009-02-25
+144,Robin Hood: The Legend of Sherwood,8.4,8.4,2002-11-14
+145,Wargame: AirLand Battle,8.0,8.0,2013-05-29
+146,Total War: Attila,7.4,7.4,2015-02-17
+147,Total War: Three Kingdoms - Mandate of Heaven,7.3,7.3,2020-01-16
+148,Empire Earth II,7.1,7.1,2005-04-26
+149,Fractured Space,7.6,7.6,2016-09-22
+150,Revenge of the Titans,7.6,7.6,2010-05-24
+151,Dungeon of the Endless,7.9,7.9,2014-10-27
+152,Star Wars: Empire at War,8.3,8.3,2006-02-15
+153,1701 A.D.,7.8,7.8,2006-11-06
+154,Emperor: Battle for Dune,8.0,8.0,2001-06-12
+155,Kohan: Ahriman's Gift,7.8,7.8,2001-11-05
+156,Bloodline Champions,7.7,7.7,2011-01-13
+157,Rome: Total War Alexander,7.6,7.6,2006-06-19
+158,Sins of a Solar Empire: Diplomacy,8.7,8.7,2010-02-09
+159,King Arthur: The Role-Playing Wargame,7.8,7.8,2009-11-24
+160,Close Combat: Invasion: Normandy,7.6,7.6,2000-10-10
+161,Port Royale,7.6,7.6,2003-06-04
+162,Homeworld: Deserts of Kharak,7.9,7.9,2016-01-20
+163,Europa Universalis IV: Res Publica,7.0,7.0,2014-07-16
+164,Distant Worlds,7.9,7.9,2010-03-25
+165,Stellaris,7.9,7.9,2016-05-09
+166,Total War: Rome II - Rise of the Republic,6.0,6.0,2018-08-09
+167,League of Legends,5.4,5.4,2009-10-27
+168,Star Trek Starfleet Command: Orion Pirates,7.6,7.6,2001-07-01
+169,Praetorians,7.8,7.8,2003-03-10
+170,Hearts of Iron: Platinum,7.3,7.3,2004-09-21
+171,Brass Tactics,tbd,tbd,2018-02-22
+172,The Lord of the Rings: The Battle for Middle-Earth II - The Rise of the Witch-King,8.5,8.5,2006-11-28
+173,Earth 2150,7.7,7.7,2000-06-12
+174,Stronghold: Crusader,8.8,8.8,2002-09-25
+175,Wargame: Red Dragon,7.9,7.9,2014-04-17
+176,Austerlitz: Napoleon's Greatest Victory,6.3,6.3,2002-07-10
+177,Awesomenauts,7.9,7.9,2012-08-01
+178,Offworld Trading Company,7.3,7.3,2016-04-28
+179,Stellaris: Distant Stars,6.5,6.5,2018-05-22
+180,Galactic Civilizations: Altarian Prophecy,6.9,6.9,2004-11-12
+181,Ground Control: Dark Conspiracy,6.6,6.6,2000-12-14
+182,Battlefleet Gothic: Armada 2,7.6,7.6,2019-01-24
+183,Strange Adventures in Infinite Space,tbd,tbd,2002-02-22
+184,They Are Billions,6.2,6.2,2019-06-18
+185,Soldiers: Heroes of World War II,8.3,8.3,2004-06-30
+186,Command & Conquer 3: Kane's Wrath,8.0,8.0,2008-03-24
+187,Men of War: Assault Squad,8.0,8.0,2011-02-25
+188,Arena Wars,7.7,7.7,2004-09-13
+189,Anomaly 2,7.7,7.7,2013-05-15
+190,Ancestors Legacy,7.2,7.2,2018-05-22
+191,Universe at War: Earth Assault,8.5,8.5,2007-12-10
+192,Interloper,7.2,7.2,2015-05-21
+193,Hearts of Iron III,7.2,7.2,2009-08-07
+194,Nexus: The Jupiter Incident,8.7,8.7,2005-02-24
+195,Supreme Commander 2,6.2,6.2,2010-03-01
+196,Total War: Attila - Age of Charlemagne,7.7,7.7,2015-12-10
+197,Battlefleet Gothic: Armada,7.4,7.4,2016-04-21
+198,Knights of Honor,8.8,8.8,2005-06-06
+199,MoonBase Commander,6.9,6.9,2002-08-13
+200,Starfleet Command Volume II: Empires at War,6.4,6.4,2000-12-13
+201,Crusader Kings II: Sons of Abraham,7.6,7.6,2013-11-18
+202,Grey Goo,7.4,7.4,2015-01-23
+203,Perimeter,7.6,7.6,2004-06-30
+204,Warhammer 40000: Dawn of War III,4.6,4.6,2017-04-27
+205,Dark Reign 2,7.1,7.1,2000-06-30
+206,Men of War: Red Tide,7.8,7.8,2009-11-01
+207,Patrician II: Quest for Power,6.9,6.9,2001-10-08
+208,Battlestations: Midway,7.4,7.4,2007-01-30
+209,Heroes of Newerth,7.3,7.3,2010-05-12
+210,Frozen Synapse 2,7.4,7.4,2018-09-13
+211,Worbital,tbd,tbd,2019-01-31
+212,Victoria II: A House Divided,8.4,8.4,2012-01-24
+213,Master X Master,7.6,7.6,2017-06-21
+214,Total War: Rome II,4.3,4.3,2013-09-02
+215,Multiwinia: Survival of the Flattest,8.7,8.7,2008-09-19
+216,American Conquest,7.8,7.8,2003-02-05
+217,Mushroom Wars 2,6.4,6.4,2017-10-06
+218,Rush for Berlin,7.3,7.3,2006-06-12
+219,Imperator: Rome,4.7,4.7,2019-04-25
+220,R.U.S.E.,7.9,7.9,2010-09-07
+221,Gigantic,8.4,8.4,2017-07-20
+222,Myth III: The Wolf Age,6.8,6.8,2001-10-30
+223,Demigod,7.7,7.7,2009-04-14
+224,Super Monday Night Combat,3.7,3.7,2012-04-19
+225,Victoria II,8.2,8.2,2010-08-13
+226,A Total War Saga: Thrones of Britannia,5.3,5.3,2018-05-02
+227,Space Colony,7.5,7.5,2003-10-14
+228,Patrician III: Rise of the Hanse,8.8,8.8,2003-10-31
+229,Space Run Galaxy,5.4,5.4,2016-06-17
+230,Star Wars: Empire at War: Forces of Corruption,8.6,8.6,2006-10-24
+231,Port Royale 2,7.7,7.7,2004-09-13
+232,Satellite Reign,7.7,7.7,2015-08-28
+233,Infested Planet,7.7,7.7,2014-03-06
+234,Blitzkrieg 2,7.5,7.5,2005-10-02
+235,Evil Genius,8.3,8.3,2004-09-28
+236,Atom Zombie Smasher,7.1,7.1,2011-01-23
+237,Hegemonia: Legions of Iron,7.6,7.6,2002-11-13
+238,Napoleon: Total War - The Peninsular Campaign,7.5,7.5,2010-07-25
+239,Stellaris: MegaCorp,6.2,6.2,2018-12-06
+240,Black & White 2,7.3,7.3,2005-10-04
+241,Star Wars Galactic Battlegrounds,7.9,7.9,2001-11-11
+242,PeaceMaker,tbd,tbd,2007-05-02
+243,BattleForge,7.1,7.1,2009-03-23
+244,Iron Brigade,5.3,5.3,2012-08-13
+245,Blitzkrieg: Burning Horizon,7.7,7.7,2004-06-13
+246,Sol Survivor,7.7,7.7,2010-03-15
+247,Total War: Arena,7.8,7.8,2018-02-22
+248,Battlestations: Pacific,7.8,7.8,2009-05-12
+249,SpellForce: The Order of Dawn,7.7,7.7,2004-02-11
+250,Space Colony (Steam Edition),tbd,tbd,2015-04-30
+251,Bad North,6.7,6.7,2018-08-28
+252,Take Command: 2nd Manassas,7.8,7.8,2006-04-26
+253,Blitzkrieg (2003),7.8,7.8,2003-05-12
+254,Stellar Impact,7.1,7.1,2011-08-22
+255,Total Annihilation: Kingdoms,8.4,8.4,1999-06-23
+256,Worms 3D,7.1,7.1,2004-03-12
+257,1503 A.D. - The New World,7.5,7.5,2003-03-23
+258,Dawn of Man,6.6,6.6,2019-03-01
+259,Cossacks: European Wars,8.0,8.0,2001-04-14
+260,Ceres,tbd,tbd,2015-10-16
+261,Stellaris: Federations,tbd,tbd,2020-03-17
+262,Act of War: High Treason,7.5,7.5,2006-05-30
+263,Nemesis of the Roman Empire,7.3,7.3,2004-03-25
+264,Tin Soldiers: Julius Caesar,8.4,8.4,2005-04-26
+265,Cossacks: The Art of War,8.3,8.3,2002-03-31
+266,Forts,6.7,6.7,2017-04-19
+267,Fieldrunners 2,7.5,7.5,2013-01-10
+268,Cossacks II: Napoleonic Wars,7.2,7.2,2005-04-27
+269,Space Run,7.6,7.6,2014-06-13
+270,Warrior Kings,7.7,7.7,2002-04-13
+271,Total War: WARHAMMER II - The Queen & the Crone,8.3,8.3,2018-05-31
+272,Treasure Planet: Battle at Procyon,7.8,7.8,2002-10-31
+273,War Front: Turning Point,7.7,7.7,2007-02-23
+274,Warhammer: Mark of Chaos,7.3,7.3,2006-11-14
+275,Blitzkrieg: Rolling Thunder,7.6,7.6,2004-11-30
+276,Impossible Creatures Steam Edition,tbd,tbd,2015-11-11
+277,StarCraft II: Nova Covert Ops - Mission Pack 1,7.3,7.3,2016-03-29
+278,Crusader Kings,7.6,7.6,2004-09-28
+279,Steel Division 2,7.6,7.6,2019-06-20
+280,Time of Defiance,6.8,6.8,2004-09-28
+281,SpellForce 3,7.6,7.6,2017-12-07
+282,Soldiers of Anarchy,7.3,7.3,2002-10-08
+283,Warhammer 40000: Dawn of War - Soulstorm,8.0,8.0,2008-03-04
+284,Earth 2160,7.4,7.4,2005-11-16
+285,Unstoppable Gorg,6.7,6.7,2012-01-19
+286,Stellaris: Apocalypse,7.3,7.3,2018-02-22
+287,Warlords Battlecry III,8.4,8.4,2004-05-19
+288,Impossible Creatures,7.8,7.8,2002-12-29
+289,Grand Ages: Rome,7.7,7.7,2009-03-17
+290,Commandos 3: Destination Berlin,7.6,7.6,2003-10-14
+291,Aarklash: Legacy,7.7,7.7,2013-09-12
+292,Renowned Explorers: International Society,6.4,6.4,2015-09-02
+293,Hearts of Iron,7.8,7.8,2002-11-24
+294,World in Conflict: Soviet Assault,8.3,8.3,2009-03-10
+295,Judgment: Apocalypse Survival Simulation,7.6,7.6,2018-05-03
+296,Warhammer 40000: Regicide,7.6,7.6,2015-09-08
+297,Perimeter: Emperor's Testament,tbd,tbd,2006-09-04
+298,Black & White: Creature Isle,7.3,7.3,2002-01-21
+299,The Gladiators: The Galactic Circus Games,tbd,tbd,2003-03-03
+300,Cannon Brawl,tbd,tbd,2013-07-30
+301,Kingdoms and Castles,7.5,7.5,2017-07-20
+302,PixelJunk Monsters: Ultimate,7.3,7.3,2013-08-26
+303,Star Wars Galactic Battlegrounds: Clone Campaigns,7.7,7.7,2002-05-14
+304,Battle Realms: Winter of the Wolf,8.0,8.0,2002-11-11
+305,Magic & Mayhem: The Art of Magic,7.0,7.0,2001-10-26
+306,UFO: Afterlight,7.6,7.6,2007-05-04
+307,March of the Eagles,7.0,7.0,2013-02-18
+308,Toy Soldiers,7.4,7.4,2012-04-27
+309,Warhammer 40000: Gladius - Relics of War,7.2,7.2,2018-07-12
+310,World War III: Black Gold,5.9,5.9,2001-10-16
+311,The Kings' Crusade,7.2,7.2,2010-10-08
+312,Act of Aggression,7.1,7.1,2015-09-02
+313,Fate of the Dragon,6.9,6.9,2001-03-14
+314,Masters of Anima,5.2,5.2,2018-04-10
+315,ParaWorld,7.9,7.9,2006-09-27
+316,Age of Empires Online,5.7,5.7,2011-08-16
+317,Company of Heroes: Tales of Valor,7.2,7.2,2009-04-07
+318,Desert Rats vs. Afrika Korps,7.5,7.5,2004-03-31
+319,StarDrive 2,5.4,5.4,2015-04-09
+320,Warstone TD,tbd,tbd,2018-05-23
+321,No Man's Land,7.1,7.1,2003-10-20
+322,Order of War: Challenge,6.9,6.9,2010-03-11
+323,Poltergeist: A Pixelated Horror,tbd,tbd,2014-10-20
+324,Halo Wars 2,5.8,5.8,2017-02-17
+325,Steel Soldiers,8.8,8.8,2001-06-14
+326,Full Spectrum Warrior: Ten Hammers,7.6,7.6,2006-03-28
+327,Anomaly Defenders,6.5,6.5,2014-05-29
+328,Starpoint Gemini 2,8.4,8.4,2013-09-06
+329,Taur,tbd,tbd,2020-02-19
+330,Sudden Strike 4,7.3,7.3,2017-08-11
+331,Sengoku,6.8,6.8,2011-09-13
+332,World War II: Frontline Command,6.8,6.8,2003-06-27
+333,Age of Sail II: Privateer's Bounty,tbd,tbd,2002-08-13
+334,Ashes of the Singularity,6.8,6.8,2016-03-31
+335,Age of Empires: Definitive Edition,5.7,5.7,2018-02-20
+336,Warhammer 40000: Sanctus Reach,7.4,7.4,2017-01-19
+337,Black & White 2 - Battle of the Gods,8.7,8.7,2006-04-24
+338,Freaking Meatbags,tbd,tbd,2014-05-20
+339,Help Will Come Tomorrow,6.8,6.8,2020-04-21
+340,Star Hammer: The Vanguard Prophecy,6.1,6.1,2015-06-04
+341,Tannenberg,7.3,7.3,2019-02-13
+342,Chaos League: Sudden Death,tbd,tbd,2005-12-08
+343,Order of War,7.3,7.3,2009-09-22
+344,Imperial Glory,8.0,8.0,2005-05-17
+345,Armies of Exigo,7.7,7.7,2004-11-30
+346,Cossacks II: Battle for Europe,7.9,7.9,2006-06-28
+347,Submarine Titans,7.6,7.6,2000-08-09
+348,Bloodsports.TV,6.2,6.2,2015-03-30
+349,8-Bit Armies,7.2,7.2,2016-04-22
+350,Joint Task Force,7.7,7.7,2006-09-12
+351,Tom Clancy's EndWar,6.7,6.7,2009-02-24
+352,Empires Apart,5.0,5.0,2018-03-29
+353,Metal Fatigue,8.5,8.5,2000-07-31
+354,O.R.B.,6.5,6.5,2002-11-04
+355,Magic: The Gathering - Battlegrounds,7.4,7.4,2003-11-18
+356,Shad'O,6.6,6.6,2012-09-04
+357,Beware Planet Earth!,5.8,5.8,2012-08-30
+358,Infinite Crisis,6.7,6.7,2015-03-26
+359,Men of War: Assault Squad 2,6.4,6.4,2014-03-20
+360,Warhammer 40000: Armageddon,6.7,6.7,2014-11-26
+361,Commander: Conquest of the Americas,5.3,5.3,2010-07-30
+362,Blitzkrieg 3,3.6,3.6,2017-06-02
+363,SPACECOM,7.6,7.6,2014-09-17
+364,Starship Troopers: Terran Ascendancy,7.7,7.7,2000-11-07
+365,Age of Empires II: HD Edition,7.9,7.9,2013-04-09
+366,Battlezone: Combat Commander,6.0,6.0,2018-03-01
+367,Cubemen 2,6.8,6.8,2013-04-08
+368,Sudden Strike II,7.7,7.7,2002-09-26
+369,Squad Assault: West Front,tbd,tbd,2003-11-02
+370,Men of War: Vietnam,5.2,5.2,2011-09-08
+371,Spacejacked,tbd,tbd,2016-02-26
+372,Army Men: RTS,7.8,7.8,2002-03-24
+373,Oil Rush,6.5,6.5,2011-09-23
+374,The Lord of the Rings: War of the Ring,6.9,6.9,2003-11-04
+375,Patrician IV: Rise of a Dynasty,8.4,8.4,2011-03-31
+376,UFO: Aftershock,7.7,7.7,2005-11-23
+377,Codename Panzers: Cold War,5.8,5.8,2009-03-10
+378,Total War: Three Kingdoms - Eight Princes,5.0,5.0,2019-08-08
+379,Warhammer 40000: Inquisitor - Martyr,6.4,6.4,2018-06-05
+380,Champions of Anteria,6.7,6.7,2016-08-30
+381,Project Earth: Starmageddon,5.4,5.4,2002-04-29
+382,Earth 2150: Lost Souls,7.0,7.0,2002-09-09
+383,Pacific Storm,5.9,5.9,2006-10-02
+384,Faces of War,8.5,8.5,2006-09-12
+385,Age of Mythology: Extended Edition,7.2,7.2,2014-05-08
+386,Far Gate,tbd,tbd,2001-09-10
+387,Theatre of War,6.2,6.2,2007-04-19
+388,Desperados 2: Cooper's Revenge,6.7,6.7,2006-05-05
+389,Patrician IV,6.3,6.3,2010-09-17
+390,Hegemony: Philip of Macedon,8.1,8.1,2010-11-05
+391,American Conquest: Fight Back,7.8,7.8,2003-09-29
+392,Medieval Conquest,8.3,8.3,2004-09-06
+393,Stronghold: Crusader II,6.1,6.1,2014-09-22
+394,Hearts of Iron III: Semper Fi,6.0,6.0,2010-06-07
+395,Hinterland,6.7,6.7,2008-09-30
+396,Squad Assault: Second Wave,tbd,tbd,2005-08-31
+397,Heroes of Annihilated Empires,7.7,7.7,2006-11-16
+398,I Zombie,5.4,5.4,2013-11-01
+399,Crusader Kings II: Jade Dragon,tbd,tbd,2017-11-16
+400,Warhammer: Mark of Chaos - Battle March,7.6,7.6,2008-09-02
+401,Axis & Allies,8.5,8.5,2004-11-02
+402,War the Game,7.1,7.1,2015-01-12
+403,S.W.I.N.E.,8.1,8.1,2001-11-19
+404,Lords of the Realm III,3.7,3.7,2004-03-17
+405,War for the Overworld,7.7,7.7,2015-04-02
+406,Naval War: Arctic Circle,5.8,5.8,2012-04-10
+407,Star Trek Away Team,6.7,6.7,2001-03-19
+408,Rise & Fall: Civilizations at War,8.8,8.8,2006-06-12
+409,Warrior Kings: Battles,8.3,8.3,2003-09-30
+410,Command & Conquer: Red Alert 3 - Uprising,6.8,6.8,2009-03-12
+411,Star Trek: Deep Space Nine: Dominion Wars,6.3,6.3,2001-06-10
+412,Command & Conquer 4: Tiberian Twilight,2.1,2.1,2010-03-16
+413,Officers,7.2,7.2,2009-07-14
+414,Theatre of War 2: Africa 1943,6.5,6.5,2009-04-24
+415,WorldShift,7.3,7.3,2009-11-16
+416,Imperium Romanum,7.5,7.5,2008-03-11
+417,Empire Earth: The Art of Conquest,7.8,7.8,2002-09-17
+418,The Guild 2: Pirates of the High Seas,8.0,8.0,2007-06-25
+419,Grand Ages: Medieval,5.5,5.5,2015-09-25
+420,Hearts of Iron IV: Together for Victory,4.4,4.4,2016-12-15
+421,Stronghold 2,5.8,5.8,2005-04-18
+422,Total War: Rome II - Caesar in Gaul,4.6,4.6,2013-12-12
+423,Once Upon a Knight,7.4,7.4,2003-09-25
+424,First Battalion,7.6,7.6,2006-08-21
+425,Gangland,7.3,7.3,2004-03-04
+426,Cossacks 3,5.6,5.6,2016-09-20
+427,Defense Technica,7.7,7.7,2013-10-24
+428,Crush Your Enemies,6.5,6.5,2016-07-13
+429,Sudden Strike 3: Arms for Victory,6.6,6.6,2008-04-01
+430,Conflicks - Revolutionary Space Battles,tbd,tbd,2015-11-15
+431,Sheltered,4.6,4.6,2016-03-15
+432,Republic: The Revolution,7.7,7.7,2003-08-27
+433,Total War: Rome II - Empire Divided,5.5,5.5,2017-11-30
+434,XIII Century: Death or Glory,7.5,7.5,2008-03-12
+435,Little King's Story,7.9,7.9,2016-08-05
+436,Planetary Annihilation,5.7,5.7,2013-06-13
+437,Conan Unconquered,4.7,4.7,2019-05-29
+438,Diggles,7.9,7.9,2002-03-20
+439,Northland,7.0,7.0,2004-03-24
+440,Project Nomads,7.8,7.8,2002-11-01
+441,Kingdom Under Fire II,5.6,5.6,2019-11-18
+442,Etherium,6.3,6.3,2015-03-25
+443,Warparty,6.6,6.6,2019-03-28
+444,Lords of EverQuest,7.7,7.7,2003-12-01
+445,Jagged Alliance: Back in Action,5.5,5.5,2012-02-08
+446,Breach & Clear: Deadline,6.8,6.8,2015-07-20
+447,Europa Universalis: Crown of the North,6.8,6.8,2000-11-09
+448,World War II: Panzer Claws,7.4,7.4,2002-11-12
+449,The Guild 2,6.9,6.9,2006-10-12
+450,Nexagon: Deathmatch,tbd,tbd,2003-07-23
+451,StarDrive,6.8,6.8,2013-04-26
+452,BCT Commander,tbd,tbd,2002-02-23
+453,Original War,8.8,8.8,2001-12-03
+454,Dogs of War,tbd,tbd,2000-07-30
+455,Pacific Storm: Allies,6.4,6.4,2008-01-28
+456,Starvoid,6.0,6.0,2012-08-30
+457,Dragon Throne: Battle of Red Cliffs,tbd,tbd,2002-03-26
+458,We Are The Dwarves,7.5,7.5,2016-02-25
+459,Reign: Conflict of Nations,5.5,5.5,2010-06-28
+460,Kingdom Under Fire: The Crusaders,tbd,tbd,2020-02-28
+461,Cossacks: Back to War,8.8,8.8,2002-11-20
+462,Commandos 2 HD Remaster,2.4,2.4,2020-01-24
+463,Carrier Command: Gaea Mission,5.6,5.6,2012-09-28
+464,Ancient Wars: Sparta,7.1,7.1,2007-04-24
+465,Empire of the Ants,7.0,7.0,2001-07-17
+466,Warcraft III: Reforged,0.6,0.6,2020-01-28
+467,Conflict Zone,5.3,5.3,2001-10-31
+468,Dark Planet: Battle for Natrolis,7.5,7.5,2002-03-20
+469,Dawn of Fantasy,7.1,7.1,2011-06-03
+470,Cuban Missile Crisis: The Aftermath,7.0,7.0,2005-12-22
+471,Tower Wars,6.7,6.7,2012-08-14
+472,Kingdom Under Fire: A War of Heroes,7.5,7.5,2001-01-18
+473,Mars or Die!,tbd,tbd,2018-07-13
+474,Defenders of Ardania,4.6,4.6,2012-03-14
+475,Clockwork Empires,3.0,3.0,2016-10-26
+476,Wildfire (2004),tbd,tbd,2004-10-07
+477,Takeda,7.1,7.1,2001-11-14
+478,Victoria: An Empire Under the Sun,8.7,8.7,2003-11-18
+479,Emergency 3,5.4,5.4,2006-04-06
+480,There Came an Echo,5.7,5.7,2015-02-24
+481,Highland Warriors,5.7,5.7,2003-01-20
+482,Maelstrom (2007),6.3,6.3,2007-02-20
+483,Prime World: Defenders,7.7,7.7,2013-06-05
+484,Frontline: Fields of Thunder,7.4,7.4,2007-04-09
+485,Empire Earth II: The Art of Supremacy,6.7,6.7,2006-02-14
+486,The Partners,tbd,tbd,2002-09-09
+487,Genesis Rising: The Universal Crusade,6.4,6.4,2007-03-20
+488,Numantia,tbd,tbd,2017-10-24
+489,Stronghold Legends,7.2,7.2,2006-10-23
+490,Men of War: Condemned Heroes,6.4,6.4,2012-04-12
+491,Moscow to Berlin: Red Siege,tbd,tbd,2006-06-14
+492,WWI: The Great War,5.8,5.8,2004-02-06
+493,D-Day,7.0,7.0,2004-12-07
+494,Guardians of Middle-Earth,5.9,5.9,2013-08-29
+495,Micro Commandos,tbd,tbd,2002-08-24
+496,Besieger,6.7,6.7,2004-06-02
+497,Praetorians HD Remaster,7.0,7.0,2020-01-24
+498,The Outforce,7.9,7.9,2000-12-31
+499,Alexander,8.2,8.2,2004-11-23
+500,Korea: Forgotten Conflict,tbd,tbd,2003-11-17
+501,Meridian: Squad 22,tbd,tbd,2016-08-11
+502,Blitzkrieg II: Fall of the Reich,tbd,tbd,2007-02-22
+503,Re-Legion,6.1,6.1,2019-01-31
+504,Defenders of Time,tbd,tbd,2014-11-04
+505,Cold War Conflicts,7.6,7.6,2005-04-06
+506,King Arthur: Fallen Champions,5.0,5.0,2011-09-16
+507,Port Royale 3: Pirates and Merchants,5.7,5.7,2012-05-04
+508,Real War: Rogue States,6.7,6.7,2002-10-01
+509,Achron,7.4,7.4,2011-08-29
+510,Rise of Immortals: Battle for Graxia,5.6,5.6,2011-09-12
+511,The Golden Horde,7.5,7.5,2008-07-15
+512,Raiders of the Broken Planet,5.9,5.9,2017-09-22
+513,Siegecraft Commander,tbd,tbd,2017-01-16
+514,American Conquest: Divided Nation,7.6,7.6,2006-03-27
+515,War Times,tbd,tbd,2004-04-01
+516,Thandor: The Invasion,7.2,7.2,2000-12-31
+517,Two Thrones,tbd,tbd,2004-02-10
+518,Gemini Wars,6.5,6.5,2012-06-08
+519,A Game of Thrones: Genesis,4.1,4.1,2011-09-28
+520,Realpolitiks,6.3,6.3,2017-02-16
+521,Great War Nations: The Spartans,6.4,6.4,2008-05-05
+522,SuperPower 2,6.8,6.8,2004-10-11
+523,BANNERMEN,7.2,7.2,2019-02-21
+524,Confrontation,5.0,5.0,2012-04-04
+525,Empire Earth III,3.1,3.1,2007-11-06
+526,Trapped Dead,4.6,4.6,2011-02-25
+527,Tryst,6.4,6.4,2012-09-14
+528,America,7.5,7.5,2001-01-14
+529,Elements of War,tbd,tbd,2011-04-18
+530,Theatre of War 3: Korea,5.5,5.5,2011-03-24
+531,Platoon: The 1st Airborne Cavalry Division in Vietnam,6.4,6.4,2002-11-21
+532,The Guild 2: Venice,tbd,tbd,2008-10-07
+533,Cannon Fodder 3,5.7,5.7,2012-02-09
+534,APOX,4.2,4.2,2011-01-20
+535,Real War,6.3,6.3,2001-09-24
+536,Rebels: Prison Escape,tbd,tbd,2003-08-26
+537,Stronghold 3,2.9,2.9,2011-10-24
+538,Line Of Defense Tactics - Tactical Advantage,1.2,1.2,2014-02-11
+539,The History Channel: Great Battles of Rome,3.2,3.2,2007-10-15
+540,Gladiators of Rome,4.9,4.9,2002-10-27
+541,Dreamlords,8.0,8.0,2007-02-15
+542,Frozen Hearth,4.8,4.8,2013-12-19
+543,Starpoint Gemini,8.3,8.3,2010-12-15
+544,Stronghold: Crusader Extreme,6.6,6.6,2008-06-02
+545,Starport Delta,tbd,tbd,2020-03-27
+546,Cops 2170: The Power of Law,7.9,7.9,2005-01-27
+547,Cortex Command,7.2,7.2,2012-09-28
+548,SunAge,7.5,7.5,2007-11-30
+549,Meridian: New World,6.6,6.6,2014-04-04
+550,Perimeter II: New Earth,4.2,4.2,2009-02-10
+551,Alliance: Future Combat,7.9,7.9,2006-09-08
+552,Will of Steel,6.5,6.5,2005-02-04
+553,Dragons and Titans,7.3,7.3,2014-03-12
+554,Stormrise,4.9,4.9,2009-03-24
+555,Stranger,4.5,4.5,2008-03-26
+556,Shattered Suns,6.6,6.6,2008-08-19
+557,Men of War: Assault Squad 2 - Cold War,2.4,2.4,2019-09-12
+558,G.I. Combat,3.6,3.6,2002-11-04
+559,Seven Kingdoms: Conquest,4.0,4.0,2007-10-15
+560,Left Behind: Eternal Forces,3.7,3.7,2006-11-07
+561,Warhammer 40000: Storm of Vengeance,1.3,1.3,2014-02-27
+562,Demonworld: Dark Armies,7.8,7.8,2002-01-13
+563,Raven's Cry,3.3,3.3,2015-01-30
+564,Fray,2.4,2.4,2012-02-08
+565,Stalin vs. Martians,4.4,4.4,2009-04-29
+566,Citadels,1.2,1.2,2013-07-25

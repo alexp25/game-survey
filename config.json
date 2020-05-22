@@ -1,0 +1,90 @@
+{
+    "note": "pages + 1",
+    "threads": [
+        {
+            "url1": "https://www.metacritic.com/browse/games/genre/metascore/action/pc?view=condensed&page=",
+            "url2": "https://www.metacritic.com/browse/games/genre/metascore/action/pc?view=detailed&page=",
+            "out_folder": "./data/metacritic_action",
+            "name": "Action",
+            "pages": [
+                0,
+                2
+            ],
+            "pages1": [
+                0,
+                58
+            ]
+        },
+        {
+            "url1": "https://www.metacritic.com/browse/games/genre/metascore/adventure/pc?view=condensed&page=",
+            "url2": "https://www.metacritic.com/browse/games/genre/metascore/adventure/pc?view=detailed&page=",
+            "out_folder": "./data/metacritic_adventure",
+            "name": "Adventure",
+            "pages": [
+                0,
+                31
+            ]
+        },
+        {
+            "url1": "https://www.metacritic.com/browse/games/genre/metascore/first-person/pc?view=condensed&page=",
+            "url2": "https://www.metacritic.com/browse/games/genre/metascore/first-person/pc?view=detailed&page=",
+            "out_folder": "./data/metacritic_fps",
+            "name": "FPS",
+            "pages": [
+                0,
+                26
+            ]
+        },
+        {
+            "url1": "https://www.metacritic.com/browse/games/genre/metascore/role-playing/pc?view=condensed&page=",
+            "url2": "https://www.metacritic.com/browse/games/genre/metascore/role-playing/pc?view=detailed&page=",
+            "out_folder": "./data/metacritic_rpg",
+            "name": "RPG",
+            "pages": [
+                0,
+                25
+            ]
+        },
+        {
+            "url1": "https://www.metacritic.com/browse/games/genre/metascore/racing/pc?view=condensed&page=",
+            "url2": "https://www.metacritic.com/browse/games/genre/metascore/racing/pc?view=detailed&page=",
+            "out_folder": "./data/metacritic_racing",
+            "name": "Racing",
+            "pages": [
+                0,
+                9
+            ]
+        },
+        {
+            "url1": "https://www.metacritic.com/browse/games/genre/metascore/third-person/pc?view=condensed&page=",
+            "url2": "https://www.metacritic.com/browse/games/genre/metascore/third-person/pc?view=detailed&page=",
+            "out_folder": "./data/metacritic_third_person",
+            "name": "3PS",
+            "pages": [
+                0,
+                11
+            ]
+        },
+        {
+            "url1": "https://www.metacritic.com/browse/games/genre/metascore/simulation/pc?view=condensed&page=",
+            "url2": "https://www.metacritic.com/browse/games/genre/metascore/simulation/pc?view=detailed&page=",
+            "out_folder": "./data/metacritic_simulation",
+            "name": "Simulation",
+            "pages": [
+                0,
+                15
+            ]
+        },
+        {
+            "url1": "https://www.metacritic.com/browse/games/genre/metascore/real-time/pc?view=condensed&page=",
+            "url2": "https://www.metacritic.com/browse/games/genre/metascore/real-time/pc?view=detailed&page=",
+            "out_folder": "./data/metacritic_rts",
+            "name": "RTS",
+            "pages": [
+                0,
+                19
+            ]
+        }
+    ],
+    "archive": []
+}

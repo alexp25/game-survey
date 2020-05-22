@@ -1,0 +1,6 @@
+https://api.igdb.com/
+
+user-key
+f63f38946ea46e822ca0b3bb8b58bba6
+
+https://www.metacritic.com/browse/games/score/metascore/all/pc/filtered?view=condensed&sort=desc&page=9

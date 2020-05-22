@@ -1,0 +1,890 @@
+rank,title,score,user_score,release_date
+1,Grim Fandango,9.1,9.1,1998-10-14
+2,Minecraft,7.7,7.7,2011-11-18
+3,Kentucky Route Zero - Act III,6.7,6.7,2014-05-06
+4,The Longest Journey,8.8,8.8,2000-11-16
+5,Kentucky Route Zero - Act IV,6.3,6.3,2016-07-20
+6,The Walking Dead: A Telltale Games Series,8.8,8.8,2012-04-24
+7,The Walking Dead: Episode 5 - No Time Left,8.9,8.9,2012-11-21
+8,The Curse of Monkey Island,9.0,9.0,1997-10-31
+9,Return of the Obra Dinn,8.1,8.1,2018-10-18
+10,What Remains of Edith Finch,8.3,8.3,2017-04-24
+11,Thirty Flights of Loving,5.0,5.0,2012-08-20
+12,The Stanley Parable,8.0,8.0,2013-10-17
+13,Night in the Woods,7.4,7.4,2017-02-21
+14,Subnautica,8.5,8.5,2018-01-23
+15,Steins;Gate,8.8,8.8,2014-03-31
+16,Monkey Island 2 Special Edition: LeChuck's Revenge,8.8,8.8,2010-07-07
+17,Year Walk,7.0,7.0,2014-03-06
+18,The Witness,6.9,6.9,2016-01-26
+19,Unavowed,7.9,7.9,2018-08-08
+20,Tales From The Borderlands: Episode 5 - The Vault of the Traveler,8.7,8.7,2015-10-20
+21,Gone Home,5.4,5.4,2013-08-15
+22,Kentucky Route Zero,7.6,7.6,2013-02-22
+23,The Gallery - Episode 2: Heart of the Emberstone,7.1,7.1,2017-10-18
+24,Her Story,6.1,6.1,2015-06-24
+25,The Secret of Monkey Island: Special Edition,8.9,8.9,2009-07-15
+26,Full Throttle,8.6,8.6,1995-04-30
+27,Escape from Monkey Island,7.5,7.5,2000-11-08
+28,Day of the Tentacle Remastered,7.9,7.9,2016-03-21
+29,The Talos Principle,8.5,8.5,2014-12-11
+30,Sam & Max Episode 205: What's New Beelzebub?,7.1,7.1,2008-04-10
+31,Tales from the Borderlands: A Telltale Game Series,8.5,8.5,2015-10-20
+32,Paradigm,7.7,7.7,2017-04-05
+33,Indigo Prophecy,8.3,8.3,2005-09-20
+34,Sam & Max Episode 204: Chariots of the Dogs,7.0,7.0,2008-03-13
+35,Machinarium,8.7,8.7,2009-10-16
+36,The Wolf Among Us: Episode 1 - Faith,8.9,8.9,2013-10-11
+37,The Walking Dead: Episode 3 - Long Road Ahead,8.4,8.4,2012-08-29
+38,Batman: The Enemy Within - Episode 5: Same Stitch,7.4,7.4,2018-03-26
+39,Ghost Giant,tbd,tbd,2020-02-20
+40,The Last Door: Season 2,7.3,7.3,2016-03-29
+41,Nancy Drew: The Haunted Carousel,8.4,8.4,2003-08-22
+42,Papers Please,8.5,8.5,2013-08-08
+43,Obsidian,7.1,7.1,1996-12-31
+44,The Walking Dead: Episode 2 - Starved for Help,8.6,8.6,2012-06-29
+45,Lair of the Clockwork God,7.1,7.1,2020-02-21
+46,Rakuen,8.3,8.3,2017-05-10
+47,Tales From The Borderlands: Episode 1 - Zer0 Sum,8.4,8.4,2014-11-25
+48,Mythic Ocean,6.6,6.6,2020-01-09
+49,80 Days (2015),7.3,7.3,2015-09-29
+50,Eliza,5.7,5.7,2019-08-12
+51,Time Gentlemen Please!,7.5,7.5,2009-07-02
+52,Bulb Boy,7.9,7.9,2015-10-29
+53,Grim Fandango Remastered,8.1,8.1,2015-01-26
+54,Thimbleweed Park,8.1,8.1,2017-03-30
+55,Telling Lies,6.4,6.4,2019-08-23
+56,The Wolf Among Us: Episode 5 - Cry Wolf,8.8,8.8,2014-07-08
+57,Detention,7.8,7.8,2017-01-12
+58,Clannad,8.7,8.7,2015-11-23
+59,If Found...,tbd,tbd,2020-05-19
+60,Four Last Things,8.8,8.8,2017-02-23
+61,The Blackwell Epiphany,7.6,7.6,2014-04-24
+62,Muv-Luv Alternative,8.8,8.8,2017-09-18
+63,Danganronpa 2: Goodbye Despair,8.9,8.9,2016-04-18
+64,Sam & Max: The Devil's Playhouse - Episode 2: The Tomb of Sammun-Mak,7.5,7.5,2010-05-18
+65,Quern - Undying Thoughts,8.5,8.5,2016-11-28
+66,Monaco: What's Yours Is Mine,7.7,7.7,2013-04-24
+67,The Sexy Brutale,7.7,7.7,2017-04-11
+68,Subsurface Circular,7.3,7.3,2017-08-17
+69,ABZU,6.8,6.8,2016-08-02
+70,L.A. Noire: The Complete Edition,7.9,7.9,2011-11-08
+71,Myst III: Exile,7.7,7.7,2001-05-08
+72,Superbrothers: Sword & Sworcery EP,6.5,6.5,2012-04-16
+73,Neversong,4.4,4.4,2020-05-20
+74,The Book of Unwritten Tales,8.2,8.2,2011-10-28
+75,Hypnospace Outlaw,6.6,6.6,2019-03-12
+76,L.A. Noire: The VR Case Files,6.5,6.5,2017-12-15
+77,Kentucky Route Zero - Act II,7.5,7.5,2013-05-31
+78,Sam & Max Episode 105: Reality 2.0,7.6,7.6,2007-03-29
+79,Gemini Rue,8.3,8.3,2011-02-24
+80,Danganronpa: Trigger Happy Havoc,8.5,8.5,2016-02-18
+81,Tales of Monkey Island Chapter 3: Lair of the Leviathan,7.6,7.6,2009-09-29
+82,Broken Sword: The Sleeping Dragon,7.3,7.3,2003-11-17
+83,The Talos Principle: Road To Gehenna,7.7,7.7,2015-07-23
+84,Lara Croft and the Guardian of Light,8.1,8.1,2010-09-28
+85,King's Quest Chapter 1: A Knight to Remember,7.3,7.3,2015-07-28
+86,Burly Men At Sea,6.9,6.9,2016-09-29
+87,The Wolf Among Us: Episode 3 - A Crooked Mile,8.6,8.6,2014-04-08
+88,Sam & Max Episode 201: Ice Station Santa,8.5,8.5,2007-11-08
+89,Technobabylon,7.7,7.7,2015-05-21
+90,ETHER One,6.8,6.8,2014-03-25
+91,The Vanishing of Ethan Carter,8.0,8.0,2014-09-25
+92,Children of Morta,8.3,8.3,2019-09-03
+93,Syberia,8.5,8.5,2002-09-01
+94,The Walking Dead: Episode 1 - A New Day,8.4,8.4,2012-04-24
+95,Strong Bad's Cool Game for Attractive People Episode 5: 8-Bit Is Enough,7.3,7.3,2008-12-15
+96,Botanicula,8.3,8.3,2012-04-19
+97,The Last Express,8.7,8.7,1997-03-31
+98,Broken Age: Act 1,7.7,7.7,2014-01-28
+99,To the Moon,8.9,8.9,2011-11-01
+100,Nancy Drew: Danger on Deception Island,7.8,7.8,2003-10-01
+101,The Walking Dead: Season Two Episode 3 - In Harm's Way,8.3,8.3,2014-05-13
+102,Nancy Drew: The Haunting of Castle Malloy,7.2,7.2,2008-10-16
+103,Kentucky Route Zero - Act I,7.5,7.5,2013-01-07
+104,Irony Curtain: From Matryoshka with Love,7.8,7.8,2019-05-16
+105,Frog Detective 2: The Case of the Invisible Wizard,tbd,tbd,2019-12-09
+106,Stygian: Reign of the Old Ones,7.8,7.8,2019-09-26
+107,Tales of Monkey Island Chapter 5: Rise of the Pirate God,7.6,7.6,2009-12-08
+108,Strong Bad's Cool Game for Attractive People Episode 2: Strong Badia the Free,7.2,7.2,2008-09-15
+109,The Cat Lady,8.7,8.7,2012-12-07
+110,The Walking Dead: Season Two Episode 2 - A House Divided,8.5,8.5,2014-03-04
+111,Tales From The Borderlands: Episode 3 - Catch A Ride,8.4,8.4,2015-06-23
+112,Sam & Max: The Devil's Playhouse - Episode 1: The Penal Zone,7.8,7.8,2010-04-15
+113,The Walking Dead: The Telltale Series - A New Frontier Episode 1: Ties That Bind Part One,7.1,7.1,2016-12-20
+114,Firewatch,7.0,7.0,2016-02-09
+115,Emily is Away Too,7.9,7.9,2017-05-26
+116,CHUCHEL,6.7,6.7,2018-03-07
+117,Strong Bad's Cool Game for Attractive People Episode 4: Dangeresque 3: The Criminal Projective,7.8,7.8,2008-11-17
+118,Rochard,7.9,7.9,2011-11-15
+119,FORM,tbd,tbd,2017-06-01
+120,Stories Untold,7.1,7.1,2017-02-27
+121,Nelly Cootalot: The Fowl Fleet,7.7,7.7,2016-03-22
+122,Nancy Drew: Curse of Blackmoor Manor,7.9,7.9,2004-10-05
+123,Sam & Max Episode 101: Culture Shock,7.7,7.7,2006-10-18
+124,Horace,6.9,6.9,2019-07-18
+125,Sam & Max: The Devil's Playhouse - Episode 5: The City That Dares Not Sleep,7.7,7.7,2010-08-30
+126,The Book of Unwritten Tales 2,7.6,7.6,2015-02-20
+127,Gabriel Knight 3: Blood of the Sacred Blood of the Damned,8.2,8.2,1999-10-05
+128,Syberia II,8.4,8.4,2004-03-30
+129,Detroit: Become Human,6.2,6.2,2019-12-12
+130,Sam & Max Episode 202: Moai Better Blues,6.9,6.9,2008-01-10
+131,Detective Di: The Silk Rose Murders,tbd,tbd,2019-05-01
+132,Sam & Max Episode 104: Abe Lincoln Must Die!,7.4,7.4,2007-02-22
+133,Oxenfree,7.7,7.7,2016-01-14
+134,The Walking Dead: The Telltale Series - A New Frontier Episode 2: Ties That Bind Part Two,7.1,7.1,2016-12-20
+135,Goodbye Deponia,7.8,7.8,2013-10-17
+136,The Gardens Between,6.7,6.7,2018-09-19
+137,Read Only Memories,4.2,4.2,2015-10-05
+138,Dropsy,7.5,7.5,2015-09-10
+139,The Procession to Calvary,7.7,7.7,2020-04-09
+140,Samorost 3,7.7,7.7,2016-03-24
+141,The Journey Down: Chapter Three,tbd,tbd,2017-09-21
+142,Danganronpa V3: Killing Harmony,7.4,7.4,2017-09-25
+143,Nelly Cootalot: Spoonbeaks Ahoy! HD,tbd,tbd,2019-05-22
+144,The Red Strings Club,7.5,7.5,2018-01-22
+145,Bury Me My Love,3.3,3.3,2019-01-10
+146,Penny Arcade Adventures: Episode Two,7.4,7.4,2008-11-07
+147,Tales of Monkey Island Chapter 4: The Trial and Execution of Guybrush Threepwood,7.5,7.5,2009-10-30
+148,The Walking Dead: Episode 4 - Around Every Corner,8.5,8.5,2012-10-10
+149,Signs of the Sojourner,tbd,tbd,2020-05-14
+150,Proteus,5.6,5.6,2013-01-30
+151,1979 Revolution: Black Friday,7.5,7.5,2016-04-04
+152,The Blackwell Legacy,7.8,7.8,2006-12-29
+153,LEGO The Lord of the Rings,8.0,8.0,2012-11-13
+154,Circle of Blood,8.3,8.3,1996-09-30
+155,Unforeseen Incidents,7.2,7.2,2018-05-24
+156,The Walking Dead: Season Two - A Telltale Games Series,8.3,8.3,2013-12-17
+157,The Wolf Among Us,8.8,8.8,2013-10-11
+158,Nancy Drew: Secret of the Old Clock,7.3,7.3,2005-07-26
+159,Myst V: End of Ages,7.6,7.6,2005-09-19
+160,The Magic Circle,7.1,7.1,2015-07-09
+161,The Path,6.8,6.8,2009-03-18
+162,VirtuaVerse,7.6,7.6,2020-05-12
+163,Wanderlust Travel Stories,7.8,7.8,2019-09-26
+164,Return to Mysterious Island,7.7,7.7,2004-11-02
+165,Late Shift,7.0,7.0,2017-04-18
+166,Weird Worlds: Return to Infinite Space,7.0,7.0,2005-11-04
+167,Bad Dream: Coma,7.9,7.9,2017-03-09
+168,Wilson's Heart,7.9,7.9,2017-04-21
+169,The Exorcist: Legion VR,tbd,tbd,2017-11-22
+170,Bear With Me: Episode Three,7.1,7.1,2017-10-05
+171,Runaway: A Twist of Fate,7.9,7.9,2011-04-21
+172,Tales of Monkey Island Chapter 1: Launch of the Screaming Narwhal,7.8,7.8,2009-07-07
+173,Minit,6.8,6.8,2018-04-03
+174,Transpose,tbd,tbd,2018-11-06
+175,Strong Bad's Cool Game for Attractive People Episode 3: Baddest of the Bands,6.6,6.6,2008-10-27
+176,Sam & Max Episode 102: Situation: Comedy,7.4,7.4,2006-12-20
+177,Sam & Max Episode 106: Bright Side of the Moon,6.9,6.9,2007-04-26
+178,Goetia,7.1,7.1,2016-04-14
+179,The Mooseman,7.3,7.3,2017-02-17
+180,Rumu,6.4,6.4,2017-12-12
+181,Mutazione,7.6,7.6,2019-09-19
+182,Sam & Max Episode 203: Night of the Raving Dead,7.3,7.3,2008-02-12
+183,Kelvin and the Infamous Machine,7.5,7.5,2016-07-21
+184,Memoria (2013),8.1,8.1,2013-08-29
+185,The Last Door,7.6,7.6,2014-05-20
+186,The Inner World: The Last Wind Monk,6.5,6.5,2017-10-20
+187,Uru: Ages Beyond Myst,7.1,7.1,2003-11-11
+188,Batman: The Enemy Within - The Telltale Series,6.9,6.9,2017-08-08
+189,Tales From The Borderlands: Episode 4 - Escape Plan Bravo,8.4,8.4,2015-08-18
+190,Observation,7.4,7.4,2019-05-21
+191,The Gallery - Episode 1: Call of the Starseed,7.6,7.6,2016-04-05
+192,LEGO Harry Potter: Years 1-4,7.7,7.7,2010-06-25
+193,Nancy Drew: Legend of the Crystal Skull,6.7,6.7,2007-10-08
+194,The Walking Dead: Season Two Episode 1 - All That Remains,8.5,8.5,2013-12-17
+195,The Journey Down: Chapter Two,7.1,7.1,2014-08-25
+196,A Fold Apart,tbd,tbd,2020-04-16
+197,LEGO Indiana Jones: The Original Adventures,7.8,7.8,2008-06-03
+198,Doki Doki Literature Club!,8.4,8.4,2017-10-06
+199,The Walking Dead: Season Two Episode 5 - No Going Back,8.5,8.5,2014-08-26
+200,Zero Escape: Zero Time Dilemma,7.8,7.8,2016-06-29
+201,Observer,7.8,7.8,2017-08-15
+202,A Short Hike,8.3,8.3,2019-07-30
+203,Ken Follett's The Pillars of the Earth,7.8,7.8,2017-08-15
+204,The Room VR: A Dark Matter,7.6,7.6,2020-03-26
+205,Arcade Spirits,tbd,tbd,2019-02-12
+206,Transference,5.9,5.9,2018-09-18
+207,Murder by Numbers,7.0,7.0,2020-03-06
+208,Chaos on Deponia,8.3,8.3,2012-11-06
+209,That Dragon Cancer,6.1,6.1,2016-01-11
+210,King's Quest Chapter 3: Once Upon a Climb,5.5,5.5,2016-04-26
+211,Lydia,7.7,7.7,2017-06-02
+212,EVERYTHING,5.4,5.4,2017-04-21
+213,We Were Here Together,5.6,5.6,2019-10-10
+214,Pilgrims,8.3,8.3,2019-10-07
+215,Marvel's Guardians of the Galaxy: The Telltale Series,7.5,7.5,2017-04-18
+216,Vader Immortal: Episode I,tbd,tbd,2019-05-21
+217,The Walking Dead: Season Two Episode 4 - Amid the Ruins,8.1,8.1,2014-07-22
+218,Myst Online: Uru Live,7.4,7.4,2007-01-15
+219,The Sojourn,6.4,6.4,2019-09-20
+220,The Walking Dead: 400 Days,7.6,7.6,2013-07-03
+221,Nancy Drew: The Ransom of the Seven Ships,7.4,7.4,2009-07-14
+222,RiME,7.1,7.1,2017-05-26
+223,The Infectious Madness of Doctor Dekker,6.2,6.2,2017-05-19
+224,Eastshade,8.0,8.0,2019-02-13
+225,Joe Dever's Lone Wolf HD Remastered,6.8,6.8,2014-11-27
+226,AR-K Episode 3: The Great Escape,7.8,7.8,2015-07-14
+227,A Fisherman's Tale,5.0,5.0,2019-01-10
+228,Tales From The Borderlands: Episode 2 - Atlas Mugged,8.7,8.7,2015-03-17
+229,Five Nights at Freddy's,7.2,7.2,2014-08-08
+230,Chook & Sosig: Walk the Plank,tbd,tbd,2019-06-17
+231,Nancy Drew: Last Train to Blue Moon Canyon,7.4,7.4,2005-09-16
+232,The Walking Dead: The Telltale Series - The Final Season Episode 4: Take Us Back,8.5,8.5,2019-03-26
+233,BEAUTIFUL DESOLATION,7.6,7.6,2020-02-26
+234,Whispers of a Machine,7.3,7.3,2019-04-17
+235,Sherlock Holmes: Crimes & Punishments,7.7,7.7,2014-09-29
+236,Al Emmo and the Lost Dutchman's Mine,7.1,7.1,2006-09-06
+237,Zeno Clash,7.8,7.8,2009-04-21
+238,I Expect You To Die,8.2,8.2,2016-11-30
+239,The Walking Dead: The Telltale Series - The Final Season,7.9,7.9,2018-08-13
+240,Herald: An Interactive Period Drama,tbd,tbd,2017-02-22
+241,VA-11 Hall-A: Cyberpunk Bartender Action,8.3,8.3,2016-06-21
+242,Tales of Monkey Island Chapter 2: The Siege of Spinner Cay,7.4,7.4,2009-08-20
+243,Orwell,7.0,7.0,2016-10-27
+244,Penny Arcade Adventures: Episode One,8.2,8.2,2008-05-21
+245,Still There,8.1,8.1,2019-11-20
+246,Game of Thrones: Episode Three - The Sword in the Darkness,7.7,7.7,2015-03-24
+247,Salammbo: Battle of Carthage,7.8,7.8,2003-05-08
+248,The Void,8.2,8.2,2009-12-15
+249,Lumo,6.0,6.0,2016-05-24
+250,Lost Horizon,7.5,7.5,2010-09-24
+251,The Lion's Song,7.5,7.5,2016-07-07
+252,A Case of Distrust,5.6,5.6,2018-02-08
+253,Batman: The Enemy Within - Episode 4: What Ails You,7.1,7.1,2018-01-22
+254,Kathy Rain,7.6,7.6,2016-05-05
+255,Penny Arcade Adventures: Episode Three,7.3,7.3,2012-06-25
+256,Aviary Attorney,7.4,7.4,2015-12-21
+257,Actual Sunlight,6.5,6.5,2013-01-03
+258,Three Fourths Home,5.4,5.4,2015-03-20
+259,Magical Eyes - Red is for Anguish,tbd,tbd,2016-03-30
+260,Law & Order: Justice Is Served,6.0,6.0,2004-10-05
+261,Cognition: An Erica Reed Thriller Episode 3 - The Oracle,7.5,7.5,2013-06-30
+262,Hamilton's Great Adventure,7.1,7.1,2011-05-31
+263,Dark Train,tbd,tbd,2016-10-25
+264,Full Throttle Remastered,7.5,7.5,2017-04-18
+265,Game of Thrones: Episode Four - Sons of Winter,7.7,7.7,2015-05-26
+266,From Dust,4.9,4.9,2011-08-17
+267,Batman: The Enemy Within - Episode 1: The Enigma,6.7,6.7,2017-08-08
+268,Haunted,7.5,7.5,2012-11-15
+269,Tacoma,6.5,6.5,2017-08-01
+270,Resonance,7.6,7.6,2012-06-19
+271,Fester Mudd: Curse of the Gold - Episode 1,7.7,7.7,2013-03-04
+272,Detective Gallo,7.1,7.1,2018-05-30
+273,Old Man's Journey,6.4,6.4,2017-05-17
+274,Bone: The Great Cow Race,6.9,6.9,2006-04-12
+275,The Walking Dead: The Telltale Series - The Final Season Episode 1: Done Running,7.8,7.8,2018-08-14
+276,Obduction,7.6,7.6,2016-08-24
+277,The Devil Inside,6.1,6.1,2000-11-09
+278,Miasmata,7.6,7.6,2012-11-28
+279,The Beginner's Guide,7.5,7.5,2015-10-01
+280,KAIRO,7.7,7.7,2012-02-06
+281,Deponia Doomsday,7.1,7.1,2016-03-01
+282,Neo Cab,4.6,4.6,2019-10-03
+283,Heaven's Vault,5.3,5.3,2019-04-16
+284,The Stillness of the Wind,tbd,tbd,2019-02-07
+285,Heave Ho,tbd,tbd,2019-08-29
+286,Beyond: Two Souls,7.8,7.8,2019-07-22
+287,The Wolf Among Us: Episode 2 - Smoke and Mirrors,8.3,8.3,2014-02-04
+288,Pathologic Classic HD,8.5,8.5,2015-10-29
+289,Broken Age,6.9,6.9,2014-01-28
+290,Nancy Drew: Warnings at Waverly Academy,6.5,6.5,2009-10-13
+291,The Lost Chronicles of Zerzura,6.9,6.9,2014-07-10
+292,McPixel,6.2,6.2,2012-07-09
+293,Wallace & Gromit's Grand Adventures Episode 1: Fright of the Bumblebees,7.6,7.6,2009-03-23
+294,DISTRAINT,7.5,7.5,2015-10-21
+295,:THE LONGING:,6.3,6.3,2020-03-05
+296,Forgotton Anne,7.2,7.2,2018-05-15
+297,Everybody's Gone to the Rapture,5.3,5.3,2016-04-14
+298,Sam & Max: The Devil's Playhouse - Episode 4: Beyond the Alley of the Dolls,7.7,7.7,2010-07-20
+299,Muv-Luv,8.2,8.2,2016-07-14
+300,Bear With Me: Episode Two,6.9,6.9,2017-02-15
+301,Dear Esther,6.5,6.5,2012-02-14
+302,The Dream Machine,8.1,8.1,2010-12-14
+303,Tiny & Big: Grandpa's Leftovers,7.3,7.3,2012-06-19
+304,Edna & Harvey: Harvey's New Eyes,7.6,7.6,2012-10-16
+305,Black Mirror III: Final Fear,7.6,7.6,2011-04-19
+306,We. The Revolution,7.2,7.2,2019-03-21
+307,Last Day of June,7.1,7.1,2017-08-31
+308,Back to the Future: The Game - Episode V: OUTATIME,7.1,7.1,2011-06-23
+309,Dreamfall: The Longest Journey,8.5,8.5,2006-04-17
+310,Silence: The Whispered World 2,7.4,7.4,2016-11-15
+311,Wallace & Gromit's Grand Adventures Episode 3: Muzzled!,7.5,7.5,2009-06-15
+312,Shardlight,6.6,6.6,2016-03-08
+313,LUNA The Shadow Dust,7.3,7.3,2020-02-13
+314,Jazzpunk,7.7,7.7,2014-02-07
+315,Batman: The Telltale Series - Episode 5: City of Light,6.8,6.8,2016-12-13
+316,Anna: Extended Edition,5.9,5.9,2013-02-07
+317,Out There: Omega Edition,8.0,8.0,2015-04-01
+318,Rusty Lake: Roots,7.4,7.4,2016-10-20
+319,CAYNE,7.3,7.3,2017-01-24
+320,In Other Waters,4.4,4.4,2020-04-03
+321,Coffee Talk,7.2,7.2,2020-01-29
+322,Anodyne,6.7,6.7,2013-02-04
+323,Downfall,8.0,8.0,2016-02-15
+324,Heavy Rain,7.2,7.2,2019-06-24
+325,The Samaritan Paradox,6.5,6.5,2014-04-18
+326,The Night of the Rabbit,7.5,7.5,2013-05-28
+327,Please Don't Touch Anything,7.3,7.3,2015-03-26
+328,Bokida: Heartfelt Reunion,tbd,tbd,2017-05-17
+329,Alice: Madness Returns,8.4,8.4,2011-06-14
+330,Afterparty,7.0,7.0,2019-10-29
+331,Uplink: Hacker Elite,8.1,8.1,2001-10-09
+332,Attentat 1942,7.1,7.1,2017-10-31
+333,Beyond Atlantis II,6.9,6.9,2001-10-24
+334,Dark Fall 3: Lost Souls,7.0,7.0,2010-04-21
+335,The Darkside Detective,7.8,7.8,2017-07-27
+336,Sam & Max: The Devil's Playhouse - Episode 3: They Stole Max's Brain!,7.5,7.5,2010-06-22
+337,The Next Big Thing,7.4,7.4,2011-04-21
+338,Hector: Badge of Carnage - Episode 1: We Negotiate With Terrorists,6.7,6.7,2011-04-27
+339,The Wolf Among Us: Episode 4 - In Sheep's Clothing,8.2,8.2,2014-05-27
+340,Still Life,7.6,7.6,2005-05-04
+341,The Dark Eye: Chains of Satinav,7.6,7.6,2012-06-22
+342,Ode,6.7,6.7,2017-11-27
+343,Game of Thrones: Episode One - Iron From Ice,7.3,7.3,2014-12-02
+344,Rhem 2,5.7,5.7,2005-11-02
+345,Nihilumbra,6.5,6.5,2013-09-24
+346,Omensight,6.8,6.8,2018-05-15
+347,Missing: Since January,6.5,6.5,2004-06-25
+348,Event[0],6.8,6.8,2016-09-14
+349,Evoland 2: A Slight Case of Spacetime Continuum Disorder,7.6,7.6,2015-08-25
+350,Back to the Future: The Game - Episode I: It's About Time,7.1,7.1,2010-12-22
+351,The Walking Dead: The Telltale Series - A New Frontier Episode 3: Above the Law,6.4,6.4,2017-03-28
+352,The Walking Dead: The Telltale Series - The Final Season Episode 3: Broken Toys,7.5,7.5,2019-01-15
+353,Back to the Future: The Game - Episode II: Get Tannen!,7.2,7.2,2011-02-17
+354,Leaving Lyndow,5.3,5.3,2017-02-08
+355,Orwell: Ignorance is Strength,7.7,7.7,2018-02-22
+356,Gabriel Knight: Sins of the Fathers 20th Anniversary Edition,7.7,7.7,2014-10-15
+357,Bad Mojo,6.9,6.9,1996-02-29
+358,Alone With You,5.3,5.3,2017-02-09
+359,Space Pirates and Zombies,7.5,7.5,2011-06-19
+360,Runaway: A Road Adventure,7.8,7.8,2003-08-28
+361,Evidence: The Last Ritual,7.2,7.2,2006-10-16
+362,Deponia,8.1,8.1,2012-08-06
+363,The Raven: Legacy of a Master Thief,6.8,6.8,2013-07-23
+364,Where the Water Tastes Like Wine,5.0,5.0,2018-02-28
+365,Ankh,6.9,6.9,2006-08-31
+366,Bad Mojo: Redux,6.7,6.7,2004-12-10
+367,Astrologaster,tbd,tbd,2019-05-09
+368,Lifestream,5.8,5.8,2004-09-27
+369,Rocketbirds: Hardboiled Chicken,7.4,7.4,2012-10-15
+370,Heaven's Hope,6.7,6.7,2016-02-25
+371,Milkmaid of the Milky Way,7.1,7.1,2017-01-04
+372,Torn,tbd,tbd,2018-08-28
+373,Gibbous -  A Cthulhu Adventure,6.4,6.4,2019-08-07
+374,Yesterday Origins,7.1,7.1,2016-11-10
+375,Cloud Chamber,7.3,7.3,2014-08-07
+376,Mini Ninjas,8.0,8.0,2009-09-08
+377,Destination: Treasure Island,7.0,7.0,2007-08-21
+378,Anna's Quest,6.9,6.9,2015-07-02
+379,Sam & Max Episode 103: The Mole the Mob and the Meatball,7.5,7.5,2007-01-25
+380,The Walking Dead: The Telltale Series - A New Frontier Episode 5: From The Gallows,6.5,6.5,2017-05-30
+381,Virginia,4.9,4.9,2016-09-22
+382,Law & Order II: Double or Nothing,6.0,6.0,2003-09-30
+383,Niko: Through The Dream,7.8,7.8,2015-07-17
+384,The Beast Inside,7.7,7.7,2019-10-17
+385,Game of Thrones: Episode Five - A Nest of Vipers,6.7,6.7,2015-07-21
+386,Batman: The Telltale Series - Episode 1: Realm of Shadows,6.4,6.4,2016-08-02
+387,Minecraft: Story Mode Season Two - Episode 2: Giant Consequences,5.4,5.4,2017-08-15
+388,Winds of Change,8.1,8.1,2019-08-21
+389,Game of Thrones: Episode Two - The Lost Lords,7.7,7.7,2015-02-03
+390,Ladykiller in a Bind,7.4,7.4,2016-10-10
+391,The Testament of Sherlock Holmes,7.8,7.8,2012-09-25
+392,11-11: Memories Retold,6.9,6.9,2018-11-08
+393,The Egyptian Prophecy,5.8,5.8,2004-03-30
+394,Superliminal,7.9,7.9,2019-11-12
+395,Quarantine Circular,6.8,6.8,2018-05-22
+396,Strong Bad's Cool Game for Attractive People Episode 1: Homestar Ruiner,7.6,7.6,2008-08-11
+397,Batman: The Telltale Series - Episode 4: Guardian of Gotham,6.8,6.8,2016-11-22
+398,Apocalipsis,7.0,7.0,2018-03-01
+399,Lightmatter,7.8,7.8,2020-01-15
+400,East Side Story - A Carol Reed Mystery,tbd,tbd,2007-09-14
+401,A Place for the Unwilling,7.1,7.1,2019-07-25
+402,The Council - Episode 1: The Mad Ones,7.5,7.5,2018-03-13
+403,Minecraft: Story Mode Season Two - Episode 4: Below the Bedrock,6.5,6.5,2017-11-07
+404,The Haunted Island a Frog Detective Game,tbd,tbd,2018-11-22
+405,The Book of Unwritten Tales: Critter Chronicles,6.5,6.5,2012-12-05
+406,Hector: Badge of Carnage - Episode 2: Senseless Acts of Justice,5.9,5.9,2011-08-25
+407,Sherlock Holmes vs. Jack the Ripper,7.6,7.6,2009-05-26
+408,AGON: The Mysterious Codex,tbd,tbd,2006-03-16
+409,Ceville,7.3,7.3,2009-02-27
+410,The Blackwell Deception,7.6,7.6,2011-10-12
+411,Minecraft: Story Mode - Episode 3: The Last Place You Look,6.1,6.1,2015-11-24
+412,Guard Duty,8.2,8.2,2019-05-02
+413,Secrets of the Ark: A Broken Sword Game,5.8,5.8,2007-02-13
+414,Batman: The Telltale Series - Episode 3: New World Order,7.2,7.2,2016-10-25
+415,Always Sometimes Monsters,7.2,7.2,2014-05-21
+416,Monster Prom,7.2,7.2,2018-04-27
+417,The Eternal Castle Remastered,6.5,6.5,2019-01-05
+418,The Room,8.2,8.2,2014-07-28
+419,Kona,7.4,7.4,2016-03-10
+420,Draugen,6.9,6.9,2019-05-29
+421,Nancy Drew: The White Wolf of Icicle Creek,6.4,6.4,2007-06-07
+422,Minoria,7.7,7.7,2019-08-27
+423,MacGuffin's Curse,7.4,7.4,2012-04-19
+424,Broken Age: Act 2,6.2,6.2,2015-04-28
+425,Batman: The Telltale Series - Episode 2: Children of Arkham,7.0,7.0,2016-09-20
+426,The Minims,tbd,tbd,2016-04-01
+427,Minecraft: Story Mode Season Two - Episode 5: Above and Beyond,7.1,7.1,2017-12-19
+428,Windlands 2,tbd,tbd,2018-09-12
+429,Dreamfall Chapters Book One: Reborn,7.6,7.6,2014-10-21
+430,Wallace & Gromit's Grand Adventures Episode 4: The Bogey Man,7.2,7.2,2009-07-30
+431,Lamplight City,7.2,7.2,2018-09-13
+432,Layers of Fear,7.5,7.5,2016-02-16
+433,The Journey Down: Chapter One,7.4,7.4,2012-05-18
+434,Aarklash: Legacy,7.7,7.7,2013-09-12
+435,Cognition: An Erica Reed Thriller Episode 1 - The Hangman,6.8,6.8,2012-10-30
+436,The Wardrobe,7.1,7.1,2017-02-15
+437,Purrfect Date,5.3,5.3,2017-12-15
+438,Wallace & Gromit's Grand Adventures Episode 2: The Last Resort,8.6,8.6,2009-05-05
+439,Book of Demons,7.8,7.8,2018-12-13
+440,Cognition: An Erica Reed Thriller Episode 2 - The Wise Monkey,7.5,7.5,2013-01-30
+441,Contradiction - Spot The Liar!,8.1,8.1,2015-07-10
+442,A New Beginning: Final Cut,6.7,6.7,2012-12-11
+443,Broken Sword 5: The Serpents' Curse - Part II,7.5,7.5,2014-04-17
+444,Sherlock Holmes: The Awakened,7.3,7.3,2007-03-01
+445,Wild Earth: Photo Safari,6.7,6.7,2006-05-02
+446,Primordia,8.7,8.7,2012-12-05
+447,Riddle of the Sphinx 2: The Omega Stone,6.9,6.9,2003-03-19
+448,The Inner World,7.7,7.7,2013-09-27
+449,Qbeh-1: The Atlas Cube,7.8,7.8,2014-05-15
+450,Amnesia: Memories,6.0,6.0,2015-08-25
+451,Tormentum - Dark Sorrow,8.0,8.0,2015-03-04
+452,Gray Matter,7.6,7.6,2011-02-22
+453,Homesick,7.1,7.1,2015-05-28
+454,The Office Quest,8.1,8.1,2018-05-24
+455,The Mage's Tale,7.5,7.5,2017-06-20
+456,The Station,6.6,6.6,2018-02-19
+457,Marvel's Guardians of the Galaxy - Episode 3: More Than A Feeling,7.0,7.0,2017-08-22
+458,Riddle of the Sphinx: An Egyptian Adventure,tbd,tbd,2000-12-05
+459,Leisure Suit Larry: Wet Dreams Don't Dry,6.5,6.5,2018-11-07
+460,Uru: The Path of the Shell,7.0,7.0,2004-07-07
+461,The Low Road,4.8,4.8,2017-07-26
+462,Ken Follett's The Pillars of the Earth: Book Three,tbd,tbd,2018-03-29
+463,Marvel's Guardians of the Galaxy - Episode 2: Under Pressure,5.8,5.8,2017-06-06
+464,Demetrios - The BIG Cynical Adventure,7.7,7.7,2016-05-31
+465,Back to the Future: The Game - Episode III: Citizen Brown,5.7,5.7,2011-03-28
+466,Conarium,6.4,6.4,2017-06-06
+467,Echo: Secrets of the Lost Cavern,6.3,6.3,2005-07-05
+468,Dyscourse,4.8,4.8,2015-03-25
+469,Apsulov: End of Gods,7.1,7.1,2019-08-08
+470,Minecraft: Story Mode Season Two - Episode 3: Jailhouse Block,7.1,7.1,2017-09-19
+471,The Council - Episode 3: Ripples,5.7,5.7,2018-07-24
+472,Shadow of Destiny,7.5,7.5,2002-12-02
+473,Jolly Rover,7.7,7.7,2010-06-07
+474,J.U.L.I.A.: Among the Stars,7.8,7.8,2014-09-12
+475,Another Lost Phone: Laura's Story,tbd,tbd,2017-09-21
+476,The Shattering,6.4,6.4,2020-04-21
+477,Gray Dawn,7.5,7.5,2018-06-07
+478,Dreamfall Chapters Book Two: Rebels,7.8,7.8,2015-03-12
+479,Lilly Looking Through,6.8,6.8,2013-11-01
+480,Retro City Rampage,7.6,7.6,2012-10-09
+481,The Walking Dead: The Telltale Series - A New Frontier Episode 4: Thicker than Water,6.1,6.1,2017-04-25
+482,Marvel's Guardians of the Galaxy - Episode 4: Who Needs You,6.3,6.3,2017-10-10
+483,Rad,5.8,5.8,2019-08-19
+484,Minecraft: Story Mode Season Two - Episode 1: Hero in Residence,3.1,3.1,2017-07-11
+485,Metal Dead,5.7,5.7,2011-12-21
+486,The Detail,6.6,6.6,2016-04-28
+487,Keep Talking and Nobody Explodes,8.0,8.0,2015-10-08
+488,The Lion's Song: Episode 1 - Silence,8.1,8.1,2016-07-07
+489,Aporia: Beyond The Valley,7.0,7.0,2017-07-19
+490,Batman: The Enemy Within - Episode 2: The Pact,7.4,7.4,2017-09-26
+491,Felix the Reaper,7.7,7.7,2019-10-17
+492,Batman: The Enemy Within - Episode 3: The Fractured Mask,7.4,7.4,2017-11-21
+493,Sherlock Holmes: Nemesis,7.2,7.2,2008-04-14
+494,Emerald City Confidential,8.1,8.1,2009-02-19
+495,Dreamfall Chapters,7.7,7.7,2016-06-17
+496,Voyage: Inspired by Jules Verne,6.6,6.6,2005-08-18
+497,Groundhog Day: Like Father Like Son,tbd,tbd,2019-09-17
+498,Sentinel: Descendants in Time,6.0,6.0,2004-12-14
+499,Cibele,3.9,3.9,2015-11-02
+500,Black Mirror II: Reigning Evil,7.6,7.6,2011-02-08
+501,Minecraft: Story Mode - Episode 1: The Order of the Stone,4.3,4.3,2015-10-13
+502,Post Mortem,7.4,7.4,2003-02-27
+503,The Order of the Thorne - The King's Challenge,8.0,8.0,2016-01-26
+504,Back to the Future: The Game - Episode IV: Double Visions,5.9,5.9,2011-04-29
+505,The Walking Dead: Michonne - Episode 3: What We Deserve,7.3,7.3,2016-04-26
+506,Hector: Badge of Carnage - Episode 3: Beyond Reasonable Doom,6.5,6.5,2011-09-22
+507,DARQ,7.7,7.7,2019-08-15
+508,Bunker - The Underground Game,tbd,tbd,2015-05-21
+509,Minecraft: Story Mode - Episode 5: Order Up!,5.9,5.9,2016-03-29
+510,Papo & Yo,7.7,7.7,2013-04-18
+511,Indygo,tbd,tbd,2017-10-24
+512,Dead Synchronicity: Tomorrow Comes Today,7.6,7.6,2015-04-10
+513,Vampire: The Masquerade - Coteries of New York,7.5,7.5,2019-12-11
+514,Mage's Initiation: Reign of the Elements,7.7,7.7,2019-01-30
+515,Tech Support: Error Unknown,5.1,5.1,2019-02-27
+516,Overclocked: A History of Violence,6.3,6.3,2008-04-07
+517,Iris.Fall,6.6,6.6,2018-12-07
+518,Fran Bow,8.3,8.3,2015-08-27
+519,Layers of Fear: Inheritance,6.9,6.9,2016-08-02
+520,Slap Village: Chapter 1 - Reality Slap,tbd,tbd,2016-07-29
+521,Blackwood Crossing,6.5,6.5,2017-04-04
+522,Dark Nights with Poe and Munro,tbd,tbd,2020-05-19
+523,Cognition: An Erica Reed Thriller Episode 4 - The Cain Killer,7.0,7.0,2013-09-19
+524,Lumino City,7.6,7.6,2014-12-02
+525,60 Parsecs!,6.6,6.6,2018-09-18
+526,Law & Order: Dead on the Money,7.5,7.5,2002-09-24
+527,Mosaic,6.2,6.2,2019-12-05
+528,Wailing Heights,7.0,7.0,2016-04-27
+529,The Council - Episode 2: Hide and Seek,6.8,6.8,2018-05-15
+530,Marvel's Guardians of the Galaxy - Episode 1: Tangled Up in Blue,5.4,5.4,2017-04-18
+531,Game of Thrones: Episode Six - The Ice Dragon,6.3,6.3,2015-11-17
+532,The Whispered World,7.5,7.5,2010-04-26
+533,Nostradamus: The Last Prophecy,6.2,6.2,2007-09-30
+534,Giraffe and Annika,tbd,tbd,2020-02-17
+535,Nancy Drew: Danger By Design,5.6,5.6,2006-07-11
+536,Dracula: Origin,6.5,6.5,2008-05-23
+537,The Moment of Silence,6.8,6.8,2005-03-01
+538,Tokyo Dark,6.4,6.4,2017-09-07
+539,Richard & Alice,6.8,6.8,2013-02-21
+540,The Secrets of Da Vinci: The Forbidden Manuscript,7.0,7.0,2006-06-07
+541,The Fidelio Incident,6.3,6.3,2017-05-23
+542,Kaptain Brawe: A Brawe New World,tbd,tbd,2010-11-01
+543,Nancy Drew: The Phantom of Venice,6.7,6.7,2008-07-11
+544,The Walking Dead: The Telltale Series - A New Frontier,6.5,6.5,2016-12-20
+545,Rhem 3: The Secret Library,tbd,tbd,2008-02-28
+546,The Walking Dead: Michonne - Episode 1: In Too Deep,5.7,5.7,2016-02-23
+547,We Were Here Too,6.1,6.1,2018-02-02
+548,Broken Sword 5: The Serpents' Curse - Part I,7.9,7.9,2013-12-04
+549,Baobabs Mausoleum - Ep. 2: 1313 Barnabas Dead End Drive,tbd,tbd,2018-02-27
+550,Baobabs Mausoleum - Ep. 1: Ovnifagos Don't Eat Flamingos,6.7,6.7,2017-07-06
+551,The Wanderer: Frankenstein's Creature,8.2,8.2,2019-10-31
+552,The Signal From Tolva,5.7,5.7,2017-04-10
+553,Vader Immortal: Episode II,tbd,tbd,2019-09-25
+554,Bionic Commando,6.6,6.6,2009-07-28
+555,I-Fluid,6.5,6.5,2008-07-22
+556,Broken Sword: The Smoking Mirror,7.9,7.9,1997-10-31
+557,Jack Keane,6.6,6.6,2008-04-15
+558,Minecraft: Story Mode - Episode 7: Access Denied,6.4,6.4,2016-07-26
+559,Etherborn,7.6,7.6,2019-07-18
+560,Overland,6.6,6.6,2019-09-19
+561,Octodad: Dadliest Catch,7.6,7.6,2014-01-30
+562,Fragments of Him,5.9,5.9,2016-05-03
+563,The Walking Dead: The Telltale Series - The Final Season Episode 2: Suffer the Children,7.7,7.7,2018-09-25
+564,State of Mind,7.5,7.5,2018-08-15
+565,Megabyte Punch,7.3,7.3,2012-05-14
+566,Safecracker: The Ultimate Puzzle Adventure,7.1,7.1,2006-08-02
+567,Shelter,7.2,7.2,2013-08-28
+568,Home (2012),5.9,5.9,2012-06-01
+569,The Marvellous Miss Take,6.4,6.4,2014-11-20
+570,Shadowgate,7.0,7.0,2014-08-21
+571,Night Call,4.9,4.9,2019-07-17
+572,Tony Tough and the Night of Roasted Moths,6.0,6.0,2002-10-31
+573,Spider-Man: Shattered Dimensions,7.6,7.6,2010-11-24
+574,Bear With Me: Episode 1,6.1,6.1,2016-08-08
+575,Hide and Shriek,6.0,6.0,2016-10-25
+576,The Spectrum Retreat,4.8,4.8,2018-07-13
+577,Nikopol: Secrets of the Immortals,5.5,5.5,2008-09-20
+578,Elsinore,5.7,5.7,2019-07-23
+579,Sherlock Holmes: The Silver Earring,6.4,6.4,2004-09-28
+580,Dracula: The Last Sanctuary,6.8,6.8,2001-02-11
+581,Nancy Drew: The Secret of Shadow Ranch,7.2,7.2,2004-07-20
+582,Keepsake,6.5,6.5,2006-03-31
+583,Sinking Island,6.6,6.6,2008-08-21
+584,Masochisia,7.2,7.2,2015-10-09
+585,Marvel's Guardians of the Galaxy - Episode 5: Don't Stop Believin',7.3,7.3,2017-11-07
+586,Outcast: Second Contact,7.3,7.3,2017-11-14
+587,The Guest,7.0,7.0,2016-03-10
+588,Bone: Out From Boneville,6.8,6.8,2005-09-15
+589,Hatoful Boyfriend,7.2,7.2,2012-02-15
+590,Dark Fall: The Journal,6.8,6.8,2003-07-25
+591,TSIOQUE,8.3,8.3,2018-11-07
+592,A Golden Wake,6.0,6.0,2014-10-09
+593,The Charnel House Trilogy,5.6,5.6,2015-04-16
+594,Nancy Drew: The Creature of Kapu Cave,7.0,7.0,2006-10-19
+595,Deliver Us The Moon,8.0,8.0,2019-10-10
+596,Minecraft: Story Mode - Episode 4: A Block and a Hard Place,5.0,5.0,2015-12-22
+597,The Occupation,3.9,3.9,2019-03-05
+598,Tesla Effect: A Tex Murphy Adventure,8.5,8.5,2014-05-07
+599,Darkestville Castle,8.1,8.1,2017-09-21
+600,Dry Drowning,7.8,7.8,2019-08-02
+601,The Experiment,5.7,5.7,2008-02-05
+602,The Witcher Adventure Game,5.9,5.9,2014-11-27
+603,Lake Ridden,6.3,6.3,2018-05-10
+604,The Blind Prophet,7.5,7.5,2020-02-05
+605,Agatha Christie: And Then There Were None,7.6,7.6,2005-10-30
+606,CSI: Crime Scene Investigation: 3 Dimensions of Murder,7.5,7.5,2006-03-14
+607,King's Quest Chapter 2: Rubble Without a Cause,5.6,5.6,2015-12-15
+608,Long Live the Queen,7.7,7.7,2012-05-31
+609,Another Sight,7.5,7.5,2018-09-06
+610,Scratches,7.9,7.9,2006-03-08
+611,The Council,7.4,7.4,2018-03-13
+612,Rhiannon: Curse of the Four Branches,6.2,6.2,2008-10-05
+613,Still Life 2,5.7,5.7,2009-08-11
+614,The Thin Silence,7.3,7.3,2018-04-27
+615,Dracula: The Resurrection,6.5,6.5,2000-06-14
+616,Rainswept,7.2,7.2,2019-02-01
+617,Cleopatra: Riddle of the Tomb,tbd,tbd,2008-03-31
+618,The Walking Dead: Michonne - A Telltale Miniseries,6.3,6.3,2016-04-26
+619,Ministry of Broadcast,7.4,7.4,2020-01-30
+620,Secret Files 3,5.9,5.9,2012-09-13
+621,FATED: The Silent Oath,tbd,tbd,2016-04-28
+622,D4: Dark Dreams Don't Die,7.0,7.0,2015-06-05
+623,Small Radios Big Televisions,4.6,4.6,2016-11-08
+624,CALENDULA,7.4,7.4,2016-02-02
+625,In Cold Blood,7.1,7.1,2001-03-25
+626,Inked,5.9,5.9,2018-04-26
+627,Interrogation: You will be deceived,7.6,7.6,2019-12-05
+628,Runaway: The Dream of the Turtle,7.8,7.8,2007-03-14
+629,The Shivah: Kosher Edition,6.7,6.7,2013-11-21
+630,Detached,tbd,tbd,2017-05-18
+631,Angels with Scaly Wings,8.8,8.8,2017-01-31
+632,Silence of the Sleep,7.8,7.8,2014-10-01
+633,Among the Sleep,7.4,7.4,2014-05-29
+634,Culpa Innata,7.7,7.7,2007-11-02
+635,Nibiru: Age of Secrets,5.8,5.8,2005-08-31
+636,Majestic,7.3,7.3,2001-07-31
+637,Secret Files: Tunguska,7.2,7.2,2006-10-30
+638,The Silver Lining - Episode 1: What is Decreed Must Be,tbd,tbd,2010-07-10
+639,Miniature Garden,tbd,tbd,2017-03-30
+640,The Shapeshifting Detective,6.7,6.7,2018-11-06
+641,Sunset,2.8,2.8,2015-05-21
+642,The Walking Dead: Michonne - Episode 2: Give No Shelter,6.3,6.3,2016-03-29
+643,Wanted: A Wild Western Adventure,6.9,6.9,2004-10-03
+644,Tales of the Neon Sea,tbd,tbd,2019-04-29
+645,Dark Fall: Lights Out,6.4,6.4,2004-08-31
+646,Agatha Christie: Evil Under the Sun,7.2,7.2,2007-10-16
+647,Real Myst,7.8,7.8,2000-11-14
+648,Truberbrook: A Nerd Saves the World,4.5,4.5,2019-03-12
+649,Hot Tin Roof: The Cat That Wore A Fedora,tbd,tbd,2015-02-20
+650,The Detail Episode 2 - From The Ashes,tbd,tbd,2015-05-28
+651,CONSORTIUM,7.3,7.3,2014-01-08
+652,Knee Deep Act 1: Wonderland,6.8,6.8,2015-07-06
+653,Agatha Christie: The ABC Murders,8.5,8.5,2016-02-04
+654,Memento Mori,7.6,7.6,2009-07-29
+655,The Yawhg,7.6,7.6,2013-06-14
+656,The Cameron Files: The Secret at Loch Ness,5.8,5.8,2002-01-24
+657,NaissanceE,7.1,7.1,2014-02-13
+658,Albedo: Eyes from Outer Space,6.3,6.3,2014-10-03
+659,Ghost Pirates of Vooju Island,5.8,5.8,2010-08-30
+660,Slender: The Arrival,6.1,6.1,2013-03-26
+661,Elegy for a Dead World,6.0,6.0,2014-12-10
+662,Memento Mori 2,7.5,7.5,2014-05-13
+663,Yesterday,6.9,6.9,2012-03-22
+664,The Raven: Legacy of a Master Thief - A Murder of Ravens,4.5,4.5,2013-09-24
+665,Cradle,7.5,7.5,2015-07-24
+666,Close to the Sun,5.0,5.0,2020-05-05
+667,Stupid Invaders,7.8,7.8,2001-02-21
+668,Barrow Hill: Curse of the Ancient Circle,7.4,7.4,2006-08-25
+669,CSI: Crime Scene Investigation: Dark Motives,8.5,8.5,2004-03-23
+670,Maize,7.6,7.6,2016-12-01
+671,Stairs,5.8,5.8,2015-09-28
+672,Journey to the Center of the Earth,6.4,6.4,2003-10-27
+673,Gotham City Impostors,6.6,6.6,2012-02-07
+674,Rememoried,6.0,6.0,2015-08-31
+675,Rusty Lake Hotel,6.9,6.9,2016-01-29
+676,Supposedly Wonderful Future,tbd,tbd,2018-04-18
+677,The Flower Collectors,tbd,tbd,2020-04-21
+678,Blacksad: Under the Skin,7.7,7.7,2019-11-05
+679,Downward Spiral: Horus Station,tbd,tbd,2018-05-31
+680,The Bradwell Conspiracy,6.9,6.9,2019-10-08
+681,Alt-Frequencies,tbd,tbd,2019-05-16
+682,Daemonica,7.7,7.7,2006-03-31
+683,Dracula 3: The Path of the Dragon,7.0,7.0,2008-08-21
+684,Sherlock Holmes: The Devil's Daughter,7.1,7.1,2016-06-10
+685,Secret Files 2: Puritas Cordis,6.8,6.8,2009-10-29
+686,Vader Immortal: Episode III,tbd,tbd,2019-11-21
+687,Californium,6.0,6.0,2016-02-17
+688,The Silver Case,8.7,8.7,2016-10-06
+689,Minecraft: Story Mode - Episode 6: A Portal to Mystery,6.1,6.1,2016-06-07
+690,The Franz Kafka Videogame,7.0,7.0,2017-04-06
+691,FRACTER,tbd,tbd,2019-09-05
+692,Game of Thrones: A Telltale Games Series,6.4,6.4,2015-11-17
+693,Whispering Willows,7.2,7.2,2014-07-09
+694,Eidolon,6.4,6.4,2014-08-01
+695,P-O-L-L-E-N,4.3,4.3,2016-04-19
+696,Murder in the Abbey,6.7,6.7,2008-08-26
+697,Gods Will Be Watching,6.4,6.4,2014-07-24
+698,Kholat,6.9,6.9,2015-06-09
+699,The Town of Light,6.9,6.9,2016-02-26
+700,Batman: The Telltale Series,6.9,6.9,2016-08-02
+701,Sea of Solitude,6.4,6.4,2019-07-05
+702,Pneuma: Breath of Life,6.6,6.6,2015-02-27
+703,The Immortals of Terra: A Perry Rhodan Adventure,6.1,6.1,2008-07-03
+704,The Godfather II,6.7,6.7,2009-04-07
+705,Everlight of Magic & Power,tbd,tbd,2008-10-07
+706,A Quiet Weekend in Capri,7.5,7.5,2004-03-17
+707,Obscuritas,4.0,4.0,2016-03-17
+708,Alternativa,5.7,5.7,2010-11-05
+709,MISSING: An Interactive Thriller - Episode One,6.3,6.3,2015-05-25
+710,CSI: Crime Scene Investigation: Hard Evidence,6.4,6.4,2007-09-25
+711,Aura: Fate of the Ages,5.6,5.6,2004-06-29
+712,Hans Christian Andersen: The Ugly Prince Duckling,tbd,tbd,2007-03-20
+713,Cargo Commander,6.8,6.8,2012-11-01
+714,Deliver Us The Moon: Fortuna,5.8,5.8,2019-10-10
+715,Journey For Elysium,tbd,tbd,2019-10-31
+716,The Raven: Legacy of a Master Thief - Ancestry of Lies,5.0,5.0,2013-08-27
+717,Traitor's Gate,6.8,6.8,2000-04-30
+718,Outcry,7.5,7.5,2008-08-28
+719,Vane,5.3,5.3,2019-07-22
+720,15 Days,4.8,4.8,2015-04-01
+721,Quest for Infamy,7.4,7.4,2014-07-10
+722,Impact Winter,5.0,5.0,2017-05-22
+723,The Tiny Bang Story,7.1,7.1,2011-04-22
+724,Sneaky Sneaky,tbd,tbd,2014-11-12
+725,Goat Simulator,6.6,6.6,2014-04-01
+726,The Suicide of Rachel Foster,7.5,7.5,2020-02-19
+727,Buzz Aldrin's Space Program Manager,6.4,6.4,2014-10-31
+728,The Complex,7.6,7.6,2020-03-31
+729,Five Nights at Freddy's 2,7.3,7.3,2014-11-10
+730,Morningstar: Descent to Deadrock,5.9,5.9,2015-02-17
+731,The Old City: Leviathan,5.6,5.6,2014-12-03
+732,Euclidean,3.3,3.3,2015-09-25
+733,Rise of Insanity,6.5,6.5,2018-03-01
+734,I fell from Grace,tbd,tbd,2017-12-20
+735,Chronicles of Mystery: The Scorpio Ritual,5.2,5.2,2008-11-14
+736,Analogue: A Hate Story,7.7,7.7,2012-02-01
+737,Betrayer,7.2,7.2,2013-08-14
+738,Mysterious Journey II,4.8,4.8,2003-11-25
+739,Magnetic: Cage Closed,7.4,7.4,2015-05-26
+740,Anamorphine,5.8,5.8,2018-07-31
+741,Someday You'll Return,7.9,7.9,2020-05-05
+742,The Messenger (2001),tbd,tbd,2001-02-14
+743,Shadowrun Chronicles: Boston Lockdown,7.1,7.1,2014-03-31
+744,Oknytt,7.3,7.3,2013-08-01
+745,CSI: Crime Scene Investigation,6.8,6.8,2003-03-26
+746,Vigil: Blood Bitterness,4.8,4.8,2006-12-14
+747,Fahrenheit: Indigo Prophecy Remastered,7.6,7.6,2015-01-28
+748,The Spiderwick Chronicles,tbd,tbd,2008-02-05
+749,Summer Catchers,8.3,8.3,2019-07-16
+750,The Perils of Man,7.4,7.4,2015-04-28
+751,Violett,7.3,7.3,2013-12-13
+752,Evoland,6.7,6.7,2013-04-04
+753,Zeno Clash II,7.4,7.4,2013-04-30
+754,Road to India: Between Hell and Nirvana,tbd,tbd,2001-09-16
+755,Sherlock Holmes: The Mystery of the Mummy,5.6,5.6,2002-12-29
+756,The Descendant,7.0,7.0,2016-03-24
+757,Agatha Christie: Murder on the Orient Express,7.5,7.5,2006-11-21
+758,Black Mirror,4.8,4.8,2017-11-28
+759,Symmetry (2018),5.6,5.6,2018-02-20
+760,Space Ace HD,tbd,tbd,2007-11-10
+761,Her Majesty's SPIFFING,6.2,6.2,2016-12-07
+762,Twilight Path,tbd,tbd,2018-10-02
+763,Carrier Command: Gaea Mission,5.6,5.6,2012-09-28
+764,Sylvio,6.1,6.1,2015-06-05
+765,Decay: The Mare,5.8,5.8,2015-02-13
+766,Doctor Who: The Edge Of Time,tbd,tbd,2019-11-12
+767,Vambrace: Cold Soul,4.9,4.9,2019-05-28
+768,The Watchmaker (2001),tbd,tbd,2002-06-01
+769,Subject 13,6.8,6.8,2015-05-28
+770,Santa Fe Mysteries: The Elk Moon Murder,tbd,tbd,1996-06-30
+771,Curse of Atlantis: Thorgal's Quest,3.0,3.0,2003-05-21
+772,Face Noir,6.3,6.3,2013-07-18
+773,TARTARUS,7.0,7.0,2017-11-21
+774,Dream,5.8,5.8,2015-07-13
+775,N.E.R.O.: Nothing Ever Remains Obscure,5.7,5.7,2016-04-29
+776,Leisure Suit Larry: Magna Cum Laude,5.1,5.1,2004-10-05
+777,The Descendant: Episode 1 - Aftermath,5.2,5.2,2016-03-24
+778,Crystal Key 2: The Far Realm,tbd,tbd,2004-03-19
+779,Minecraft: Story Mode - Episode 2: Assembly Required,3.8,3.8,2015-10-27
+780,Lucius,6.1,6.1,2012-10-26
+781,Empathy: Path of Whispers,6.0,6.0,2017-05-16
+782,Dead Effect,6.1,6.1,2014-04-15
+783,Journal,6.2,6.2,2014-02-17
+784,80 Days (2005),7.1,7.1,2005-12-12
+785,1954: Alcatraz,6.3,6.3,2014-03-11
+786,From Dusk Till Dawn,6.7,6.7,2001-10-11
+787,The Black Mirror,8.4,8.4,2003-10-20
+788,A Stroke of Fate: Operation Valkyrie,5.2,5.2,2011-10-28
+789,Shelter 2,6.9,6.9,2015-03-09
+790,Odyssey: The Search for Ulysses,tbd,tbd,2001-01-02
+791,Rhem,tbd,tbd,2003-06-28
+792,Lost Horizon 2,5.4,5.4,2015-10-02
+793,The Council - Episode 4: Burning Bridges,6.6,6.6,2018-09-25
+794,Pineview Drive,5.7,5.7,2014-07-31
+795,Memoranda,6.3,6.3,2017-01-25
+796,Transformers: Revenge of the Fallen,5.3,5.3,2009-06-23
+797,Of Light and Darkness: The Prophecy,tbd,tbd,1998-03-31
+798,Time Machine VR,8.4,8.4,2016-05-19
+799,Jack the Ripper,6.4,6.4,2004-01-29
+800,Kraven Manor,5.8,5.8,2013-05-15
+801,The Girl and the Robot,tbd,tbd,2013-08-19
+802,Vicious Circle,5.3,5.3,2019-08-13
+803,Undercover: Operation Wintersun,tbd,tbd,2007-08-28
+804,The Cameron Files: Pharaoh's Curse,tbd,tbd,2002-10-29
+805,Little Misfortune,7.8,7.8,2019-09-18
+806,Art of Murder: Cards of Destiny,5.5,5.5,2010-02-23
+807,The Bunker,5.7,5.7,2016-09-20
+808,Forged of Blood,6.8,6.8,2019-08-01
+809,Randal's Monday,6.7,6.7,2014-11-12
+810,Armikrog,5.1,5.1,2015-09-30
+811,The First Templar,5.8,5.8,2011-05-12
+812,Mystery of the Nautilus,tbd,tbd,2002-04-29
+813,Soul Axiom,6.1,6.1,2016-02-29
+814,Paradise (2006),8.3,8.3,2006-05-03
+815,The Ward,tbd,tbd,2001-01-22
+816,Knock-knock,8.3,8.3,2013-10-04
+817,Tengami,6.7,6.7,2015-01-15
+818,Art of Murder: Hunt for the Puppeteer,5.8,5.8,2009-02-17
+819,Da New Guys: Day of the Jackass,5.9,5.9,2012-02-29
+820,Don't Knock Twice,6.0,6.0,2017-09-05
+821,The Council - Episode 5: Checkmate,6.3,6.3,2018-12-04
+822,Supreme League of Patriots,4.6,4.6,2015-01-29
+823,The X-Files Game,7.6,7.6,1998-05-31
+824,Law & Order: Criminal Intent,5.5,5.5,2005-11-15
+825,Perception,6.5,6.5,2017-05-30
+826,ENIGMA:,tbd,tbd,2016-11-15
+827,Next Life,4.6,4.6,2007-11-20
+828,Edna & Harvey: The Breakout,6.4,6.4,2011-01-03
+829,Leisure Suit Larry: Reloaded,8.3,8.3,2013-06-27
+830,Anna,4.9,4.9,2012-07-11
+831,Bohemian Killing,5.9,5.9,2016-07-21
+832,STONE,4.3,4.3,2018-09-21
+833,Beat The Game,5.0,5.0,2017-09-07
+834,Moebius: Empire Rising,6.2,6.2,2014-04-15
+835,CSI: Miami,6.9,6.9,2004-11-16
+836,Jurassic Park: The Game,4.6,4.6,2011-11-15
+837,Atlantis Evolution,tbd,tbd,2004-10-17
+838,Breached,7.0,7.0,2016-06-22
+839,Captain Morgane and the Golden Turtle,6.2,6.2,2013-12-02
+840,It's the Big Game Charlie Brown,tbd,tbd,2007-07-30
+841,I Love You Colonel Sanders! A Finger Lickin' Good Dating Simulator,7.2,7.2,2019-09-24
+842,Art of Murder: FBI Confidential,5.2,5.2,2008-07-29
+843,Don Bluth Presents: Dragon's Lair HD,5.6,5.6,2006-08-25
+844,Disney's Atlantis: The Lost Empire - Trial By Fire,3.5,3.5,2001-05-17
+845,Eleusis,6.7,6.7,2013-10-16
+846,Corpse of Discovery,2.0,2.0,2015-08-25
+847,We Are Chicago,2.1,2.1,2017-02-09
+848,Depths of Fear: Knossos,5.1,5.1,2014-04-24
+849,Lucius II,3.2,3.2,2015-02-13
+850,The Secrets of Atlantis,3.1,3.1,2007-05-29
+851,Epanalepsis,tbd,tbd,2015-05-21
+852,Unknown Fate,tbd,tbd,2018-09-06
+853,Prison Break: The Conspiracy,6.0,6.0,2010-03-30
+854,CSI: Crime Scene Investigation: Fatal Conspiracy,4.6,4.6,2010-10-26
+855,Coast Guard,3.8,3.8,2015-10-21
+856,Dreambreak,tbd,tbd,2016-07-21
+857,NightCry,3.0,3.0,2016-03-28
+858,Inmates,7.5,7.5,2017-10-05
+859,Crime Stories: From the Files of Martin Mystere,4.7,4.7,2006-03-21
+860,Super Seducer 2,7.6,7.6,2018-09-13
+861,The Rockin' Dead,tbd,tbd,2011-04-18
+862,The Sacred Rings,tbd,tbd,2007-03-07
+863,Dragonriders: Chronicles of Pern,5.8,5.8,2001-08-13
+864,I Can't Escape: Darkness,tbd,tbd,2015-09-17
+865,Enki,4.5,4.5,2015-07-31
+866,Jazz and Faust,tbd,tbd,2002-06-13
+867,Happy Feet,4.5,4.5,2006-11-14
+868,Legacy: Dark Shadows,3.7,3.7,2004-11-19
+869,Wayward Manor,4.4,4.4,2014-07-15
+870,Monumental,tbd,tbd,2016-01-22
+871,4PM,4.2,4.2,2014-07-09
+872,Doors,tbd,tbd,2016-02-12
+873,House of Caravan,3.6,3.6,2015-04-16
+874,Only If,5.7,5.7,2014-07-25
+875,Anacapri: The Dream,4.2,4.2,2007-09-12
+876,Hello Neighbor,4.5,4.5,2017-12-08
+877,Traitors Gate 2,3.8,3.8,2003-11-02
+878,Darkstar: The Interactive Movie,6.3,6.3,2010-11-08
+879,Grey's Anatomy: The Video Game,3.7,3.7,2009-03-04
+880,Super Seducer: How to Talk to Girls,6.3,6.3,2018-03-06
+881,Dracula 4: Shadow of the Dragon,3.5,3.5,2013-06-19
+882,Forever Worlds - Enter the Unknown,4.5,4.5,2004-04-05
+883,Ring II: Twilight of Gods,5.6,5.6,2003-09-16
+884,Hoodwink,2.4,2.4,2012-06-28
+885,Druuna: Morbus Gravis,4.4,4.4,2001-11-27
+886,Survivor (2001),2.6,2.6,2001-11-12
+887,Dragon's Lair 3,2.3,2.3,2004-11-23
+888,BlackSoul,4.5,4.5,2013-11-14
+889,Leisure Suit Larry: Box Office Bust,2.0,2.0,2009-03-31

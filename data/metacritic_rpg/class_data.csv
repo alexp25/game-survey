@@ -1,0 +1,733 @@
+rank,title,score,user_score,release_date
+1,Baldur's Gate II: Shadows of Amn,9.1,9.1,2000-09-24
+2,Divinity: Original Sin II - Definitive Edition,8.9,8.9,2018-08-31
+3,The Elder Scrolls V: Skyrim,8.2,8.2,2011-11-10
+4,Mass Effect 2,8.9,8.9,2010-01-26
+5,The Elder Scrolls IV: Oblivion,8.1,8.1,2006-03-20
+6,Divinity: Original Sin Enhanced Edition,8.2,8.2,2015-10-27
+7,Diablo,8.7,8.7,1996-12-31
+8,The Witcher 3: Wild Hunt,9.4,9.4,2015-05-18
+9,Divinity: Original Sin II,8.8,8.8,2017-09-14
+10,Star Wars: Knights of the Old Republic,9.0,9.0,2003-11-18
+11,World of Warcraft,7.4,7.4,2004-11-23
+12,Undertale,8.4,8.4,2015-09-15
+13,The Witcher 3: Wild Hunt - Blood and Wine,9.3,9.3,2016-05-30
+14,World of Warcraft: Wrath of the Lich King,7.8,7.8,2008-11-13
+15,Baldur's Gate,8.9,8.9,1998-12-21
+16,World of Warcraft: The Burning Crusade,8.1,8.1,2007-01-16
+17,Fallout 3,7.8,7.8,2008-10-28
+18,Planescape: Torment,9.2,9.2,1999-12-14
+19,Neverwinter Nights,8.1,8.1,2002-06-16
+20,Dragon Age: Origins,8.7,8.7,2009-11-03
+21,Disco Elysium,8.3,8.3,2019-10-15
+22,Dark Souls II,7.2,7.2,2014-04-25
+23,Final Fantasy XIV: Shadowbringers,9.0,9.0,2019-07-02
+24,World of Warcraft: Cataclysm,5.7,5.7,2010-12-07
+25,Guild Wars 2,8.1,8.1,2012-08-28
+26,Freedom Force,7.8,7.8,2002-03-24
+27,The Witcher 3: Wild Hunt - Hearts of Stone,9.1,9.1,2015-10-13
+28,Dark Souls III,8.4,8.4,2016-04-11
+29,Pillars of Eternity,8.3,8.3,2015-03-26
+30,The Elder Scrolls III: Morrowind,8.9,8.9,2002-05-01
+31,Fallout,8.8,8.8,1997-10-09
+32,Mass Effect,8.6,8.6,2008-05-28
+33,Guild Wars,8.4,8.4,2005-04-26
+34,Mass Effect 3,5.9,5.9,2012-03-06
+35,Stardew Valley,8.7,8.7,2016-02-26
+36,Torchlight II,8.5,8.5,2012-09-20
+37,The Lord of the Rings Online: Riders of Rohan,7.0,7.0,2012-10-15
+38,Diablo III,4.1,4.1,2012-05-15
+39,Monster Hunter: World,6.6,6.6,2018-08-09
+40,EVE Online: Special Edition,7.8,7.8,2009-03-10
+41,World of Warcraft: Legion,7.3,7.3,2016-08-30
+42,Pillars of Eternity II: Deadfire,7.8,7.8,2018-05-08
+43,Dark Age of Camelot,7.8,7.8,2001-09-01
+44,Baldur's Gate II: Throne of Bhaal,8.8,8.8,2001-06-21
+45,Diablo II,8.8,8.8,2000-06-29
+46,The Witcher 2: Assassins of Kings,8.5,8.5,2011-05-17
+47,Final Fantasy XIV: Stormblood,8.2,8.2,2017-06-20
+48,Shadowrun: Dragonfall - Director's Cut,8.3,8.3,2014-09-18
+49,Monster Hunter: World - Iceborne,7.6,7.6,2020-01-09
+50,Crypt of the NecroDancer,7.7,7.7,2015-04-23
+51,Diablo II: Lord of Destruction,9.1,9.1,2001-06-27
+52,Icewind Dale,8.3,8.3,2000-06-29
+53,Wasteland 2: Director's Cut,7.6,7.6,2015-10-13
+54,Diablo III: Reaper of Souls,6.6,6.6,2014-03-25
+55,Divinity: Original Sin,8.7,8.7,2014-01-17
+56,World of Warcraft: Warlords of Draenor,5.8,5.8,2014-11-13
+57,West of Loathing,7.6,7.6,2017-08-10
+58,Bastion,8.5,8.5,2011-08-16
+59,Fallout 2,9.1,9.1,1998-09-30
+60,Final Fantasy XIV: Heavensward,8.4,8.4,2015-06-23
+61,The Witcher: Enhanced Edition,8.5,8.5,2008-09-16
+62,Bug Fables: The Everlasting Sapling,8.7,8.7,2019-11-21
+63,EverQuest: Omens of War,8.0,8.0,2004-09-13
+64,Freedom Force vs The 3rd Reich,7.7,7.7,2005-03-08
+65,Dungeon Siege,7.8,7.8,2002-03-31
+66,Mass Effect 2: Lair of the Shadow Broker,8.5,8.5,2010-09-07
+67,Monster Slayers,6.0,6.0,2017-03-23
+68,CrossCode,8.2,8.2,2018-09-20
+69,EverQuest: The Ruins of Kunark,8.6,8.6,2000-03-24
+70,The Lord of the Rings Online: Shadows of Angmar,8.0,8.0,2007-04-24
+71,Mass Effect 2: Overlord,7.1,7.1,2010-06-15
+72,Warhammer Online: Age of Reckoning,7.9,7.9,2008-09-16
+73,Path of Exile,8.1,8.1,2013-01-25
+74,The Elder Scrolls IV: Shivering Isles,8.3,8.3,2007-03-26
+75,Legend of Grimrock II,8.1,8.1,2014-10-15
+76,Dragon Age: Inquisition,5.9,5.9,2014-11-18
+77,City of Heroes,8.4,8.4,2004-04-27
+78,EverQuest,7.8,7.8,1999-03-16
+79,Wizardry 8,8.3,8.3,2001-11-14
+80,Van Helsing I: Complete Pack,8.2,8.2,2013-05-22
+81,Final Fantasy XV: Windows Edition,8.0,8.0,2018-03-06
+82,The Lord of the Rings Online: Mines of Moria,8.0,8.0,2008-11-17
+83,Dust: An Elysian Tail,8.5,8.5,2013-05-24
+84,South Park: The Stick of Truth,8.6,8.6,2014-03-04
+85,Dark Souls: Prepare to Die Edition,7.7,7.7,2012-08-24
+86,The Legend of Heroes: Trails in the Sky,8.5,8.5,2014-07-29
+87,Star Wars: Knights of the Old Republic II - The Sith Lords,8.5,8.5,2005-02-08
+88,The Elder Scrolls III: Bloodmoon,8.3,8.3,2003-06-03
+89,Rogue Legacy,7.9,7.9,2013-06-27
+90,EverQuest: Gates of Discord,7.3,7.3,2004-02-09
+91,Thronebreaker: The Witcher Tales,7.9,7.9,2018-11-09
+92,Final Fantasy XI,7.6,7.6,2003-10-28
+93,Planescape: Torment - Enhanced Edition,7.0,7.0,2017-04-11
+94,Star Wars: The Old Republic,6.0,6.0,2011-12-20
+95,Anarchy Online: Shadowlands,8.4,8.4,2003-09-08
+96,Dark Age of Camelot: Shrouded Isles,7.4,7.4,2002-12-02
+97,Fallout: New Vegas,8.7,8.7,2010-10-19
+98,Neverwinter Nights: Hordes of the Underdark,8.4,8.4,2003-12-02
+99,PlanetSide 2,7.0,7.0,2012-11-20
+100,The Bard's Tale IV: Director's Cut,6.4,6.4,2019-08-27
+101,Space Rangers 2: Rise of the Dominators,8.9,8.9,2006-03-27
+102,Darkest Dungeon,7.8,7.8,2016-01-19
+103,Guild Wars Factions,8.4,8.4,2006-04-28
+104,Mass Effect 3: Citadel,7.9,7.9,2013-03-05
+105,Hyper Light Drifter,8.3,8.3,2016-03-31
+106,Final Fantasy IX,8.8,8.8,2016-04-14
+107,NieR: Automata,8.6,8.6,2017-03-17
+108,Nioh: Complete Edition,6.9,6.9,2017-11-07
+109,Fallout 4,5.5,5.5,2015-11-09
+110,Guild Wars Nightfall,8.6,8.6,2006-10-26
+111,Rift,7.3,7.3,2011-03-01
+112,Dark Souls Remastered,6.7,6.7,2018-05-23
+113,Final Fantasy XI: Treasures of Aht Urhgan,6.7,6.7,2006-04-18
+114,Grim Dawn,8.5,8.5,2016-02-25
+115,Mount & Blade: Warband - Napoleonic Wars,8.0,8.0,2012-04-19
+116,Final Fantasy XII: The Zodiac Age,8.7,8.7,2018-02-01
+117,Bloodstained: Ritual of the Night,8.4,8.4,2019-06-18
+118,SMITE,8.1,8.1,2014-03-25
+119,Guild Wars 2: Path of Fire,7.5,7.5,2017-09-22
+120,EverQuest: The Shadows of Luclin,7.2,7.2,2001-12-02
+121,Fable: The Lost Chapters,8.6,8.6,2005-09-20
+122,The Lord of the Rings Online: Siege of Mirkwood,7.1,7.1,2009-12-01
+123,The Elder Scrolls Online: Summerset,6.1,6.1,2018-05-21
+124,Icewind Dale II,8.3,8.3,2002-08-26
+125,EverQuest II: Echoes of Faydwer,8.6,8.6,2006-11-13
+126,EverQuest II,7.4,7.4,2004-11-08
+127,Final Fantasy XIV Online: A Realm Reborn,7.1,7.1,2013-08-27
+128,The Elder Scrolls V: Skyrim - Dragonborn,8.0,8.0,2013-02-05
+129,DarkMaus,7.6,7.6,2016-01-26
+130,Age of Conan: Rise of the Godslayer,7.6,7.6,2010-05-11
+131,Transistor,8.4,8.4,2014-05-20
+132,Torchlight,8.0,8.0,2009-10-27
+133,EverQuest II: Rise of Kunark,7.6,7.6,2007-11-13
+134,Dark Age of Camelot: Catacombs,7.0,7.0,2004-12-07
+135,The Legend of Heroes: Trails in the Sky the 3rd,7.9,7.9,2017-05-03
+136,Dragon Age II: Mark of the Assassin,5.3,5.3,2011-10-11
+137,Dark Souls II: Crown of the Ivory King,7.9,7.9,2014-09-29
+138,The Outer Worlds,7.4,7.4,2019-10-25
+139,Dark Souls III: The Ringed City,8.2,8.2,2017-03-28
+140,City of Villains,7.6,7.6,2005-10-31
+141,The Banner Saga 2,8.3,8.3,2016-04-19
+142,Asheron's Call 2: Fallen Kings,7.2,7.2,2002-11-20
+143,Neverwinter Nights 2,6.6,6.6,2006-10-31
+144,Dragon Age: Origins - Awakening,7.9,7.9,2010-03-16
+145,Neverwinter Nights 2: Mask of The Betrayer,8.5,8.5,2007-10-09
+146,Marvel: Ultimate Alliance,7.8,7.8,2006-10-24
+147,Dragon Age II,4.6,4.6,2011-03-08
+148,Pyre,7.9,7.9,2017-07-25
+149,Jimmy and the Pulsating Mass,8.7,8.7,2018-08-07
+150,Fallout Tactics: Brotherhood of Steel,7.6,7.6,2001-03-14
+151,Legend of Grimrock,8.1,8.1,2012-04-11
+152,Desktop Dungeons,7.6,7.6,2010-10-17
+153,Fallout: New Vegas - Old World Blues,7.7,7.7,2011-07-19
+154,Ni no Kuni: Wrath of the White Witch Remastered,7.8,7.8,2019-09-20
+155,World of Warcraft: Mists of Pandaria,5.1,5.1,2012-09-25
+156,Children of Morta,8.3,8.3,2019-09-03
+157,Earth & Beyond,7.1,7.1,2002-09-02
+158,King's Bounty: Armored Princess,8.5,8.5,2009-11-19
+159,Dark Souls II: Crown of the Sunken King,7.5,7.5,2014-07-22
+160,EverQuest: The Scars of Velious,7.3,7.3,2000-12-04
+161,Darkest Dungeon: The Crimson Court,6.6,6.6,2017-06-19
+162,Divinity II: The Dragon Knight Saga,8.2,8.2,2010-11-05
+163,WildStar,7.5,7.5,2014-06-03
+164,Avadon 2: The Corruption,7.7,7.7,2013-10-30
+165,World of Warcraft Classic,6.2,6.2,2019-08-27
+166,Torment: Tides of Numenera,6.9,6.9,2017-02-28
+167,To the Moon,8.9,8.9,2011-11-01
+168,Shadowrun: Hong Kong,7.7,7.7,2015-08-20
+169,Marvel Heroes 2015,8.2,8.2,2014-06-04
+170,The Witcher,8.7,8.7,2007-10-30
+171,The Elder Scrolls Online: Dragonhold,4.6,4.6,2019-10-21
+172,Jade Empire: Special Edition,8.1,8.1,2007-02-26
+173,Ashen,6.0,6.0,2018-12-06
+174,Asheron's Call,8.5,8.5,1999-10-31
+175,The Elder Scrolls V: Skyrim VR,6.9,6.9,2018-04-02
+176,Gothic,8.7,8.7,2001-11-23
+177,Arcanum: Of Steamworks and Magick Obscura,8.7,8.7,2001-08-22
+178,PlanetSide,7.3,7.3,2003-05-20
+179,Kingdoms of Amalur: Reckoning,6.7,6.7,2012-02-07
+180,Finding Paradise,8.3,8.3,2017-12-14
+181,The Elder Scrolls IV: Knights of the Nine,7.4,7.4,2006-11-21
+182,The Legend of Heroes: Trails of Cold Steel II,8.4,8.4,2018-02-14
+183,Fallout 3: Broken Steel,7.2,7.2,2009-05-05
+184,Dragon's Dogma: Dark Arisen,8.1,8.1,2016-01-15
+185,Guild Wars 2: Heart of Thorns,7.3,7.3,2015-10-23
+186,Ni no Kuni II: Revenant Kingdom,6.9,6.9,2018-03-23
+187,Dangerous High School Girls in Trouble,5.7,5.7,2008-05-14
+188,EverQuest: The Planes of Power,7.0,7.0,2002-10-28
+189,Disney's Toontown Online,7.7,7.7,2005-10-06
+190,Wasteland 2,7.2,7.2,2014-09-18
+191,The Age of Decadence,8.0,8.0,2015-10-15
+192,South Park: The Fractured But Whole,6.8,6.8,2017-10-17
+193,Shadowrun: Dragonfall,8.3,8.3,2014-02-27
+194,Dungeon Defenders,7.3,7.3,2011-10-18
+195,Divine Divinity,8.5,8.5,2002-09-22
+196,Darkest Dungeon: The Color of Madness,tbd,tbd,2018-06-19
+197,Age of Conan: Hyborian Adventures,7.3,7.3,2008-05-20
+198,The Elder Scrolls Online: Elsweyr,8.0,8.0,2019-05-20
+199,The Elder Scrolls Online: Tamriel Unlimited,8.5,8.5,2015-03-17
+200,Tyranny,7.8,7.8,2016-11-10
+201,The Banner Saga,8.0,8.0,2014-01-14
+202,Dungeon Siege II,7.8,7.8,2005-08-16
+203,Grandia II Anniversary Edition,7.8,7.8,2015-08-24
+204,The Elder Scrolls III: Tribunal,7.9,7.9,2002-11-06
+205,Titan Quest: Immortal Throne,8.5,8.5,2007-03-05
+206,X-Men Legends II: Rise of Apocalypse,8.3,8.3,2005-09-20
+207,SpellForce 2: Shadow Wars,7.6,7.6,2006-05-05
+208,Asheron's Call Dark Majesty,7.3,7.3,2001-11-04
+209,FATE,7.7,7.7,2005-05-18
+210,The Legend of Heroes: Trails of Cold Steel,8.1,8.1,2017-08-02
+211,Hero-U: Rogue to Redemption,8.9,8.9,2018-07-10
+212,Icewind Dale: Enhanced Edition,7.3,7.3,2014-10-30
+213,Vampire: The Masquerade - Bloodlines,8.9,8.9,2004-11-16
+214,Octopath Traveler,6.3,6.3,2019-06-07
+215,The Legend of Heroes: Trails in the Sky SC,8.7,8.7,2015-10-29
+216,Dragon Quest XI: Echoes of an Elusive Age,8.7,8.7,2018-09-04
+217,Ys Seven,7.5,7.5,2017-08-30
+218,Tales of Vesperia: Definitive Edition,8.3,8.3,2019-01-10
+219,Virgo Vs The Zodiac,tbd,tbd,2019-12-12
+220,ArcheAge,3.7,3.7,2014-09-16
+221,Runes of Magic Chapter II: The Elven Prophecy,6.9,6.9,2009-09-15
+222,Tales of Berseria,6.5,6.5,2017-01-26
+223,Kingsway,6.5,6.5,2017-07-18
+224,Fallout 3: Point Lookout,7.6,7.6,2009-06-23
+225,For the King,7.8,7.8,2018-04-19
+226,A Tale in the Desert,8.3,8.3,2003-02-15
+227,Depths of Peril,8.0,8.0,2007-09-06
+228,Else Heart.Break(),7.5,7.5,2015-09-24
+229,Ragnarok Online,8.2,8.2,2002-08-31
+230,Dark Souls II: Scholar of the First Sin,7.5,7.5,2015-04-01
+231,Dungeons of Dredmor,7.6,7.6,2011-07-13
+232,EverQuest: Dragons of Norrath,tbd,tbd,2005-02-14
+233,The Incredible Adventures of Van Helsing: Final Cut,7.1,7.1,2015-11-06
+234,Fallout 4: Far Harbor,6.7,6.7,2016-05-19
+235,Shattered Galaxy,7.3,7.3,2001-08-21
+236,Gothic II,9.0,9.0,2003-10-28
+237,Cat Quest,7.7,7.7,2017-08-08
+238,Rusty Hearts,6.9,6.9,2011-09-20
+239,Pillars of Eternity: The White March - Part 2,7.5,7.5,2016-02-16
+240,Guild Wars: Eye of the North,8.5,8.5,2007-08-28
+241,EverQuest: Lost Dungeons of Norrath,7.0,7.0,2003-09-08
+242,Half Minute Hero: The Second Coming,7.0,7.0,2014-04-04
+243,Wizard of Legend,7.7,7.7,2018-05-15
+244,Zwei: The Ilvard Insurrection,7.3,7.3,2017-10-31
+245,Atelier Lulua: The Scion of Arland,6.4,6.4,2019-06-04
+246,Free Realms,6.4,6.4,2009-04-29
+247,Dauntless,5.3,5.3,2019-05-21
+248,Dark Souls II: Crown of the Old Iron King,7.6,7.6,2014-08-26
+249,World of Warcraft: Battle for Azeroth,3.0,3.0,2018-08-13
+250,EverQuest II: Desert of Flames,6.9,6.9,2005-09-12
+251,Mark Leung: Revenge of the Bitch,4.9,4.9,2010-12-03
+252,Rift: Storm Legion,7.7,7.7,2012-11-13
+253,Druidstone: The Secret of the Menhir Forest,7.2,7.2,2019-05-15
+254,Xanadu Next,7.3,7.3,2016-11-03
+255,Baldur's Gate: Enhanced Edition,6.6,6.6,2012-11-28
+256,Fallout 4 VR,5.2,5.2,2017-12-11
+257,Indivisible,6.2,6.2,2019-10-08
+258,The Surge: A Walk in the Park,7.4,7.4,2017-12-05
+259,Neverwinter Nights: Shadows of Undrentide,7.7,7.7,2003-06-17
+260,League of Legends,5.4,5.4,2009-10-27
+261,Cthulhu Saves the World,7.2,7.2,2011-07-13
+262,The Lord of the Rings: The Return of the King,7.7,7.7,2003-10-31
+263,Battle Chasers: Nightwar,7.5,7.5,2017-10-03
+264,Two Worlds II: Pirates of the Flying Fortress,7.3,7.3,2011-09-30
+265,Hand of Fate,7.8,7.8,2015-02-17
+266,Avernum 2: Crystal Souls,7.7,7.7,2015-01-14
+267,Baldur's Gate II: Enhanced Edition,7.4,7.4,2013-11-15
+268,Trials of Mana,7.4,7.4,2020-04-24
+269,Operencia: The Stolen Sun,6.1,6.1,2019-03-29
+270,Dungeon Fighter Online,8.2,8.2,2009-09-22
+271,Summoner,7.8,7.8,2001-03-21
+272,DeathSpank: Thongs of Virtue,7.3,7.3,2010-11-30
+273,Tabula Rasa,7.7,7.7,2007-10-30
+274,Mount & Blade: Warband,8.9,8.9,2010-03-30
+275,Fallout 3: The Pitt,6.9,6.9,2009-03-24
+276,Kingdom Come: Deliverance - A Woman's Lot,7.7,7.7,2019-05-28
+277,EverQuest II: The Shadow Odyssey,8.4,8.4,2008-11-17
+278,Crashlands,7.8,7.8,2016-01-21
+279,Dungelot: Shattered Lands,6.8,6.8,2016-02-18
+280,Shadows of Adam,6.9,6.9,2017-02-23
+281,The Chronicles of Nyanya,8.2,8.2,2018-02-16
+282,Titan Quest,8.1,8.1,2006-06-26
+283,Arx Fatalis,8.3,8.3,2002-11-11
+284,Tower of Time,8.1,8.1,2018-04-12
+285,DeathSpank,7.6,7.6,2010-10-25
+286,Expeditions: Conquistador,8.1,8.1,2013-05-30
+287,The Elder Scrolls Online: Morrowind,6.7,6.7,2017-05-22
+288,Baldur's Gate: Siege of Dragonspear,3.7,3.7,2016-03-31
+289,World of Final Fantasy,7.7,7.7,2017-11-21
+290,Iratus: Lord of the Dead,6.9,6.9,2020-04-23
+291,The Incredible Adventures of Van Helsing II,7.7,7.7,2014-06-13
+292,Echoes Of Aetheria,7.1,7.1,2016-01-15
+293,Child of Light,8.1,8.1,2014-04-29
+294,Darksiders Genesis,7.7,7.7,2019-12-05
+295,Cosmic Star Heroine,7.2,7.2,2017-04-11
+296,The Chronicles of Spellborn,8.1,8.1,2009-04-23
+297,Anachronox,7.9,7.9,2001-06-27
+298,Dragon Age: Inquisition - Trespasser,7.7,7.7,2015-09-09
+299,Might & Magic: Heroes VI,5.9,5.9,2011-10-13
+300,Tales of Zestiria,7.5,7.5,2015-10-19
+301,Curse of the Dead Gods,tbd,tbd,2020-03-03
+302,Risen,8.0,8.0,2009-10-02
+303,Penny Arcade Adventures: Episode Three,7.3,7.3,2012-06-25
+304,Star Wars Galaxies: Jump to Lightspeed,6.5,6.5,2004-10-26
+305,TERA,6.8,6.8,2012-05-01
+306,LISA: The Painful,8.6,8.6,2014-12-15
+307,EVE Online: Commissioned Officer Edition,8.0,8.0,2010-10-19
+308,Ys VI: The Ark of Napishtim,7.9,7.9,2015-04-28
+309,Dark Age of Camelot: Darkness Rising,8.0,8.0,2005-10-11
+310,Secret World Legends,5.1,5.1,2017-06-26
+311,Cat Quest II: The Lupus Empire,6.9,6.9,2019-09-24
+312,Avernum: Escape From the Pit,8.3,8.3,2012-04-11
+313,Aion,6.6,6.6,2009-09-22
+314,Pirates of the Burning Sea,7.6,7.6,2008-01-21
+315,Minecraft Dungeons,tbd,tbd,2020-05-26
+316,Aegis Defenders,5.6,5.6,2018-02-08
+317,Might & Magic: Clash of Heroes,7.7,7.7,2011-09-22
+318,Star Trek Online: Legacy of Romulus,8.4,8.4,2013-05-21
+319,Overture,6.2,6.2,2015-01-26
+320,The Surge 2,6.2,6.2,2019-09-23
+321,Divinity: Dragon Commander,7.1,7.1,2013-08-06
+322,Pillars of Eternity: The White March - Part 1,7.5,7.5,2015-08-25
+323,WAKFU,5.7,5.7,2012-02-29
+324,Ys Origin,8.3,8.3,2012-05-31
+325,EverQuest II: Kingdom of Sky,6.6,6.6,2006-02-21
+326,Kingdom Come: Deliverance,8.0,8.0,2018-02-13
+327,Shadowrun Returns,7.4,7.4,2013-07-25
+328,Vindictus,6.9,6.9,2010-10-27
+329,Fight The Dragon,8.2,8.2,2014-12-04
+330,Din's Curse,7.4,7.4,2010-03-31
+331,Diablo III: Rise of the Necromancer,4.7,4.7,2017-06-27
+332,Eschalon: Book I,7.4,7.4,2007-11-19
+333,Avadon: The Black Fortress,7.6,7.6,2011-05-02
+334,Kenshi,8.2,8.2,2018-12-06
+335,Final Fantasy XIII-2,7.1,7.1,2014-12-11
+336,Vaporum,7.1,7.1,2017-09-28
+337,Absolver,5.9,5.9,2017-08-29
+338,Two Worlds II,6.4,6.4,2011-02-03
+339,Fable III,5.5,5.5,2011-05-17
+340,Cartoon Network Universe: FusionFall,7.7,7.7,2009-01-13
+341,Din's Curse: Demon War,6.7,6.7,2011-02-22
+342,Milanoir,6.8,6.8,2018-05-31
+343,Atelier Ryza: Ever Darkness & the Secret Hideout,7.8,7.8,2019-10-29
+344,Star Conflict,7.0,7.0,2013-02-27
+345,Shadowbane,8.2,8.2,2003-03-25
+346,Ravenmark: Scourge of Estellion,tbd,tbd,2015-09-10
+347,Victor Vran,7.5,7.5,2015-07-24
+348,Dark Age of Camelot: Trials of Atlantis,7.3,7.3,2003-10-28
+349,Hector: Badge of Carnage - Episode 1: We Negotiate With Terrorists,6.7,6.7,2011-04-27
+350,Serpent in the Staglands,7.3,7.3,2015-05-28
+351,Half-Minute Hero: Super Mega Neo Climax Ultimate Boy,7.5,7.5,2012-09-27
+352,Mass Effect 3: Leviathan,6.8,6.8,2012-08-28
+353,Drakensang: The Dark Eye,8.4,8.4,2009-02-23
+354,Blade of Darkness,8.6,8.6,2001-02-19
+355,Stronghold Kingdoms,4.7,4.7,2012-02-27
+356,The Elder Scrolls V: Skyrim Special Edition,6.1,6.1,2016-10-27
+357,Age of Wushu,5.4,5.4,2013-04-10
+358,Fallout 4: Nuka-World,5.3,5.3,2016-08-30
+359,Shadows: Heretic Kingdoms,7.1,7.1,2014-06-13
+360,Our Darker Purpose,7.0,7.0,2014-01-29
+361,Moonlighter,7.4,7.4,2018-05-29
+362,Dungeon Runners,5.8,5.8,2008-07-02
+363,Expeditions: Viking,8.0,8.0,2017-04-27
+364,Icewind Dale: Heart of Winter,7.7,7.7,2001-02-19
+365,Warhammer 40000: Space Marine,7.5,7.5,2011-09-05
+366,Evil Islands: Curse of the Lost Soul,7.9,7.9,2001-04-17
+367,Ys: Memories of Celceta,7.1,7.1,2018-07-25
+368,Dungeons & Dragons Online: Stormreach,6.9,6.9,2006-02-28
+369,The Swords of Ditto,6.4,6.4,2018-04-24
+370,The Secret World,8.3,8.3,2012-07-03
+371,Ultima Online: Age of Shadows,6.7,6.7,2003-02-08
+372,Cloud Chamber,7.3,7.3,2014-08-07
+373,Sacred,7.7,7.7,2004-03-25
+374,Dead In Vinland,7.2,7.2,2018-04-12
+375,Vampire: The Masquerade - Redemption,8.3,8.3,2000-06-07
+376,Drox Operative,7.4,7.4,2012-11-29
+377,Neverwinter,5.3,5.3,2013-06-20
+378,Dragon Age: Inquisition - Jaws Of Hakkon,5.8,5.8,2015-03-24
+379,Stories: The Path of Destinies,7.1,7.1,2016-04-12
+380,Black Desert Online,6.9,6.9,2016-03-03
+381,Final Fantasy VIII Remastered,5.4,5.4,2019-09-03
+382,God Eater 2: Rage Burst,6.7,6.7,2016-08-29
+383,Ys: The Oath in Felghana,7.8,7.8,2012-03-19
+384,Regalia: Of Men and Monarchs,7.9,7.9,2017-05-18
+385,Paper Sorcerer,6.7,6.7,2013-11-02
+386,Driftmoon,7.4,7.4,2012-10-02
+387,Final Fantasy XI: Chains of Promathia,8.6,8.6,2004-09-21
+388,Children of Zodiarcs,7.4,7.4,2017-07-18
+389,Dark Souls III: Ashes of Ariandel,7.3,7.3,2016-10-24
+390,Sacred Underworld,7.5,7.5,2005-08-16
+391,Neverwinter Nights 2: Mysteries of Westgate,7.5,7.5,2009-04-29
+392,Dragon Ball Z: Kakarot,7.5,7.5,2020-01-17
+393,Dungeon Siege: Legends of Aranna,7.9,7.9,2003-11-11
+394,Toukiden 2,6.9,6.9,2017-03-21
+395,Lords of the Fallen,6.9,6.9,2014-10-28
+396,Anarchy Online: Alien Invasion,6.9,6.9,2004-08-31
+397,Pathfinder: Kingmaker,7.5,7.5,2018-09-25
+398,Neverwinter Nights 2: Storm of Zehir,7.3,7.3,2008-11-18
+399,Beyond Divinity,7.5,7.5,2004-04-28
+400,Pier Solar and the Great Architects,6.6,6.6,2014-09-30
+401,Atelier Sophie: The Alchemist of the Mysterious Book,7.8,7.8,2017-02-07
+402,Alpha Protocol,7.4,7.4,2010-06-01
+403,Hyperdimension Neptunia Re;Birth1,7.9,7.9,2015-01-29
+404,The Surge,6.7,6.7,2017-05-16
+405,DC Universe Online,6.8,6.8,2011-01-11
+406,Mount & Blade,8.6,8.6,2008-09-16
+407,Mass Effect: Andromeda,5.0,5.0,2017-03-21
+408,Underrail,7.8,7.8,2012-12-05
+409,Book of Demons,7.8,7.8,2018-12-13
+410,Portal Knights,8.2,8.2,2017-05-18
+411,Convoy,5.3,5.3,2015-04-21
+412,Guild of Dungeoneering,5.0,5.0,2015-07-14
+413,The Incredible Adventures of Van Helsing,8.2,8.2,2013-05-22
+414,Champions Online,6.1,6.1,2009-09-01
+415,Septerra Core: Legacy of the Creator,7.7,7.7,1999-10-31
+416,Divinity II: Flames of Vengeance,7.9,7.9,2010-11-05
+417,Dungeon Siege III,4.7,4.7,2011-06-20
+418,FORCED,7.7,7.7,2013-10-24
+419,DOFUS,7.4,7.4,2005-09-01
+420,Oninaki,3.1,3.1,2019-08-22
+421,Divinity II: Ego Draconis,7.7,7.7,2010-01-05
+422,Auto Assault,7.9,7.9,2006-04-13
+423,Horizons: Empire of Istaria,7.5,7.5,2003-12-08
+424,Anarchy Online,7.4,7.4,2001-06-26
+425,Vampyr,6.7,6.7,2018-06-04
+426,GreedFall,7.7,7.7,2019-09-09
+427,Albion Online,4.8,4.8,2017-07-17
+428,Lords of Xulima,7.7,7.7,2014-11-14
+429,Fallen Earth: Welcome to the Apocalypse,7.0,7.0,2009-09-22
+430,God Eater 3,6.2,6.2,2019-02-08
+431,Titan Quest: Ragnarok,6.8,6.8,2017-11-17
+432,The Bard's Tale IV: Barrows Deep,6.6,6.6,2018-09-18
+433,Code Vein,7.7,7.7,2019-09-26
+434,Star Wars Galaxies: An Empire Divided,5.7,5.7,2003-07-09
+435,Heretic Kingdoms: The Inquisition,6.8,6.8,2005-04-14
+436,Star Wars: The Old Republic - Rise of the Hutt Cartel,7.0,7.0,2013-04-14
+437,The Fall of the Dungeon Guardians,6.9,6.9,2015-11-06
+438,The Elder Scrolls Online,5.8,5.8,2014-04-04
+439,The Temple of Elemental Evil,7.6,7.6,2003-09-16
+440,Mass Effect 2: Kasumi - Stolen Memory,7.3,7.3,2010-04-06
+441,Runes of Magic,5.7,5.7,2009-03-19
+442,Overfall,7.9,7.9,2016-05-17
+443,Legends of Eisenwald,7.7,7.7,2015-07-02
+444,Death's Gambit,7.3,7.3,2018-08-13
+445,Anarchy Online: The Notum Wars,8.1,8.1,2002-11-23
+446,Sacred 2: Fallen Angel,6.9,6.9,2008-11-11
+447,Hellgate: London,6.3,6.3,2007-10-31
+448,Dead State,6.5,6.5,2014-12-04
+449,Crowntakers,7.4,7.4,2014-11-07
+450,The Sims Online,7.6,7.6,2002-12-18
+451,I Am Setsuna,7.2,7.2,2016-07-19
+452,Global Agenda,7.9,7.9,2010-02-01
+453,Deep Sky Derelicts,6.4,6.4,2018-09-26
+454,Vampire: The Masquerade - Coteries of New York,7.5,7.5,2019-12-11
+455,ATOM RPG: Post-apocalyptic indie game,8.6,8.6,2018-12-19
+456,The Warlock of Firetop Mountain,7.3,7.3,2016-08-31
+457,Black Prophecy,6.4,6.4,2011-07-13
+458,Fallout: New Vegas - Dead Money,6.3,6.3,2011-02-22
+459,Wizards & Warriors,7.4,7.4,2000-09-27
+460,Vertical Drop Heroes HD,7.9,7.9,2014-05-20
+461,Ember,6.6,6.6,2016-09-09
+462,Rezrog,tbd,tbd,2017-05-31
+463,Swords & Souls: Neverseen,7.4,7.4,2019-07-22
+464,Pillars of Eternity II: Deadfire - Beasts of Winter,8.0,8.0,2018-08-02
+465,Star Wars Galaxies: Episode III Rage of the Wookiees,4.2,4.2,2005-05-05
+466,Grandia II,8.0,8.0,2002-03-10
+467,Soulbringer,7.8,7.8,2000-06-30
+468,Penny Arcade Adventures: Episode Four,6.9,6.9,2013-06-07
+469,LEGO Universe,7.7,7.7,2010-10-26
+470,The Bard's Tale,7.6,7.6,2005-06-27
+471,EVE Online,7.4,7.4,2003-05-06
+472,Baobabs Mausoleum - Ep. 2: 1313 Barnabas Dead End Drive,tbd,tbd,2018-02-27
+473,Sword of the Stars: The Pit,7.8,7.8,2013-02-22
+474,Baobabs Mausoleum - Ep. 1: Ovnifagos Don't Eat Flamingos,6.7,6.7,2017-07-06
+475,Star Wars Galaxies: Trials of Obi-Wan,4.3,4.3,2005-11-01
+476,Dragon Age: Origins - Return to Ostagar,7.0,7.0,2010-01-13
+477,Final Fantasy Type-0 HD,6.9,6.9,2015-08-18
+478,Risen 2: Dark Waters,5.7,5.7,2012-04-24
+479,Fall of Light,6.3,6.3,2017-09-28
+480,Warhammer: Chaosbane,5.0,5.0,2019-05-31
+481,Of Orcs and Men,6.7,6.7,2012-10-11
+482,Lost Sphear,6.7,6.7,2018-01-23
+483,Allods Online,5.9,5.9,2011-05-11
+484,Anima: Gate of Memories,7.7,7.7,2016-06-02
+485,Forsaken World,5.3,5.3,2011-03-22
+486,Ys VIII: Lacrimosa of DANA,7.3,7.3,2018-04-16
+487,Runespell: Overture,6.7,6.7,2011-07-20
+488,Sword of the Stars: The Pit - Mind Games,7.9,7.9,2013-07-03
+489,Ultima Online: Third Dawn,tbd,tbd,2001-03-26
+490,The Matrix Online,7.3,7.3,2005-03-22
+491,Lichdom: Battlemage,6.8,6.8,2014-03-19
+492,Aurion: Legacy of the Kori-Odan,7.8,7.8,2016-04-14
+493,Blackguards,7.1,7.1,2013-11-06
+494,Blade & Soul,4.6,4.6,2016-01-19
+495,Seven: The Days Long Gone,7.4,7.4,2017-12-01
+496,Shiness: The Lightning Kingdom,7.4,7.4,2017-04-18
+497,Fallout 76: Wastelanders,5.9,5.9,2020-04-16
+498,Vanguard: Saga of Heroes,7.1,7.1,2007-01-30
+499,Space Empires: Starfury,8.5,8.5,2003-09-29
+500,Defragmented,tbd,tbd,2016-02-12
+501,Gauntlet (2014),7.1,7.1,2014-09-23
+502,Fallout 3: Mothership Zeta,5.7,5.7,2009-08-03
+503,Costume Quest 2,7.5,7.5,2014-10-07
+504,Throne of Darkness,8.6,8.6,2001-09-24
+505,Avencast: Rise of the Mage,7.1,7.1,2007-11-08
+506,Zwei: The Arges Adventure,tbd,tbd,2018-01-24
+507,Final Fantasy III,6.8,6.8,2014-05-27
+508,Mount & Blade: With Fire & Sword,7.0,7.0,2011-05-03
+509,Space Rangers HD: A War Apart,8.6,8.6,2013-10-17
+510,Shining Resonance Refrain,6.7,6.7,2018-07-09
+511,Knights of Pen & Paper 2,5.7,5.7,2015-10-20
+512,Last Word,8.1,8.1,2015-05-08
+513,LEGRAND LEGACY: Tale of the Fatebounds,7.1,7.1,2018-01-24
+514,Asheron's Call 2: Legions,7.9,7.9,2005-05-04
+515,FORCED SHOWDOWN,7.5,7.5,2016-03-29
+516,Fallout 4: Automatron,4.9,4.9,2016-03-22
+517,Outward,7.3,7.3,2019-03-26
+518,Elex,7.0,7.0,2017-10-17
+519,Call of Cthulhu,6.8,6.8,2018-10-29
+520,10000000,7.2,7.2,2013-01-15
+521,Eschalon: Book III,6.7,6.7,2014-02-14
+522,Sea of Thieves,4.2,4.2,2018-03-20
+523,The Banner Saga: Factions,8.0,8.0,2013-02-25
+524,Ittle Dew,8.1,8.1,2013-07-23
+525,Rogue Wizards,6.7,6.7,2016-09-27
+526,Dungeon Souls,5.6,5.6,2016-12-02
+527,Tyranny: Bastard's Wound,6.8,6.8,2017-09-07
+528,FIVE: Guardians of David,6.0,6.0,2015-11-24
+529,Fallen Legion+,tbd,tbd,2018-01-05
+530,The Lord of the Rings: War in the North,7.2,7.2,2011-11-01
+531,Dragon Age: Origins - Darkspawn Chronicles,5.3,5.3,2010-05-18
+532,Dragon Age: Origins - Leliana's Song,6.2,6.2,2010-07-06
+533,Kingdom Come: Deliverance - The Amorous Adventures of Bold Sir Hans Capon,6.1,6.1,2018-10-16
+534,Morning's Wrath,tbd,tbd,2005-10-01
+535,Fairy Fencer F,7.9,7.9,2015-08-04
+536,Dragon Age II: Legacy,4.3,4.3,2011-07-26
+537,Dragon Age: Inquisition - The Descent,5.8,5.8,2015-08-11
+538,The Last Remnant,8.2,8.2,2009-03-24
+539,The Elder Scrolls V: Skyrim - Dawnguard,7.0,7.0,2012-08-02
+540,Fallout: New Vegas - Honest Hearts,6.8,6.8,2011-05-17
+541,Star Trek Online,6.2,6.2,2010-02-02
+542,Zombasite,8.5,8.5,2016-08-23
+543,King Arthur II: The Role-Playing Wargame,6.5,6.5,2012-01-27
+544,Neocron,6.7,6.7,2002-11-17
+545,Sword of the New World: Granado Espada,7.7,7.7,2007-07-12
+546,Swords and Sorcery - Underworld - Definitive Edition,tbd,tbd,2015-12-15
+547,Vikings: Wolves of Midgard,7.1,7.1,2017-03-24
+548,99 Levels To Hell,7.1,7.1,2012-06-07
+549,Lightning Returns: Final Fantasy XIII,7.3,7.3,2015-12-10
+550,Dark Fear,tbd,tbd,2016-06-22
+551,Citizens of Earth,6.5,6.5,2015-01-20
+552,Hyakki Castle,tbd,tbd,2017-11-14
+553,Dragon Saga,8.5,8.5,2009-10-15
+554,Immortal Planet,6.7,6.7,2017-07-27
+555,Two Worlds,6.8,6.8,2007-08-23
+556,Final Fantasy XIII,5.6,5.6,2014-10-09
+557,Unrest,5.8,5.8,2014-07-23
+558,Hyperdevotion Noire: Goddess Black Heart,4.0,4.0,2016-04-26
+559,Fallout 3 - Operation: Anchorage,5.5,5.5,2009-01-27
+560,Darkspore,6.0,6.0,2011-04-25
+561,Risen 3: Titan Lords,5.7,5.7,2014-08-12
+562,Ultima Online: Lord Blackthorn's Revenge,5.4,5.4,2002-02-24
+563,Star Wars: Clone Wars Adventures,6.3,6.3,2010-09-15
+564,Touhou: Scarlet Curiosity,tbd,tbd,2018-07-11
+565,Defiance,6.5,6.5,2013-04-02
+566,YIIK: A Postmodern RPG,2.8,2.8,2019-01-17
+567,Spiral Knights,7.3,7.3,2011-04-04
+568,Larva Mortus,7.0,7.0,2008-05-13
+569,Nights of Azure,7.5,7.5,2017-02-07
+570,Pirates of the Caribbean,7.4,7.4,2003-06-30
+571,Serious Sam: The Random Encounter,6.0,6.0,2011-10-24
+572,Fictorum,5.0,5.0,2017-08-09
+573,Pagan Online,5.3,5.3,2019-04-17
+574,Moero Chronicle,7.0,7.0,2017-08-16
+575,Pillars of Eternity II: Deadfire - Seeker Slayer Survivor,7.3,7.3,2018-09-25
+576,The Saga of Ryzom,7.4,7.4,2004-09-20
+577,Inquisitor,7.8,7.8,2012-09-05
+578,The Incredible Adventures of Van Helsing III,6.5,6.5,2015-05-22
+579,RymdResa,4.6,4.6,2015-08-20
+580,RaiderZ,6.8,6.8,2012-11-20
+581,Dragon's Prophet,5.9,5.9,2013-08-13
+582,Immortal: Unchained,6.6,6.6,2018-09-07
+583,The Baconing,5.0,5.0,2011-08-31
+584,Devilian,6.1,6.1,2015-12-10
+585,Gothic 3,7.5,7.5,2006-11-14
+586,Skyhill,5.5,5.5,2015-10-06
+587,Mass Effect 2: Arrival,6.0,6.0,2011-03-29
+588,Life is Feudal: Your Own,5.6,5.6,2015-11-17
+589,Anito: Defend a Land Enraged,7.5,7.5,2003-11-22
+590,Arcania: Gothic 4,4.0,4.0,2010-10-15
+591,Space Hack,7.6,7.6,2005-11-18
+592,March of the Living,tbd,tbd,2016-04-20
+593,Dungeon Siege II: Broken World,6.9,6.9,2006-08-01
+594,Warsaw,7.3,7.3,2019-10-02
+595,Wasteland Remastered,6.1,6.1,2020-02-25
+596,Silverfall,6.4,6.4,2007-03-20
+597,Chantelise: A Tale of Two Sisters,6.8,6.8,2011-07-29
+598,Dex,7.7,7.7,2014-08-13
+599,Lineage II: The Chaotic Chronicle,6.8,6.8,2004-04-27
+600,Ultima Online: Samurai Empire,5.1,5.1,2004-11-02
+601,Escape From Paradise City,7.6,7.6,2007-10-26
+602,Knights of Pen & Paper +1 Edition,5.9,5.9,2013-06-18
+603,Moon Hunters,6.2,6.2,2016-03-10
+604,Vendetta Online,7.4,7.4,2004-11-04
+605,Loki,6.0,6.0,2007-10-02
+606,Blue Reflection,6.7,6.7,2017-09-26
+607,Wizardry: Labyrinth of Lost Souls,tbd,tbd,2020-01-15
+608,The Dark Eye: Demonicon,6.6,6.6,2013-10-24
+609,E.Y.E: Divine Cybermancy,6.8,6.8,2011-07-29
+610,Prince of Qin,7.4,7.4,2002-08-19
+611,Saga,8.0,8.0,2008-03-04
+612,The Keep,tbd,tbd,2017-03-16
+613,Katana Kami: A Way of the Samurai Story,tbd,tbd,2020-02-20
+614,The Dwarves,6.2,6.2,2016-12-01
+615,Venetica,6.7,6.7,2011-01-25
+616,Age of Pirates 2: City of Abandoned Ships,7.4,7.4,2009-05-26
+617,Evoland,6.7,6.7,2013-04-04
+618,Sword Coast Legends,5.6,5.6,2015-10-19
+619,Zeno Clash II,7.4,7.4,2013-04-30
+620,Fortune Summoners: Secret of the Elemental Stone,7.6,7.6,2012-01-30
+621,Conglomerate 451,5.3,5.3,2020-02-21
+622,Pirates of the Caribbean Online,7.4,7.4,2007-10-31
+623,Space Siege,6.2,6.2,2008-08-12
+624,Wolcen: Lords of Mayhem,5.7,5.7,2020-02-13
+625,Phantasy Star Universe,6.6,6.6,2006-10-24
+626,Mars: War Logs,7.2,7.2,2013-04-26
+627,Wizardry Online,5.4,5.4,2013-01-16
+628,Ultima Online,8.7,8.7,1997-09-30
+629,Faery: Legends of Avalon,6.0,6.0,2011-05-06
+630,Warlander,tbd,tbd,2020-02-26
+631,Mass Effect 3: Omega,6.2,6.2,2012-11-27
+632,Arelite Core,7.2,7.2,2017-02-08
+633,Rise of the Argonauts,7.4,7.4,2008-12-16
+634,Lineage: The Blood Pledge,4.5,4.5,2001-10-24
+635,VoidExpanse,7.2,7.2,2015-04-02
+636,Anthem,4.0,4.0,2019-02-22
+637,Asheron's Call: Throne of Destiny,7.2,7.2,2005-07-18
+638,The Weaponographist,6.9,6.9,2015-04-29
+639,The Castle Doctrine,6.9,6.9,2014-01-29
+640,APB (All Points Bulletin),5.7,5.7,2010-06-29
+641,Kyn,4.9,4.9,2015-07-28
+642,Shady O' Grady's Rising Star,tbd,tbd,2007-03-01
+643,Dawnspire: Prelude,7.3,7.3,2007-04-03
+644,Marvel Heroes,6.7,6.7,2013-06-03
+645,Game of Thrones,6.5,6.5,2012-05-15
+646,Shroud of the Avatar: Forsaken Virtues,6.5,6.5,2018-03-27
+647,Dragon Age: Origins - Golems of Amgarrak,5.6,5.6,2010-08-10
+648,Sacred 3,1.5,1.5,2014-07-31
+649,Nether,4.6,4.6,2014-06-05
+650,Legend: Hand of God,5.6,5.6,2008-08-01
+651,Fallout: New Vegas - Lonesome Road,7.0,7.0,2011-09-20
+652,Pool of Radiance: Ruins of Myth Drannor,6.4,6.4,2001-09-28
+653,Orangeblood,7.0,7.0,2020-01-13
+654,Harbinger,6.8,6.8,2003-02-26
+655,Lionheart: Legacy of the Crusader,7.4,7.4,2003-08-13
+656,Zenith,7.1,7.1,2016-09-20
+657,Secret of Mana,7.1,7.1,2018-02-15
+658,Age of Pirates: Caribbean Tales,6.0,6.0,2006-09-12
+659,Dragon Age: Origins - Witch Hunt,5.5,5.5,2010-09-07
+660,The Technomancer,6.6,6.6,2016-06-28
+661,RF Online,5.9,5.9,2006-02-21
+662,APB: Reloaded,5.8,5.8,2011-12-01
+663,ICY,7.1,7.1,2015-07-27
+664,Bound by Flame,6.8,6.8,2014-05-08
+665,Empyre: Lords of the Sea Gates,tbd,tbd,2017-10-04
+666,I of the Dragon,7.1,7.1,2004-11-02
+667,Hard to be a God,6.8,6.8,2007-10-19
+668,Ray Gigant,tbd,tbd,2016-08-10
+669,Might and Magic IX,4.8,4.8,2002-03-29
+670,Endless Ages,tbd,tbd,2003-06-27
+671,Fighting Legends,tbd,tbd,2001-10-31
+672,SpellForce 2: Faith in Destiny,5.8,5.8,2012-06-19
+673,Fury,4.7,4.7,2007-10-16
+674,Shadowbane: The Rise of Chaos,5.3,5.3,2003-12-09
+675,Night Watch,6.6,6.6,2006-06-26
+676,Gods: Lands of Infinity,6.1,6.1,2006-06-10
+677,INSOMNIA: The Ark,6.6,6.6,2018-09-27
+678,Rise of Immortals: Battle for Graxia,5.6,5.6,2011-09-12
+679,Kingdom Come: Deliverance - From The Ashes,5.4,5.4,2018-07-05
+680,RuneSword II,tbd,tbd,2001-10-03
+681,Grimshade,6.0,6.0,2019-03-26
+682,AereA,3.2,3.2,2017-06-02
+683,Akaneiro: Demon Hunters,6.5,6.5,2013-01-24
+684,Gorasul: Legacy of the Dragon,6.0,6.0,2001-11-26
+685,Code of Princess,5.8,5.8,2016-04-14
+686,Blade & Sword,6.5,6.5,2003-12-22
+687,The Chosen - Well of Souls,5.3,5.3,2007-10-01
+688,Krater,7.1,7.1,2012-06-12
+689,Warhammer 40000: Eternal Crusade,4.7,4.7,2016-09-23
+690,Fallout 76,2.7,2.7,2018-11-14
+691,Dawn of Magic,5.8,5.8,2007-10-23
+692,Eragon,5.4,5.4,2006-11-14
+693,Restricted Area,6.5,6.5,2005-05-31
+694,Afterfall: InSanity,5.9,5.9,2011-11-25
+695,Gods & Heroes: Rome Rising,6.2,6.2,2011-06-21
+696,RYL: Path of the Emperor,8.5,8.5,2005-06-20
+697,Fallout 4: Wasteland Workshop,1.7,1.7,2016-04-12
+698,Animal Gods,tbd,tbd,2015-10-12
+699,Pylon: Rogue,tbd,tbd,2017-09-21
+700,Krai Mira,5.4,5.4,2016-07-11
+701,Final Fantasy XIV Online,4.0,4.0,2010-09-22
+702,Archangel (2002),6.9,6.9,2002-11-19
+703,Dungeons & Dragons: Daggerdale,3.5,3.5,2011-05-25
+704,ShadowFlare,6.9,6.9,2002-11-29
+705,Paradise Cracked,7.8,7.8,2003-09-30
+706,Legend of the North: Konung,6.0,6.0,2000-12-31
+707,Mage Knight: Apocalypse,5.7,5.7,2006-09-26
+708,Winter Voices Prologue: Avalanche,8.0,8.0,2010-10-15
+709,Rune II,5.0,5.0,2019-11-22
+710,Paranoia: Happiness is Mandatory,6.4,6.4,2019-10-03
+711,Dungeon Lords,5.1,5.1,2005-05-05
+712,NeverEnd (2006),5.2,5.2,2006-10-02
+713,Dragonriders: Chronicles of Pern,5.8,5.8,2001-08-13
+714,Gothic 3: Forsaken Gods,3.3,3.3,2008-11-20
+715,Bombshell (2016),3.7,3.7,2016-01-29
+716,Fear Effect Sedna,5.3,5.3,2018-03-06
+717,ArchLord,5.7,5.7,2006-10-03
+718,Arcania: Fall of Setarrif,1.9,1.9,2011-10-24
+719,Legends of Aethereus,5.9,5.9,2013-07-22
+720,Eternity: The Last Unicorn,5.8,5.8,2019-03-05
+721,Etrom: The Astral Essence,6.3,6.3,2006-02-28
+722,Underworld Ascendant,2.2,2.2,2018-11-15
+723,Konung 2,6.8,6.8,2004-11-30
+724,Mistmare,6.8,6.8,2003-06-30
+725,Majestic Nights,3.5,3.5,2014-10-30
+726,Metalheart: Replicants Rampage,3.9,3.9,2005-04-30
+727,Legends of Dawn,4.4,4.4,2013-06-27
+728,Wild West Online,1.5,1.5,2018-05-10
+729,Call for Heroes: Pompolic Wars,3.2,3.2,2007-06-26
+730,Overlord: Fellowship of Evil,2.3,2.3,2015-10-19
+731,Infestation: Survivor Stories (The War Z),1.7,1.7,2012-10-15
+732,Realms of Arkania: Blade of Destiny Revised,3.0,3.0,2013-07-29

@@ -1,0 +1,768 @@
+rank,title,score,user_score,release_date
+1,Half-Life 2,9.1,9.1,2004-11-16
+2,The Orange Box,9.2,9.2,2007-10-10
+3,Half-Life,9.0,9.0,1998-11-19
+4,BioShock,8.5,8.5,2007-08-21
+5,Portal 2,9.1,9.1,2011-04-18
+6,The Elder Scrolls V: Skyrim,8.2,8.2,2011-11-10
+7,Quake,8.8,8.8,1996-06-22
+8,BioShock Infinite,8.6,8.6,2013-03-25
+9,The Elder Scrolls IV: Oblivion,8.1,8.1,2006-03-20
+10,Half-Life: Alyx,9.1,9.1,2020-03-23
+11,Unreal Tournament 2004,8.8,8.8,2004-03-16
+12,Minecraft,7.7,7.7,2011-11-18
+13,Call of Duty 4: Modern Warfare,8.5,8.5,2007-11-05
+14,Team Fortress 2,9.1,9.1,2007-10-10
+15,Unreal Tournament (1999),9.0,9.0,1999-11-30
+16,Medal of Honor: Allied Assault,8.6,8.6,2002-01-20
+17,Overwatch,6.5,6.5,2016-05-23
+18,Crysis,8.1,8.1,2007-11-13
+19,Star Wars Jedi Knight: Dark Forces II,8.6,8.6,1997-10-09
+20,The Operative: No One Lives Forever,8.7,8.7,2000-11-11
+21,Battlefield 2,8.4,8.4,2005-06-21
+22,Fallout 3,7.8,7.8,2008-10-28
+23,No One Lives Forever 2: A Spy in H.A.R.M.'s Way,8.7,8.7,2002-09-30
+24,Call of Duty,8.5,8.5,2003-10-29
+25,Return to Castle Wolfenstein: Enemy Territory,8.9,8.9,2003-05-29
+26,F.E.A.R. Combat,7.6,7.6,2006-08-17
+27,Portal,9.2,9.2,2007-10-10
+28,Metro: 2033 Redux,8.0,8.0,2014-08-25
+29,Half-Life 2: Episode Two,9.1,9.1,2007-10-10
+30,The Chronicles of Riddick: Escape From Butcher Bay - Developer's Cut,8.6,8.6,2004-12-08
+31,Deus Ex: Human Revolution,8.5,8.5,2011-08-23
+32,Star Wars Jedi Knight II: Jedi Outcast,8.7,8.7,2002-03-26
+33,The Elder Scrolls III: Morrowind,8.9,8.9,2002-05-01
+34,Fallout,8.8,8.8,1997-10-09
+35,Left 4 Dead,9.1,9.1,2008-11-17
+36,Left 4 Dead 2,8.4,8.4,2009-11-16
+37,Borderlands 2,8.2,8.2,2012-09-17
+38,Duke Nukem 3D,8.7,8.7,1996-01-29
+39,Far Cry,8.0,8.0,2004-03-23
+40,Descent 3,7.7,7.7,2000-06-14
+41,Descent II,8.7,8.7,1996-02-29
+42,Battlefield 3,7.6,7.6,2011-10-25
+43,Battlefield 1942,8.6,8.6,2002-09-10
+44,Return of the Obra Dinn,8.1,8.1,2018-10-18
+45,What Remains of Edith Finch,8.3,8.3,2017-04-24
+46,DUSK,8.2,8.2,2018-12-10
+47,F.E.A.R.,8.3,8.3,2005-10-17
+48,Tribes 2,8.3,8.3,2001-03-28
+49,Far Cry 3,8.3,8.3,2012-12-04
+50,Return to Castle Wolfenstein,8.7,8.7,2001-11-19
+51,Shogo: Mobile Armor Division,8.4,8.4,1998-09-30
+52,Thirty Flights of Loving,5.0,5.0,2012-08-20
+53,DOOM Eternal,7.3,7.3,2020-03-20
+54,Apex Legends,5.9,5.9,2019-02-04
+55,The Stanley Parable,8.0,8.0,2013-10-17
+56,BioShock 2,8.0,8.0,2010-02-09
+57,Counter-Strike: Source,8.9,8.9,2004-10-07
+58,Battlefield 1,7.1,7.1,2016-10-21
+59,Counter-Strike,9.2,9.2,2000-11-08
+60,DOOM 3,7.7,7.7,2004-08-03
+61,Battlefield: Bad Company 2,8.3,8.3,2010-03-02
+62,Steins;Gate,8.8,8.8,2014-03-31
+63,Half-Life 2: Episode One,8.6,8.6,2006-06-01
+64,Year Walk,7.0,7.0,2014-03-06
+65,Battlefield 3: Armored Kill,7.1,7.1,2012-09-11
+66,Borderlands 2: Tiny Tina's Assault on Dragon Keep,8.5,8.5,2013-06-25
+67,The Witness,6.9,6.9,2016-01-26
+68,Brothers in Arms: Road to Hill 30,7.3,7.3,2005-03-15
+69,Raw Data,6.6,6.6,2017-10-05
+70,Serious Sam: The First Encounter,8.4,8.4,2001-03-21
+71,Call of Duty: United Offensive,8.3,8.3,2004-09-14
+72,Gone Home,5.4,5.4,2013-08-15
+73,Fallout 2,9.1,9.1,1998-09-30
+74,Borderlands: The Secret Armory of General Knoxx,7.1,7.1,2010-02-25
+75,Call of Duty 2,8.5,8.5,2005-10-25
+76,Tribes: Ascend,7.8,7.8,2012-04-12
+77,Titanfall,6.3,6.3,2014-03-11
+78,Crysis 2,6.9,6.9,2011-03-22
+79,Call of Duty: Modern Warfare 2,4.4,4.4,2009-11-10
+80,Wolfenstein II: The New Colossus,6.8,6.8,2017-10-27
+81,Star Trek: Voyager Elite Force,7.8,7.8,2000-09-20
+82,Unreal Tournament 2003,7.9,7.9,2002-09-30
+83,PlayerUnknown's Battlegrounds,4.7,4.7,2017-12-20
+84,Titanfall 2,8.3,8.3,2016-10-28
+85,Battlefield 3: Back to Karkand,7.3,7.3,2011-12-13
+86,Battlefield: Bad Company 2 Vietnam,8.0,8.0,2010-12-18
+87,Call of Duty: Modern Warfare Remastered,6.4,6.4,2016-11-04
+88,The Elder Scrolls IV: Shivering Isles,8.3,8.3,2007-03-26
+89,The Talos Principle,8.5,8.5,2014-12-11
+90,Tom Clancy's Rainbow Six,8.1,8.1,1998-08-21
+91,Legend of Grimrock II,8.1,8.1,2014-10-15
+92,Tom Clancy's Rainbow Six: Vegas,7.7,7.7,2006-12-12
+93,Clive Barker's Undying,8.8,8.8,2001-02-21
+94,SWAT 4,8.6,8.6,2005-04-05
+95,Aliens Versus Predator 2,8.7,8.7,2001-10-31
+96,Wizardry 8,8.3,8.3,2001-11-14
+97,Operation Flashpoint: Cold War Crisis,8.7,8.7,2001-08-30
+98,Deep Rock Galactic,8.0,8.0,2020-05-13
+99,America's Army: Special Forces,8.4,8.4,2003-11-06
+100,Far Cry 2,5.9,5.9,2008-10-21
+101,Battlefield 3: Aftermath,7.7,7.7,2012-12-04
+102,The Elder Scrolls III: Bloodmoon,8.3,8.3,2003-06-03
+103,Serious Sam: The Second Encounter,8.6,8.6,2002-02-04
+104,DOOM,8.5,8.5,2016-05-13
+105,Fallout: New Vegas,8.7,8.7,2010-10-19
+106,PlanetSide 2,7.0,7.0,2012-11-20
+107,Destiny 2: Forsaken,6.0,6.0,2018-09-04
+108,Black Mesa,8.8,8.8,2012-09-14
+109,Metro Redux,7.7,7.7,2014-08-26
+110,Crysis Warhead,7.9,7.9,2008-09-16
+111,Tom Clancy's The Division 2,4.6,4.6,2019-03-15
+112,Tron 2.0,8.3,8.3,2003-08-26
+113,Brothers in Arms: Earned in Blood,7.3,7.3,2005-10-04
+114,Battlefield Vietnam,7.6,7.6,2004-03-14
+115,Enemy Territory: Quake Wars,8.3,8.3,2007-10-02
+116,Battlefield 1942: The Road to Rome,7.6,7.6,2003-02-02
+117,Borderlands: The Zombie Island of Dr. Ned,7.3,7.3,2009-12-08
+118,SUPERHOT VR,7.6,7.6,2016-12-05
+119,Halo: Combat Evolved,7.6,7.6,2003-09-30
+120,Call of Duty: Black Ops 4,3.1,3.1,2018-10-12
+121,Unreal Tournament III,8.0,8.0,2007-11-19
+122,Devil Daggers,7.2,7.2,2016-02-18
+123,Destiny 2,4.0,4.0,2017-10-24
+124,Tom Clancy's Rainbow Six 3: Raven Shield,8.7,8.7,2003-03-19
+125,DOOM II,8.9,8.9,1994-09-30
+126,The Elder Scrolls V: Skyrim - Dragonborn,8.0,8.0,2013-02-05
+127,Paladins,7.6,7.6,2018-05-08
+128,Quern - Undying Thoughts,8.5,8.5,2016-11-28
+129,Prey (2006),7.9,7.9,2006-07-11
+130,Call of Duty: World at War,7.6,7.6,2008-11-10
+131,Tribes: Vengeance,7.7,7.7,2004-10-12
+132,Myst III: Exile,7.7,7.7,2001-05-08
+133,Counter-Strike: Global Offensive,7.4,7.4,2012-08-21
+134,Gunheart,tbd,tbd,2018-06-04
+135,L.A. Noire: The VR Case Files,6.5,6.5,2017-12-15
+136,SUPERHOT,7.5,7.5,2016-02-25
+137,Tom Clancy's Ghost Recon: Desert Siege,6.7,6.7,2002-03-27
+138,Metro Exodus,7.0,7.0,2019-02-15
+139,The Talos Principle: Road To Gehenna,7.7,7.7,2015-07-23
+140,Tom Clancy's Ghost Recon: Island Thunder,6.7,6.7,2002-09-25
+141,S.T.A.L.K.E.R.: Shadow of Chernobyl,8.5,8.5,2007-03-20
+142,Bulletstorm,7.7,7.7,2011-02-21
+143,Borderlands 2: Mr. Torgue's Campaign of Carnage,7.2,7.2,2012-11-20
+144,Fallout: New Vegas - Old World Blues,7.7,7.7,2011-07-19
+145,ETHER One,6.8,6.8,2014-03-25
+146,Pistol Whip,6.9,6.9,2019-11-07
+147,The Vanishing of Ethan Carter,8.0,8.0,2014-09-25
+148,Blood,8.8,8.8,1997-05-31
+149,Warhammer: Vermintide 2,7.5,7.5,2018-03-08
+150,Joint Operations: Typhoon Rising,8.6,8.6,2004-06-15
+151,Prey,8.1,8.1,2017-05-05
+152,Metro: Last Light,8.5,8.5,2013-05-13
+153,Rising Storm,8.5,8.5,2013-05-30
+154,America's Army,5.8,5.8,2002-07-04
+155,Battlefield 1: In the Name of the Tsar,5.7,5.7,2017-09-05
+156,Quake 4,7.6,7.6,2005-10-11
+157,Battlefield 4,6.1,6.1,2013-10-29
+158,Painkiller,8.1,8.1,2004-04-12
+159,Nancy Drew: Danger on Deception Island,7.8,7.8,2003-10-01
+160,Wolfenstein: The New Order,8.2,8.2,2014-05-19
+161,Rising Storm 2: Vietnam,7.6,7.6,2017-05-30
+162,SWAT 3: Elite Edition,8.0,8.0,2000-10-06
+163,Arizona Sunshine,7.3,7.3,2016-12-05
+164,Metro 2033,8.0,8.0,2010-03-16
+165,Hunt: Showdown,7.3,7.3,2019-08-27
+166,Borderlands,7.6,7.6,2009-10-26
+167,Firewatch,7.0,7.0,2016-02-09
+168,Red Orchestra: Ostfront 41-45,8.6,8.6,2006-03-14
+169,The Elder Scrolls IV: Knights of the Nine,7.4,7.4,2006-11-21
+170,Fallout 3: Broken Steel,7.2,7.2,2009-05-05
+171,Borderlands 3,5.2,5.2,2019-09-13
+172,Far Cry 3: Blood Dragon,8.1,8.1,2013-05-01
+173,Halo: Reach Remastered,7.0,7.0,2019-12-03
+174,Call of Duty: Black Ops,5.5,5.5,2010-11-09
+175,Call of Duty: Modern Warfare,2.4,2.4,2019-10-25
+176,Slime Rancher,7.9,7.9,2017-08-01
+177,Nancy Drew: Curse of Blackmoor Manor,7.9,7.9,2004-10-05
+178,Mirror's Edge,8.0,8.0,2009-01-12
+179,Battlefield V,2.9,2.9,2018-11-15
+180,Star Wars Jedi Knight: Jedi Academy,8.6,8.6,2003-09-17
+181,Void Bastards,7.2,7.2,2019-05-28
+182,Tom Clancy's Ghost Recon,7.6,7.6,2001-11-13
+183,Medal of Honor: Pacific Assault,7.1,7.1,2004-11-04
+184,The Chronicles of Riddick: Assault on Dark Athena,7.8,7.8,2009-04-07
+185,The Elder Scrolls III: Tribunal,7.9,7.9,2002-11-06
+186,SWAT 4: The Stetchkov Syndicate,8.0,8.0,2006-02-28
+187,Natural Selection 2,8.4,8.4,2012-10-30
+188,Borderlands 2: Captain Scarlett and Her Pirate's Booty,7.3,7.3,2012-10-16
+189,BioShock: The Collection,7.3,7.3,2016-09-16
+190,Far Cry 4,6.8,6.8,2014-11-17
+191,Day of Defeat: Source,9.1,9.1,2005-09-26
+192,Battlefield 2142,6.8,6.8,2006-10-17
+193,World of Tanks,3.5,3.5,2011-04-12
+194,Tom Clancy's Ghost Recon Advanced Warfighter,7.7,7.7,2006-05-03
+195,Proteus,5.6,5.6,2013-01-30
+196,Soldier of Fortune II: Double Helix,7.2,7.2,2002-05-20
+197,BioShock Infinite: Burial at Sea - Episode Two,8.6,8.6,2014-03-25
+198,S.T.A.L.K.E.R.: Call of Pripyat,8.7,8.7,2010-02-02
+199,Nancy Drew: Secret of the Old Clock,7.3,7.3,2005-07-26
+200,Myst V: End of Ages,7.6,7.6,2005-09-19
+201,Call of Duty: Warzone,3.5,3.5,2020-03-10
+202,Fallout 3: Point Lookout,7.6,7.6,2009-06-23
+203,The Magic Circle,7.1,7.1,2015-07-09
+204,Brothers in Arms: Hell's Highway,7.6,7.6,2008-10-07
+205,Return to Mysterious Island,7.7,7.7,2004-11-02
+206,Warhammer: End Times - Vermintide,7.7,7.7,2015-10-23
+207,Weird Worlds: Return to Infinite Space,7.0,7.0,2005-11-04
+208,The Exorcist: Legion VR,tbd,tbd,2017-11-22
+209,Payday 2,3.7,3.7,2013-08-13
+210,Transpose,tbd,tbd,2018-11-06
+211,Call of Juarez: Gunslinger,8.2,8.2,2013-05-22
+212,Day of Defeat,9.1,9.1,2003-05-06
+213,Deadly Dozen: Pacific Theater,7.0,7.0,2002-10-31
+214,RAGE,5.3,5.3,2011-10-03
+215,Uru: Ages Beyond Myst,7.1,7.1,2003-11-11
+216,Battlefield 1942: Secret Weapons of WWII,7.8,7.8,2003-09-04
+217,Impulsion,tbd,tbd,2018-07-19
+218,F.E.A.R. 2: Project Origin,7.7,7.7,2009-02-10
+219,The Gallery - Episode 1: Call of the Starseed,7.6,7.6,2016-04-05
+220,Halo: Combat Evolved Anniversary,6.3,6.3,2020-03-03
+221,Tom Clancy's Rainbow Six Siege,7.1,7.1,2015-12-01
+222,High Hell,7.3,7.3,2017-10-23
+223,Global Operations,7.7,7.7,2002-03-25
+224,Shadow Warrior 2,8.0,8.0,2016-10-13
+225,Star Wars: Battlefront II,8.6,8.6,2005-10-31
+226,Star Trek: Elite Force II,7.5,7.5,2003-06-25
+227,DOOM 3: Resurrection of Evil,6.9,6.9,2005-04-04
+228,Left 4 Dead: Crash Course,6.8,6.8,2009-09-29
+229,DeadCore,6.6,6.6,2013-08-13
+230,Call of Duty: Advanced Warfare,4.6,4.6,2014-11-03
+231,Project Warlock,8.7,8.7,2018-10-18
+232,Observer,7.8,7.8,2017-08-15
+233,Tom Clancy's Rainbow Six: Vegas 2,7.4,7.4,2008-04-15
+234,The Room VR: A Dark Matter,7.6,7.6,2020-03-26
+235,Transference,5.9,5.9,2018-09-18
+236,Sniper Elite 4,7.0,7.0,2017-02-14
+237,Call of Duty: Modern Warfare 3,2.8,2.8,2011-11-08
+238,Star Wars: Republic Commando,8.6,8.6,2005-03-01
+239,Vader Immortal: Episode I,tbd,tbd,2019-05-21
+240,Call of Juarez: Bound in Blood,7.9,7.9,2009-06-30
+241,Joint Operations: Escalation,7.5,7.5,2004-11-19
+242,Myst Online: Uru Live,7.4,7.4,2007-01-15
+243,Medal of Honor: Airborne,7.3,7.3,2007-09-04
+244,Red Faction,8.1,8.1,2001-09-17
+245,The Sojourn,6.4,6.4,2019-09-20
+246,Nancy Drew: The Ransom of the Seven Ships,7.4,7.4,2009-07-14
+247,Fallout 3: The Pitt,6.9,6.9,2009-03-24
+248,Far Cry 5,6.1,6.1,2018-03-27
+249,Lovely Planet Arcade,tbd,tbd,2016-07-22
+250,Eastshade,8.0,8.0,2019-02-13
+251,Destiny 2: Shadowkeep,5.5,5.5,2019-10-01
+252,Battlefield 3: End Game,7.4,7.4,2013-03-26
+253,Nancy Drew: Last Train to Blue Moon Canyon,7.4,7.4,2005-09-16
+254,Arx Fatalis,8.3,8.3,2002-11-11
+255,Delta Force: Black Hawk Down,7.7,7.7,2003-03-23
+256,ArmA II,7.5,7.5,2009-06-29
+257,Operation Flashpoint: Resistance,8.7,8.7,2002-07-10
+258,Zeno Clash,7.8,7.8,2009-04-21
+259,I Expect You To Die,8.2,8.2,2016-11-30
+260,Green Hell,7.7,7.7,2019-09-05
+261,Herald: An Interactive Period Drama,tbd,tbd,2017-02-22
+262,Blood: Fresh Supply,8.4,8.4,2019-05-09
+263,Sanctum 2,7.6,7.6,2013-05-15
+264,Section 8: Prejudice,7.6,7.6,2011-05-04
+265,Evolve,4.3,4.3,2015-02-09
+266,Day of Infamy,8.3,8.3,2016-07-28
+267,The Darkness II,7.6,7.6,2012-02-06
+268,Battlefield 4: Second Assault,6.3,6.3,2013-12-03
+269,Law & Order: Justice Is Served,6.0,6.0,2004-10-05
+270,Vietcong: Purple Haze,7.6,7.6,2004-01-28
+271,Battlefield 2: Special Forces,7.7,7.7,2005-11-21
+272,Battlefield 2142: Northern Strike,8.4,8.4,2007-03-08
+273,Q.U.B.E. 2,7.5,7.5,2018-03-13
+274,LawBreakers,6.4,6.4,2017-08-04
+275,Singularity,7.8,7.8,2010-06-29
+276,Tom Clancy's Ghost Recon Advanced Warfighter 2,7.0,7.0,2007-07-17
+277,Star Wars: Battlefront (2004),8.4,8.4,2004-09-20
+278,Crysis 3,6.7,6.7,2013-02-19
+279,Wolfenstein: The Old Blood,7.7,7.7,2015-05-05
+280,Obduction,7.6,7.6,2016-08-24
+281,Operation Flashpoint: Dragon Rising,4.9,4.9,2009-10-06
+282,Miasmata,7.6,7.6,2012-11-28
+283,Battlefield 1: They Shall Not Pass,4.9,4.9,2017-03-14
+284,House of the Dying Sun,7.6,7.6,2016-11-01
+285,Project: Snowblind,6.5,6.5,2005-03-15
+286,The Ship,7.1,7.1,2006-07-11
+287,Budget Cuts,7.7,7.7,2018-06-14
+288,Pathologic Classic HD,8.5,8.5,2015-10-29
+289,Serious Sam HD: The Second Encounter,8.1,8.1,2010-04-28
+290,Tower of Guns,7.2,7.2,2014-03-04
+291,Metro: Last Light Redux,7.6,7.6,2014-08-25
+292,Bulletstorm: Full Clip Edition,7.2,7.2,2017-04-07
+293,Red Orchestra 2: Heroes of Stalingrad,7.3,7.3,2011-09-13
+294,Nancy Drew: Warnings at Waverly Academy,6.5,6.5,2009-10-13
+295,ShootMania Storm,7.3,7.3,2013-04-10
+296,Payday: The Heist,7.7,7.7,2011-10-20
+297,Everybody's Gone to the Rapture,5.3,5.3,2016-04-14
+298,Dear Esther,6.5,6.5,2012-02-14
+299,Borderlands 2: Sir Hammerlock's Big Game Hunt,5.9,5.9,2013-01-15
+300,Borderlands: The Pre-Sequel,6.2,6.2,2014-10-13
+301,Prey: Mooncrash,6.4,6.4,2018-06-10
+302,Command & Conquer: Renegade,7.7,7.7,2002-02-27
+303,Killing Floor 2,7.7,7.7,2016-11-18
+304,S.T.A.L.K.E.R.: Clear Sky,7.7,7.7,2008-09-15
+305,Ziggurat,7.8,7.8,2014-08-14
+306,Blacklight: Retribution,7.5,7.5,2012-04-03
+307,F.E.A.R. Extraction Point,7.5,7.5,2006-10-24
+308,Jazzpunk,7.7,7.7,2014-02-07
+309,MIND: Path to Thalamus,6.8,6.8,2014-08-05
+310,Left 4 Dead 2: The Passing,7.5,7.5,2010-04-22
+311,Unreal II: The Awakening,6.5,6.5,2003-02-03
+312,Savage: The Battle for Newerth,7.6,7.6,2003-09-09
+313,Anna: Extended Edition,5.9,5.9,2013-02-07
+314,Painkiller: Battle out of Hell,7.7,7.7,2004-12-01
+315,Savage 2: A Tortured Soul,8.8,8.8,2008-01-16
+316,SiN Episodes: Emergence,8.1,8.1,2006-05-09
+317,Bokida: Heartfelt Reunion,tbd,tbd,2017-05-17
+318,Get Even,7.6,7.6,2017-06-20
+319,Dark Fall 3: Lost Souls,7.0,7.0,2010-04-21
+320,Rhem 2,5.7,5.7,2005-11-02
+321,Hidden & Dangerous 2,8.7,8.7,2003-10-21
+322,Omensight,6.8,6.8,2018-05-15
+323,Borderlands 3: Moxxi's Heist of the Handsome Jackpot,5.3,5.3,2019-12-19
+324,Event[0],6.8,6.8,2016-09-14
+325,Serious Sam II,7.1,7.1,2005-10-19
+326,Leaving Lyndow,5.3,5.3,2017-02-08
+327,Overload,7.5,7.5,2018-05-31
+328,Vietcong (2003),8.5,8.5,2003-03-26
+329,Insurgency,8.5,8.5,2013-03-01
+330,Far Cry Primal,5.5,5.5,2016-02-29
+331,The Turing Test,6.8,6.8,2016-08-30
+332,Hidden & Dangerous,7.7,7.7,1999-07-29
+333,Lifestream,5.8,5.8,2004-09-27
+334,Torn,tbd,tbd,2018-08-28
+335,Call of Duty: Modern Warfare 2 Campaign Remastered,7.3,7.3,2020-04-30
+336,F.E.A.R. 3,5.8,5.8,2011-06-21
+337,Wolfenstein,7.3,7.3,2009-08-18
+338,ArmA: Combat Operations,7.6,7.6,2007-05-04
+339,Call of Duty: Black Ops II,4.5,4.5,2012-11-12
+340,Destination: Treasure Island,7.0,7.0,2007-08-21
+341,Battlefield 4: Naval Strike,5.4,5.4,2014-04-15
+342,Mirror's Edge Catalyst,5.2,5.2,2016-06-07
+343,Virginia,4.9,4.9,2016-09-22
+344,Law & Order II: Double or Nothing,6.0,6.0,2003-09-30
+345,Niko: Through The Dream,7.8,7.8,2015-07-17
+346,The Beast Inside,7.7,7.7,2019-10-17
+347,Medal of Honor: Allied Assault - Spearhead,7.5,7.5,2002-11-12
+348,Delta Force: Land Warrior,7.7,7.7,2000-11-07
+349,Mirage: Arcane Warfare,3.7,3.7,2017-05-23
+350,Shadow Warrior,8.0,8.0,2013-09-26
+351,Far Cry New Dawn,3.7,3.7,2019-02-15
+352,Superliminal,7.9,7.9,2019-11-12
+353,ArmA II: Operation Arrowhead,8.1,8.1,2010-06-29
+354,Lightmatter,7.8,7.8,2020-01-15
+355,Battleground Europe: World War II Online,7.8,7.8,2006-08-01
+356,East Side Story - A Carol Reed Mystery,tbd,tbd,2007-09-14
+357,Bloody Good Time,7.6,7.6,2010-10-29
+358,Hard Reset Redux,6.5,6.5,2016-06-03
+359,Battlefield 3: Close Quarters,6.9,6.9,2012-06-26
+360,Borderlands: The Pre-Sequel - Claptastic Voyage and Ultimate Vault Hunter Upgrade Pack 2,5.3,5.3,2015-03-24
+361,Call of Duty: Infinite Warfare,3.6,3.6,2016-11-03
+362,Strike Vector,7.7,7.7,2014-01-28
+363,Frontlines: Fuel of War,6.9,6.9,2008-02-25
+364,Hard Reset,7.3,7.3,2011-09-13
+365,Kona,7.4,7.4,2016-03-10
+366,RAGE 2,5.4,5.4,2019-05-13
+367,HAWKEN,7.7,7.7,2012-12-12
+368,Vietcong: Fist Alpha,7.5,7.5,2004-02-04
+369,Draugen,6.9,6.9,2019-05-29
+370,Call of Duty: WWII,3.6,3.6,2017-11-02
+371,Call of Duty: Black Ops III,3.1,3.1,2015-11-05
+372,Secret Ponchos: Most Wanted,7.7,7.7,2015-10-13
+373,Windlands 2,tbd,tbd,2018-09-12
+374,Medal of Honor: Allied Assault - Breakthrough,6.6,6.6,2003-09-22
+375,Layers of Fear,7.5,7.5,2016-02-16
+376,Serious Sam 3: BFE,8.1,8.1,2011-11-22
+377,Zombie Army 4: Dead War,5.3,5.3,2020-02-04
+378,Loadout,7.3,7.3,2013-05-15
+379,Block N Load,7.6,7.6,2015-04-30
+380,Tom Clancy's Rainbow Six 3: Athena Sword,7.1,7.1,2004-03-09
+381,Shattered Horizon,8.0,8.0,2009-11-04
+382,Star Wars Battlefront,3.5,3.5,2015-11-17
+383,Blood II: The Chosen,7.3,7.3,1998-10-31
+384,Wild Earth: Photo Safari,6.7,6.7,2006-05-02
+385,Call of Juarez,7.7,7.7,2007-06-12
+386,Medal of Honor,6.4,6.4,2010-10-12
+387,Section 8,6.9,6.9,2009-08-25
+388,Riddle of the Sphinx 2: The Omega Stone,6.9,6.9,2003-03-19
+389,Qbeh-1: The Atlas Cube,7.8,7.8,2014-05-15
+390,Duke Nukem 3D: 20th Anniversary World Tour,6.7,6.7,2016-10-11
+391,Dark Messiah of Might and Magic,8.7,8.7,2006-10-24
+392,Heavy Bullets,7.6,7.6,2014-05-15
+393,Borderlands 3: Guns Love and Tentacles,5.0,5.0,2020-03-26
+394,Homesick,7.1,7.1,2015-05-28
+395,Halo 2,5.8,5.8,2007-05-31
+396,The Sum of All Fears,7.2,7.2,2002-05-28
+397,The Station,6.6,6.6,2018-02-19
+398,XIII,7.7,7.7,2003-11-18
+399,Far Cry 5: Hours of Darkness,4.4,4.4,2018-06-05
+400,Halo 2: Anniversary,8.8,8.8,2020-05-12
+401,Uru: The Path of the Shell,7.0,7.0,2004-07-07
+402,Killing Floor,8.6,8.6,2009-05-14
+403,Screencheat,7.3,7.3,2014-10-21
+404,Conarium,6.4,6.4,2017-06-06
+405,Apsulov: End of Gods,7.1,7.1,2019-08-08
+406,Arktika.1,8.3,8.3,2017-10-10
+407,The Shattering,6.4,6.4,2020-04-21
+408,Gray Dawn,7.5,7.5,2018-06-07
+409,Battlefield 2: Euro Force,6.7,6.7,2006-03-15
+410,The Elder Scrolls Online,5.8,5.8,2014-04-04
+411,Battlefield Hardline,4.1,4.1,2015-03-17
+412,Keep Talking and Nobody Explodes,8.0,8.0,2015-10-08
+413,Aporia: Beyond The Valley,7.0,7.0,2017-07-19
+414,Sherlock Holmes: Nemesis,7.2,7.2,2008-04-14
+415,Nuclear Dawn,7.5,7.5,2011-09-22
+416,TimeShift,7.5,7.5,2007-10-30
+417,KISS: Psycho Circus - The Nightmare Child,7.3,7.3,2000-07-18
+418,Half-Life: Blue Shift,8.2,8.2,2001-06-11
+419,Voyage: Inspired by Jules Verne,6.6,6.6,2005-08-18
+420,Combat Arms,4.9,4.9,2008-07-10
+421,Groundhog Day: Like Father Like Son,tbd,tbd,2019-09-17
+422,Post Mortem,7.4,7.4,2003-02-27
+423,Sniper Ghost Warrior Contracts,6.7,6.7,2019-11-22
+424,Men of Valor,6.0,6.0,2004-10-29
+425,Hellgate: London,6.3,6.3,2007-10-31
+426,Nosferatu: The Wrath of Malachi,7.4,7.4,2003-10-19
+427,H1Z1,4.1,4.1,2018-02-28
+428,Sanctum (2011),6.7,6.7,2011-04-15
+429,007: Quantum of Solace,6.0,6.0,2008-11-04
+430,Indygo,tbd,tbd,2017-10-24
+431,Brink,6.0,6.0,2011-05-09
+432,World War Z,5.9,5.9,2019-04-16
+433,Fallout: New Vegas - Dead Money,6.3,6.3,2011-02-22
+434,America's Army 3,7.7,7.7,2009-06-17
+435,BioShock Infinite: Burial at Sea - Episode One,7.8,7.8,2013-11-12
+436,Verdun,7.8,7.8,2015-04-28
+437,Layers of Fear: Inheritance,6.9,6.9,2016-08-02
+438,Immortal Redneck,7.3,7.3,2017-04-25
+439,Law & Order: Dead on the Money,7.5,7.5,2002-09-24
+440,Project IGI: I'm Going In,7.7,7.7,2000-12-15
+441,Retrovirus,6.7,6.7,2013-01-31
+442,Homefront,5.5,5.5,2011-03-14
+443,Delta Force: Black Hawk Down - Team Sabre,7.3,7.3,2004-01-20
+444,The Fidelio Incident,6.3,6.3,2017-05-23
+445,Wolfenstein: Youngblood,2.2,2.2,2019-07-26
+446,Chrome,6.9,6.9,2003-10-28
+447,Rhem 3: The Secret Library,tbd,tbd,2008-02-28
+448,Battleborn,7.1,7.1,2016-05-03
+449,BioShock Infinite: Clash in the Clouds,6.5,6.5,2013-07-30
+450,We Were Here Too,6.1,6.1,2018-02-02
+451,DOOM VFR,8.1,8.1,2017-11-30
+452,Iron Storm,5.4,5.4,2002-10-25
+453,DESYNC,7.5,7.5,2017-02-28
+454,Cryostasis: The Sleep of Reason,7.7,7.7,2009-04-24
+455,The Signal From Tolva,5.7,5.7,2017-04-10
+456,Vader Immortal: Episode II,tbd,tbd,2019-09-25
+457,Tannenberg,7.3,7.3,2019-02-13
+458,Pariah,5.9,5.9,2005-05-03
+459,Quake III: Team Arena,7.6,7.6,2000-12-18
+460,Etherborn,7.6,7.6,2019-07-18
+461,Borderlands: Claptrap's New Robot Revolution,6.3,6.3,2010-09-28
+462,Lichdom: Battlemage,6.8,6.8,2014-03-19
+463,Syndicate (2012),5.9,5.9,2012-02-21
+464,Call of Duty: Ghosts,2.1,2.1,2013-11-04
+465,Hide and Shriek,6.0,6.0,2016-10-25
+466,Crimecraft: Bleedout,5.0,5.0,2010-12-04
+467,The Spectrum Retreat,4.8,4.8,2018-07-13
+468,Dracula: The Last Sanctuary,6.8,6.8,2001-02-11
+469,Nancy Drew: The Secret of Shadow Ranch,7.2,7.2,2004-07-20
+470,The Guest,7.0,7.0,2016-03-10
+471,The Precursors,6.6,6.6,2010-12-21
+472,Killing Floor: Incursion,4.2,4.2,2017-11-14
+473,Fallout 3: Mothership Zeta,5.7,5.7,2009-08-03
+474,Dark Fall: The Journal,6.8,6.8,2003-07-25
+475,Splitgate: Arena Warfare,6.1,6.1,2019-05-24
+476,Destiny 2: Warmind,2.8,2.8,2018-05-08
+477,Aliens vs. Predator,7.4,7.4,2010-02-16
+478,Starship Troopers: Terran Ascendancy,7.7,7.7,2000-11-07
+479,Line of Sight: Vietnam,7.2,7.2,2003-03-05
+480,The Occupation,3.9,3.9,2019-03-05
+481,MechWarrior Online,5.3,5.3,2013-09-17
+482,Lake Ridden,6.3,6.3,2018-05-10
+483,Serious Sam HD: The First Encounter,8.1,8.1,2009-11-24
+484,Agatha Christie: And Then There Were None,7.6,7.6,2005-10-30
+485,Battlefield: Play4Free,2.0,2.0,2011-03-10
+486,CSI: Crime Scene Investigation: 3 Dimensions of Murder,7.5,7.5,2006-03-14
+487,Incoming Forces,5.8,5.8,2002-09-25
+488,Rise of the Triad,6.6,6.6,2013-07-31
+489,Xotic,7.6,7.6,2011-09-16
+490,Area 51,6.0,6.0,2005-06-08
+491,Close Combat: First to Fight,4.9,4.9,2005-04-18
+492,Rhiannon: Curse of the Four Branches,6.2,6.2,2008-10-05
+493,Shadowrun,6.1,6.1,2007-05-29
+494,Turok Remastered,7.4,7.4,2015-12-17
+495,Tank Universal: Challenger Eight,6.7,6.7,2008-08-21
+496,Hidden & Dangerous 2: Sabre Squadron,6.7,6.7,2004-10-21
+497,Dracula: The Resurrection,6.5,6.5,2000-06-14
+498,Primal Carnage,7.5,7.5,2012-10-29
+499,Cleopatra: Riddle of the Tomb,tbd,tbd,2008-03-31
+500,Genesis Alpha One,4.7,4.7,2019-01-29
+501,Warhammer: Vermintide 2 - Winds of Magic,tbd,tbd,2019-08-13
+502,FATED: The Silent Oath,tbd,tbd,2016-04-28
+503,Tom Clancy's Rainbow Six Rogue Spear: Black Thorn,4.9,4.9,2001-10-31
+504,Small Radios Big Televisions,4.6,4.6,2016-11-08
+505,CALENDULA,7.4,7.4,2016-02-02
+506,ArmA: Queen's Gambit,6.5,6.5,2007-09-28
+507,Operation Flashpoint: Red River,4.9,4.9,2011-06-06
+508,Detached,tbd,tbd,2017-05-18
+509,Among the Sleep,7.4,7.4,2014-05-29
+510,Wrack,7.7,7.7,2012-09-12
+511,Sunset,2.8,2.8,2015-05-21
+512,The Bureau: XCOM Declassified,6.5,6.5,2013-08-19
+513,Dark Fall: Lights Out,6.4,6.4,2004-08-31
+514,The Elder Scrolls V: Skyrim - Dawnguard,7.0,7.0,2012-08-02
+515,Real Myst,7.8,7.8,2000-11-14
+516,Fallout: New Vegas - Honest Hearts,6.8,6.8,2011-05-17
+517,CONSORTIUM,7.3,7.3,2014-01-08
+518,Knee Deep Act 1: Wonderland,6.8,6.8,2015-07-06
+519,Lethal VR,tbd,tbd,2016-11-08
+520,Memento Mori,7.6,7.6,2009-07-29
+521,The Cameron Files: The Secret at Loch Ness,5.8,5.8,2002-01-24
+522,NaissanceE,7.1,7.1,2014-02-13
+523,Ghost Pirates of Vooju Island,5.8,5.8,2010-08-30
+524,RAGE 2: Rise of the Ghosts,3.9,3.9,2019-09-26
+525,Slender: The Arrival,6.1,6.1,2013-03-26
+526,Cradle,7.5,7.5,2015-07-24
+527,Close to the Sun,5.0,5.0,2020-05-05
+528,Battle Engine Aquila,6.2,6.2,2003-10-23
+529,CSI: Crime Scene Investigation: Dark Motives,8.5,8.5,2004-03-23
+530,Stairs,5.8,5.8,2015-09-28
+531,Zombi,4.9,4.9,2015-08-18
+532,Turok,6.1,6.1,2008-04-22
+533,Counter-Strike: Condition Zero,8.7,8.7,2004-01-03
+534,Gotham City Impostors,6.6,6.6,2012-02-07
+535,Rememoried,6.0,6.0,2015-08-31
+536,The Flower Collectors,tbd,tbd,2020-04-21
+537,Fallout 3 - Operation: Anchorage,5.5,5.5,2009-01-27
+538,Blacksad: Under the Skin,7.7,7.7,2019-11-05
+539,Downward Spiral: Horus Station,tbd,tbd,2018-05-31
+540,The Bradwell Conspiracy,6.9,6.9,2019-10-08
+541,Delta Force: Xtreme,5.6,5.6,2005-04-22
+542,Depth,7.7,7.7,2014-11-03
+543,Painkiller: Overdose,6.5,6.5,2007-10-26
+544,Dracula 3: The Path of the Dragon,7.0,7.0,2008-08-21
+545,Blacklight: Tango Down,5.2,5.2,2010-07-14
+546,Star Wars Battlefront II,1.4,1.4,2017-11-17
+547,Vader Immortal: Episode III,tbd,tbd,2019-11-21
+548,Ravaged,6.0,6.0,2012-10-17
+549,Californium,6.0,6.0,2016-02-17
+550,Painkiller: Hell & Damnation,6.6,6.6,2012-10-31
+551,Eidolon,6.4,6.4,2014-08-01
+552,P-O-L-L-E-N,4.3,4.3,2016-04-19
+553,Serious Sam: The Random Encounter,6.0,6.0,2011-10-24
+554,Red Faction II,5.8,5.8,2003-04-07
+555,Kholat,6.9,6.9,2015-06-09
+556,STRAFE,5.3,5.3,2017-05-09
+557,The Town of Light,6.9,6.9,2016-02-26
+558,Cold War,5.7,5.7,2005-09-27
+559,Necrovision,6.1,6.1,2009-05-18
+560,Dirty Bomb,7.7,7.7,2015-06-01
+561,Pneuma: Breath of Life,6.6,6.6,2015-02-27
+562,Will Rock,7.0,7.0,2003-06-09
+563,Obscuritas,4.0,4.0,2016-03-17
+564,Dead Man's Hand,6.1,6.1,2004-03-18
+565,Aura: Fate of the Ages,5.6,5.6,2004-06-29
+566,Journey For Elysium,tbd,tbd,2019-10-31
+567,PlanetSide: Core Combat,tbd,tbd,2003-10-27
+568,Sir You Are Being Hunted,6.4,6.4,2014-05-02
+569,The Suicide of Rachel Foster,7.5,7.5,2020-02-19
+570,HYPERGUN,tbd,tbd,2018-08-23
+571,Warface,4.2,4.2,2013-10-21
+572,Star Trek: Voyager Elite Force Expansion Pack,7.5,7.5,2001-05-09
+573,Devastation,5.7,5.7,2003-03-28
+574,Chrome SpecForce,6.4,6.4,2005-11-30
+575,UberSoldier II,6.6,6.6,2008-07-22
+576,Tom Clancy's Rainbow Six: Covert Ops Essentials,5.6,5.6,2000-09-28
+577,The Old City: Leviathan,5.6,5.6,2014-12-03
+578,Nitro Family,5.6,5.6,2004-05-01
+579,Commandos Strike Force,7.0,7.0,2006-04-04
+580,Euclidean,3.3,3.3,2015-09-25
+581,Rise of Insanity,6.5,6.5,2018-03-01
+582,Betrayer,7.2,7.2,2013-08-14
+583,Mysterious Journey II,4.8,4.8,2003-11-25
+584,F.E.A.R. Perseus Mandate,7.2,7.2,2007-11-06
+585,Breach (2011),5.6,5.6,2011-01-26
+586,Magnetic: Cage Closed,7.4,7.4,2015-05-26
+587,CSI: Crime Scene Investigation,6.8,6.8,2003-03-26
+588,Earthfall,4.7,4.7,2018-07-12
+589,Destiny 2: Curse of Osiris,1.7,1.7,2017-12-05
+590,Vietcong 2,6.2,6.2,2005-10-24
+591,Far Cry 5: Lost on Mars,4.4,4.4,2018-07-17
+592,Shadow Ops: Red Mercury,5.8,5.8,2004-09-21
+593,Boiling Point: Road to Hell,7.4,7.4,2005-06-06
+594,Dead Island: Riptide,6.1,6.1,2013-04-22
+595,Lovely Planet,7.3,7.3,2014-07-31
+596,Velvet Assassin,6.3,6.3,2009-04-30
+597,Zeno Clash II,7.4,7.4,2013-04-30
+598,Sherlock Holmes: The Mystery of the Mummy,5.6,5.6,2002-12-29
+599,Natural Selection 2: Combat,7.1,7.1,2014-10-31
+600,Metro: Last Light - Faction Pack,6.7,6.7,2013-07-16
+601,Twilight Path,tbd,tbd,2018-10-02
+602,BlackSite: Area 51,4.9,4.9,2007-11-12
+603,Carrier Command: Gaea Mission,5.6,5.6,2012-09-28
+604,Sylvio,6.1,6.1,2015-06-05
+605,Terminator: Resistance,8.0,8.0,2019-11-14
+606,Doctor Who: The Edge Of Time,tbd,tbd,2019-11-12
+607,Sniper: Ghost Warrior 3,6.1,6.1,2017-04-25
+608,Bionicle Heroes,8.0,8.0,2006-11-14
+609,007: NightFire,6.0,6.0,2002-11-28
+610,TARTARUS,7.0,7.0,2017-11-21
+611,Postal 2: Share the Pain,8.3,8.3,2003-12-17
+612,Iron Grip: Warlord,7.6,7.6,2008-11-05
+613,N.E.R.O.: Nothing Ever Remains Obscure,5.7,5.7,2016-04-29
+614,Tom Clancy's Rainbow Six: Lockdown,6.2,6.2,2006-02-16
+615,DOOM 3: BFG Edition,5.8,5.8,2012-10-15
+616,Alpha Prime,6.0,6.0,2007-05-01
+617,Empathy: Path of Whispers,6.0,6.0,2017-05-16
+618,Dead Effect,6.1,6.1,2014-04-15
+619,RICO,3.8,3.8,2019-03-14
+620,From Dusk Till Dawn,6.7,6.7,2001-10-11
+621,Enter the Matrix,6.7,6.7,2003-05-14
+622,Rhem,tbd,tbd,2003-06-28
+623,Borderlands: Mad Moxxi's Underdome Riot,3.9,3.9,2010-01-07
+624,Pineview Drive,5.7,5.7,2014-07-31
+625,Space Hulk: Deathwing,5.3,5.3,2016-12-14
+626,Conflict: Denied Ops,4.7,4.7,2008-02-08
+627,Gore: Ultimate Soldier,7.2,7.2,2002-06-05
+628,Time Machine VR,8.4,8.4,2016-05-19
+629,Jack the Ripper,6.4,6.4,2004-01-29
+630,Tactical Ops: Assault on Terror,7.2,7.2,2002-04-24
+631,FireStarter,5.2,5.2,2004-03-05
+632,World War II Online: Blitzkrieg,7.1,7.1,2001-06-04
+633,John Wick Chronicles,6.0,6.0,2017-02-09
+634,Fallout: New Vegas - Lonesome Road,7.0,7.0,2011-09-20
+635,Warpath,6.4,6.4,2006-07-18
+636,Mystery of the Nautilus,tbd,tbd,2002-04-29
+637,Soul Axiom,6.1,6.1,2016-02-29
+638,UberSoldier,6.3,6.3,2006-03-31
+639,Mortyr 2,5.2,5.2,2005-03-04
+640,Don't Knock Twice,6.0,6.0,2017-09-05
+641,Shattered Skies,5.2,5.2,2016-07-21
+642,The X-Files Game,7.6,7.6,1998-05-31
+643,Law & Order: Criminal Intent,5.5,5.5,2005-11-15
+644,Perception,6.5,6.5,2017-05-30
+645,Bet on Soldier: Blood Sport,5.4,5.4,2005-09-26
+646,Carnivores: Cityscape,5.2,5.2,2002-03-25
+647,Contract J.A.C.K.,6.1,6.1,2003-11-11
+648,Aliens Versus Predator 2: Primal Hunt Expansion Pack,7.5,7.5,2002-08-13
+649,Anna,4.9,4.9,2012-07-11
+650,Sniper: Ghost Warrior,5.4,5.4,2010-06-24
+651,Codename: Outbreak,7.1,7.1,2001-11-24
+652,Medal of Honor: Warfighter,5.4,5.4,2012-10-23
+653,Judge Dredd: Dredd VS Death,7.1,7.1,2005-03-03
+654,Homefront: The Revolution,3.9,3.9,2016-05-17
+655,CSI: Miami,6.9,6.9,2004-11-16
+656,Wolfenstein: Cyberpilot,1.3,1.3,2019-07-25
+657,Duke Nukem Forever,5.8,5.8,2011-06-13
+658,Die Hard: Nakatomi Plaza,5.4,5.4,2002-04-22
+659,Breached,7.0,7.0,2016-06-22
+660,E.T. Armies,7.0,7.0,2016-03-03
+661,Nexuiz,6.8,6.8,2012-05-10
+662,Christopher Brookmyre's Bedlam,6.6,6.6,2015-10-13
+663,Bullet Run,5.0,5.0,2012-07-31
+664,CSI: NY,2.1,2.1,2008-11-18
+665,Dino D-Day,6.3,6.3,2011-04-08
+666,War Rock,5.5,5.5,2007-02-07
+667,Purge,6.8,6.8,2003-04-15
+668,Dead Effect 2,6.1,6.1,2016-05-06
+669,Deadfall Adventures,6.9,6.9,2013-11-15
+670,Conspiracies,tbd,tbd,2003-11-10
+671,Space Trader - Merchant Marine,4.4,4.4,2008-10-23
+672,Waking the Glares: Chapters I and II,tbd,tbd,2017-03-16
+673,No70: Eye of Basir,5.2,5.2,2017-06-28
+674,Duke Nukem Forever: The Doctor Who Cloned Me,7.0,7.0,2011-12-13
+675,Marine Sharpshooter II: Jungle Warfare,3.9,3.9,2004-06-24
+676,Sniper: Ghost Warrior 2,5.9,5.9,2013-03-11
+677,Alien Rage,6.7,6.7,2013-09-24
+678,Enemy Front,5.7,5.7,2014-06-10
+679,OVERKILL's The Walking Dead,5.1,5.1,2018-11-06
+680,Breed,5.0,5.0,2004-04-02
+681,Delta Force: Task Force Dagger,7.7,7.7,2002-06-27
+682,Darkest of Days,6.0,6.0,2009-09-07
+683,Call of Juarez: The Cartel,3.4,3.4,2011-09-13
+684,YUMENIKKI -DREAM DIARY-,6.8,6.8,2018-02-23
+685,Postal 2,8.1,8.1,2003-04-14
+686,KumaWar,6.8,6.8,2004-07-16
+687,Lust for Darkness,5.3,5.3,2018-06-12
+688,CellFactor: Revolution,5.6,5.6,2007-05-08
+689,Legendary,6.4,6.4,2008-11-18
+690,Marine Heavy Gunner: Vietnam,tbd,tbd,2004-08-22
+691,Kreed,6.0,6.0,2004-07-01
+692,Eleusis,6.7,6.7,2013-10-16
+693,Corpse of Discovery,2.0,2.0,2015-08-25
+694,The Secrets of Atlantis,3.1,3.1,2007-05-29
+695,Unknown Fate,tbd,tbd,2018-09-06
+696,Defiance 2050,2.3,2.3,2018-07-10
+697,Dreamkiller,5.4,5.4,2009-10-12
+698,Warhammer 40000: Fire Warrior,6.9,6.9,2003-11-17
+699,Tactical Intervention,5.9,5.9,2013-03-28
+700,FPS Creator,6.1,6.1,2005-09-22
+701,Coast Guard,3.8,3.8,2015-10-21
+702,Starship Troopers,6.1,6.1,2005-11-15
+703,Elite Warriors: Vietnam,5.8,5.8,2005-03-25
+704,Gene Troopers,2.8,2.8,2006-12-25
+705,BeachHead 2000,6.8,6.8,2000-06-14
+706,WWII Tank Commander,4.5,4.5,2006-02-14
+707,Inmates,7.5,7.5,2017-10-05
+708,Deus Ex: The Fall,3.0,3.0,2014-03-17
+709,Soldier of Fortune: Payback,4.7,4.7,2007-11-14
+710,Secret Service: Security Breach,5.3,5.3,2003-10-28
+711,Aliens: Colonial Marines,3.5,3.5,2013-02-11
+712,Postal 2: Apocalypse Weekend,7.1,7.1,2005-05-31
+713,The Scourge Project: Episodes 1 and 2,4.4,4.4,2010-04-09
+714,US Special Forces: Team Factor,tbd,tbd,2002-09-23
+715,The Sacred Rings,tbd,tbd,2007-03-07
+716,Prospekt,4.7,4.7,2016-02-18
+717,Painkiller: Redemption,5.0,5.0,2011-02-25
+718,Enki,4.5,4.5,2015-07-31
+719,Jazz and Faust,tbd,tbd,2002-06-13
+720,The History Channel: Battle for the Pacific,2.4,2.4,2007-12-04
+721,Legacy: Dark Shadows,3.7,3.7,2004-11-19
+722,Monumental,tbd,tbd,2016-01-22
+723,Alien Blast: The Encounter,3.6,3.6,2004-02-09
+724,7554,4.8,4.8,2012-07-20
+725,4PM,4.2,4.2,2014-07-09
+726,Delta Force: Xtreme 2,4.9,4.9,2009-05-27
+727,Psychotoxic,4.5,4.5,2005-02-25
+728,ShellShock 2: Blood Trails,5.4,5.4,2009-02-13
+729,Doors,tbd,tbd,2016-02-12
+730,Inner Chains,4.9,4.9,2017-05-18
+731,Combat: Task Force 121,5.5,5.5,2005-03-24
+732,Air Raid: This Is Not a Drill!,6.6,6.6,2003-06-18
+733,Turning Point: Fall of Liberty,4.4,4.4,2008-02-26
+734,Terrorist Takedown,3.8,3.8,2004-11-11
+735,Only If,5.7,5.7,2014-07-25
+736,Raven Squad: Operation Hidden Dagger,3.1,3.1,2009-08-25
+737,Painkiller: Recurring Evil,3.7,3.7,2012-02-29
+738,Battle: Los Angeles,3.2,3.2,2011-03-11
+739,Painkiller: Resurrection,4.3,4.3,2009-10-27
+740,The Walking Dead: Survival Instinct,2.6,2.6,2013-03-19
+741,Hello Neighbor,4.5,4.5,2017-12-08
+742,Sniper: Art of Victory,3.3,3.3,2008-10-16
+743,Orion: Dino Horde,5.7,5.7,2012-05-04
+744,Torrente,3.8,3.8,2004-12-06
+745,Land of the Dead: Road to Fiddler's Green,6.6,6.6,2005-10-20
+746,Drug Wars (2009),4.5,4.5,2009-03-17
+747,Takedown: Red Sabre,2.9,2.9,2013-09-20
+748,You Are Empty,5.7,5.7,2007-06-01
+749,Code of Honor 2: Conspiracy Island,4.4,4.4,2008-07-29
+750,Rekoil,2.1,2.1,2014-01-28
+751,New World Order,3.0,3.0,2003-03-18
+752,Dracula 4: Shadow of the Dragon,3.5,3.5,2013-06-19
+753,Forever Worlds - Enter the Unknown,4.5,4.5,2004-04-05
+754,Ring II: Twilight of Gods,5.6,5.6,2003-09-16
+755,Tunnel Rats: 1968,3.5,3.5,2009-05-15
+756,Revolution,3.2,3.2,2002-10-11
+757,Rogue Warrior,3.4,3.4,2009-12-01
+758,The Mark,3.0,3.0,2007-02-26
+759,007 Legends,2.6,2.6,2012-11-01
+760,World War II Combat: Iwo Jima,2.9,2.9,2006-07-25
+761,Terminator 3: War of the Machines,5.6,5.6,2003-12-02
+762,Terrawars: New York Invasion,2.4,2.4,2006-07-06
+763,Postal III,2.9,2.9,2011-12-21
+764,Utopia City,4.0,4.0,2006-05-26
+765,Gods and Generals,6.6,6.6,2003-02-18
+766,Navy SEALs: Weapons of Mass Destruction,8.0,8.0,2003-07-18
+767,Realms of Arkania: Blade of Destiny Revised,3.0,3.0,2013-07-29
