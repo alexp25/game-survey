@@ -134,39 +134,31 @@ with open("config.json", "r") as f:
     config = json.loads(config)
 
 
-
 top_limit = None
-# top_limit = 500
+# top_limit = 100
 
-# class_data = load_class_data("./data/metacritic_rpg/class_data.csv")
-# class_data = load_class_data("./data/metacritic_fps/class_data.csv")
-# class_data = load_class_data("./data/metacritic_racing/class_data.csv")
-# class_data = load_class_data("./data/metacritic_rts/class_data.csv")
-class_data = load_class_data("./data/metacritic/class_data.csv")
+for k, thread in enumerate(config["threads"]):
+    print("thread: " + str(k) + "/" + str(len(config["threads"])))
 
-class_name = "all_user"
+    folder = thread["out_folder"]
 
-# user score!
-class_data["score"] = class_data["user_score"]
-filter = class_data["user_score"] != "tbd"
-class_data = class_data[filter]
+    class_data = load_class_data(folder + "/class_data.csv")
+    class_name = thread["name"]
 
-filter = class_data["release_date"].apply(
-        lambda e: int(e.split("-")[0])) != 2020
-    
-class_data = class_data[filter]
+    # user score!
+    class_data["score"] = class_data["user_score"]
+    filter = class_data["user_score"] != "tbd"
+    class_data = class_data[filter]
+    class_data = class_data.sort_values(by=['user_score'], ascending=False)
 
-class_data = class_data.sort_values(by=['score'], ascending=False)
+    if top_limit is not None:
+        class_data = class_data[:top_limit]
 
-if top_limit is not None:
-    class_data = class_data[:top_limit]
+    print(class_data)
 
-print(class_data)
+    title = "metacritic"
+    if top_limit is not None:
+        title += " top " + str(top_limit)
 
-title = "metacritic"
-if top_limit is not None:
-    title += " top " + str(top_limit)
-    class_name += "_top_" + str(top_limit)
-
-plot_score_per_year(class_data, title, class_name)
-plot_titles_per_year(class_data, title, class_name)
+    plot_score_per_year(class_data, title, class_name)
+    plot_titles_per_year(class_data, title, class_name)

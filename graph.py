@@ -32,7 +32,9 @@ def plot_barchart_multi_core(data, colors, labels, xlabel, ylabel, title, xlabel
             offset = bar_width / 2
         else:
             # offset = -bar_width / n_groups
-            offset = -1 / (n_groups / 2)
+            offset = -1 / ((n_groups + 1) / 2) -bar_width
+            # offset = 0
+            # pass
 
     opacity = OPACITY
 
