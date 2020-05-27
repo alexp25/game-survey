@@ -136,7 +136,7 @@ with open("config.json", "r") as f:
 
 
 top_limit = None
-# top_limit = 500
+# top_limit = 1000
 
 # class_data = load_class_data("./data/metacritic_rpg/class_data.csv")
 # class_data = load_class_data("./data/metacritic_fps/class_data.csv")

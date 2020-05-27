@@ -95,19 +95,27 @@ def load_score_per_year(df, source, label):
 # first file must be ALL
 
 
-files = ["./data/metacritic/class_data.csv", "./data/metacritic_action/class_data.csv", "./data/metacritic_adventure/class_data.csv", "./data/metacritic_rpg/class_data.csv",
+# files = ["./data/metacritic/class_data.csv", "./data/metacritic_action/class_data.csv", "./data/metacritic_adventure/class_data.csv", "./data/metacritic_rpg/class_data.csv",
+#          "./data/metacritic_fps/class_data.csv", "./data/metacritic_racing/class_data.csv", "./data/metacritic_rts/class_data.csv", "./data/metacritic_simulation/class_data.csv", "./data/metacritic_third_person/class_data.csv"]
+# names = ["All", "Action", "Adventure", "RPG",
+#          "FPS", "Racing", "RTS", "Simulation", "3PS"]
+
+
+files = ["./data/metacritic_action/class_data.csv", "./data/metacritic_adventure/class_data.csv", "./data/metacritic_rpg/class_data.csv",
          "./data/metacritic_fps/class_data.csv", "./data/metacritic_racing/class_data.csv", "./data/metacritic_rts/class_data.csv", "./data/metacritic_simulation/class_data.csv", "./data/metacritic_third_person/class_data.csv"]
-names = ["All", "Action", "Adventure", "RPG",
+names = ["Action", "Adventure", "RPG",
          "FPS", "Racing", "RTS", "Simulation", "3PS"]
 
 top_limit = None
 
 plot_scores = True
-# plot_scores = False
+plot_scores = False
 
 n_group = 5
 
-top_limit_group_vect = [None, 1, 2, 3, 5, 10, 100]
+# top_limit_group_vect = [None, 1, 2, 3, 5, 10, 100]
+
+top_limit_group_vect = [None]
 
 for top_limit_group in top_limit_group_vect:
     # top_limit_group = None
@@ -302,8 +310,12 @@ for top_limit_group in top_limit_group_vect:
 
         # [0,100]
     else:
+        # fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of titles",
+        #                                   "Number of titles by year (metacritic)", years_grouped, [avg_score_disp-stdev_score_disp, avg_score_disp+stdev_score_disp], True, None, 0, None)
+
         fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of titles",
-                                          "Number of titles by year (metacritic)", years_grouped, [avg_score_disp-stdev_score_disp, avg_score_disp+stdev_score_disp], True, None, 0, None)
+                                          "Number of titles by year (metacritic)", years_grouped, None, True, None, 0, None)
+
 
         fig.savefig(filename, dpi=300)
     # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",
