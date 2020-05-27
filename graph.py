@@ -1,13 +1,14 @@
 
 import matplotlib.pyplot as plt
 import csv
+import math
 import numpy as np
 import pandas as pd
 
 FSIZE_TITLE = 16
 FSIZE_LABEL = 14
 FSIZE_LABEL_S = 14
-FSIZE_LABEL_XS = 12
+FSIZE_LABEL_XS = 14
 OPACITY = 0.9
 
 
@@ -32,7 +33,7 @@ def plot_barchart_multi_core(data, colors, labels, xlabel, ylabel, title, xlabel
             offset = bar_width / 2
         else:
             # offset = -bar_width / n_groups
-            offset = -1 / ((n_groups + 1) / 2) -bar_width
+            offset = -1 / ((n_groups + 1) / 2) - bar_width
             # offset = 0
             # pass
 
@@ -93,12 +94,18 @@ def plot_barchart_multi_core(data, colors, labels, xlabel, ylabel, title, xlabel
     # kscale = 0.25
     kscale = 0.1
 
+   
+
     if limits is not None:
         low = limits[0]
         high = limits[1]
     else:
         high += kscale * high
         low -= kscale * low
+
+    from matplotlib.ticker import MaxNLocator
+
+    ax.yaxis.set_major_locator(MaxNLocator(integer=True))
 
     plt.ylim([low, high])
 

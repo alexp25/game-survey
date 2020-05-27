@@ -29,6 +29,15 @@ def load_titles_per_year(df, source, label):
     return [years, scores]
 
 
+def get_score(s):
+    sd = 0
+    try:
+        sd = int(float(s)*10)
+    except:
+        pass
+    return sd
+
+
 def load_score_per_year(df, source, label):
 
     df = pd.DataFrame(df, columns=['release_date', 'score'])
@@ -37,16 +46,6 @@ def load_score_per_year(df, source, label):
         lambda e: int(e.split("-")[0]))
 
     df = df.drop(columns=["release_date"])
-
-    def get_score(s):
-        sd = 0
-        try:
-            sd = int(float(s)*10)
-        except:
-            pass
-        return sd
-
-    df["score"] = df["score"].apply(lambda e: get_score(e))
 
     filter = df["score"] != 0
     df = df[filter]
@@ -92,6 +91,10 @@ def load_score_per_year(df, source, label):
 
     return [years, scores]
 
+
+def save_csv(data):
+    pass
+
 # first file must be ALL
 
 
@@ -108,8 +111,16 @@ names = ["Action", "Adventure", "RPG",
 
 top_limit = None
 
+# top_limit = 1000
+# top_limit = 100
+
 plot_scores = True
 plot_scores = False
+
+min_score = None
+# min_score = 80
+# min_score = 70
+# min_score = 65
 
 n_group = 5
 
@@ -130,6 +141,12 @@ for top_limit_group in top_limit_group_vect:
 
     if top_limit_group is not None:
         filename += "_top_" + str(top_limit_group) + "_group"
+
+    if top_limit is not None:
+        filename += "_of_" + str(top_limit)
+
+    if min_score is not None:
+        filename += "_over_" + str(min_score)
 
     filename += ".png"
 
@@ -153,46 +170,49 @@ for top_limit_group in top_limit_group_vect:
 
     for i in range(len(files)):
         d = load_class_data(files[i])
-        d["score"] = d["user_score"]
 
         # user score!
         d["score"] = d["user_score"]
-        filter = d["user_score"] != "tbd"
+
+        d["score"] = d["score"].apply(lambda e: get_score(e))
+
+        filter = d["score"] != "tbd"
         d = d[filter]
+
+        if min_score is not None:
+            filter = d["score"].apply(
+                lambda e: e >= min_score)
+            d = d[filter]
 
         filter = d["release_date"].apply(
             lambda e: int(e.split("-")[0])) != 2020
 
         d = d[filter]
 
-        d = d.sort_values(by=['user_score'], ascending=False)
-
-        def get_score(s):
-            sd = 0
-            try:
-                sd = int(float(s)*10)
-            except:
-                print("exception")
-                pass
-            return sd
-
-        d["user_score"] = d["user_score"].apply(lambda e: get_score(e))
+        d = d.sort_values(by=['score'], ascending=False)
 
         if top_limit is not None:
             d = d[:top_limit]
+
+        print(len(d))
+
+        # quit()
 
         if plot_scores:
             years, scores = load_score_per_year(d, "metacritic", names[i])
         else:
             years, scores = load_titles_per_year(d, "metacritic", names[i])
 
+        # print("scores: ", scores)
+
         if not got_years:
             got_years = True
             years_all = years
+
         data.append(d)
         scores_vect.append(scores)
         years_vect.append(years)
-
+  
     # assign all to correct years index
     # some years might be missing from some datasets (interpolate required)
     scores_vect_processed = []
@@ -217,6 +237,9 @@ for top_limit_group in top_limit_group_vect:
         scores_vect_processed.append(scores_processed)
 
     # group by 5
+    # print(scores_processed)
+
+    # quit()
 
     scores_vect_processed_grouped = []
     years_grouped = []
@@ -243,6 +266,7 @@ for top_limit_group in top_limit_group_vect:
     for i in range(len(files)):
         print(files[i])
         i_group = 0
+        i_group_avg = 0
         group_count = 0
         avg_score = 0
         scores_processed_grouped = []
@@ -250,11 +274,14 @@ for top_limit_group in top_limit_group_vect:
         for j, y in enumerate(years_all):
             # print(y)
             crt_score = scores_vect_processed[i][j]
+            # print(crt_score >= min_score)
             group_scores.append(crt_score)
             avg_score += crt_score
             i_group += 1
+            if crt_score > 0:
+                i_group_avg += 1
 
-            if i_group >= n_group or j == len(years_all):
+            if (i_group >= n_group) or (j == len(years_all)):
                 group_count += 1
 
                 group_scores = sorted(group_scores, reverse=True)
@@ -262,14 +289,18 @@ for top_limit_group in top_limit_group_vect:
                 if top_limit_group is not None:
                     group_scores = group_scores[:top_limit_group]
                     # print(len(group_scores))
-                    avg_score = sum(group_scores)/len(group_scores)
+                    avg_score = sum(group_scores) / len(group_scores)
                 else:
-                    avg_score /= i_group
+                    if i_group_avg > 0:
+                        avg_score /= i_group_avg
+                    else:
+                        avg_score = 0
 
                 scores_processed_grouped.append(avg_score)
-                print(group_count, i_group, avg_score)
+                print(group_count, i_group_avg, avg_score)
                 avg_score = 0
                 i_group = 0
+                i_group_avg = 0
                 group_scores = []
 
         scores_vect_processed_grouped.append(scores_processed_grouped)
@@ -289,6 +320,8 @@ for top_limit_group in top_limit_group_vect:
 
     print(avg_score_disp)
     print(stdev_score_disp)
+
+    print(scores_vect_processed_grouped)
 
     # quit()
     # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",
@@ -315,7 +348,6 @@ for top_limit_group in top_limit_group_vect:
 
         fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of titles",
                                           "Number of titles by year (metacritic)", years_grouped, None, True, None, 0, None)
-
 
         fig.savefig(filename, dpi=300)
     # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",

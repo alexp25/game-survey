@@ -42,6 +42,13 @@ def plot_titles_per_year(df, source, label):
 
     plt.show()
 
+def get_score(s):
+    sd = 0
+    try:
+        sd = int(float(s)*10)
+    except:
+        pass
+    return sd
 
 def plot_score_per_year(df, source, label):
 
@@ -51,16 +58,6 @@ def plot_score_per_year(df, source, label):
         lambda e: int(e.split("-")[0]))
 
     df = df.drop(columns=["release_date"])
-
-    def get_score(s):
-        sd = 0
-        try:
-            sd = int(float(s)*10)
-        except:
-            pass
-        return sd
-
-    df["score"] = df["score"].apply(lambda e: get_score(e))
 
     filter = df["score"] != 0
     df = df[filter]
@@ -138,35 +135,52 @@ with open("config.json", "r") as f:
 top_limit = None
 # top_limit = 1000
 
-# class_data = load_class_data("./data/metacritic_rpg/class_data.csv")
-# class_data = load_class_data("./data/metacritic_fps/class_data.csv")
-# class_data = load_class_data("./data/metacritic_racing/class_data.csv")
-# class_data = load_class_data("./data/metacritic_rts/class_data.csv")
-class_data = load_class_data("./data/metacritic/class_data.csv")
+min_score = None
+min_score = 80
+# min_score = 70
+# min_score = 65
+
+# d = load_class_data("./data/metacritic_rpg/class_data.csv")
+# d = load_class_data("./data/metacritic_fps/class_data.csv")
+# d = load_class_data("./data/metacritic_racing/class_data.csv")
+# d = load_class_data("./data/metacritic_rts/class_data.csv")
+d = load_class_data("./data/metacritic/class_data.csv")
 
 class_name = "all_user"
 
 # user score!
-class_data["score"] = class_data["user_score"]
-filter = class_data["user_score"] != "tbd"
-class_data = class_data[filter]
+d["score"] = d["user_score"]
 
-filter = class_data["release_date"].apply(
+filter = d["score"] != "tbd"
+d = d[filter]
+
+d["score"] = d["score"].apply(lambda e: get_score(e))
+
+filter = d["release_date"].apply(
         lambda e: int(e.split("-")[0])) != 2020
     
-class_data = class_data[filter]
+d = d[filter]
 
-class_data = class_data.sort_values(by=['score'], ascending=False)
+d = d.sort_values(by=['score'], ascending=False)
 
 if top_limit is not None:
-    class_data = class_data[:top_limit]
+    d = d[:top_limit]
 
-print(class_data)
+
+if min_score is not None:
+    filter = d["score"].apply(
+        lambda e: e >= min_score)
+    d = d[filter]
+
+print(d)
 
 title = "metacritic"
 if top_limit is not None:
     title += " top " + str(top_limit)
     class_name += "_top_" + str(top_limit)
 
-plot_score_per_year(class_data, title, class_name)
-plot_titles_per_year(class_data, title, class_name)
+if min_score is not None:
+    class_name += "_" + str(min_score)
+
+plot_score_per_year(d, title, class_name)
+plot_titles_per_year(d, title, class_name)
