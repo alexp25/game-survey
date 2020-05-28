@@ -38,7 +38,7 @@ def get_score(s):
     return sd
 
 
-def load_score_per_year(df, source, label):
+def load_score_per_year(df, source, label, top_limit_group):
 
     df = pd.DataFrame(df, columns=['release_date', 'score'])
 
@@ -70,12 +70,17 @@ def load_score_per_year(df, source, label):
 
     # quit()
 
-    score_per_year = groups.mean()
+    if top_limit_group is None:
+        score_per_year = groups.mean()
+    else:
+        score_per_year = groups["score"].nlargest(top_limit_group).groupby(['release_year']).mean()
+
 
     print("groups: ")
     print(groups)
 
-    print(groups.groups.keys(), score_per_year.values)
+    print(groups.groups.keys())
+    print(score_per_year.values)
 
     print("mean: ")
     print(score_per_year)
@@ -83,7 +88,10 @@ def load_score_per_year(df, source, label):
     # score_per_year = score_per_year.drop(columns=["rank"])
 
     years = groups.groups.keys()
-    scores = [e[0] for e in score_per_year.values]
+    if top_limit_group is None:
+        scores = [e[0] for e in score_per_year.values]
+    else:
+        scores = [e for e in score_per_year.values]
 
     scaled_scores = []
     for i, _ in enumerate(scores):
@@ -92,8 +100,18 @@ def load_score_per_year(df, source, label):
     return [years, scores]
 
 
-def save_csv(data):
-    pass
+def save_csv(data, filename):
+    stringdata = ""
+
+    for row in data:
+        for c, col in enumerate(row):
+            stringdata += str(col)
+            if c < len(row)-1:
+                stringdata += ","
+        stringdata += "\n"
+
+    with open(filename, "w") as f:
+        f.write(stringdata)
 
 # first file must be ALL
 
@@ -107,7 +125,7 @@ def save_csv(data):
 files = ["./data/metacritic_action/class_data.csv", "./data/metacritic_adventure/class_data.csv", "./data/metacritic_rpg/class_data.csv",
          "./data/metacritic_fps/class_data.csv", "./data/metacritic_racing/class_data.csv", "./data/metacritic_rts/class_data.csv", "./data/metacritic_simulation/class_data.csv", "./data/metacritic_third_person/class_data.csv"]
 names = ["Action", "Adventure", "RPG",
-         "FPS", "Racing", "RTS", "Simulation", "3PS"]
+         "FPS", "Racing", "RTS", "Simulation", "Third Person"]
 
 top_limit = None
 
@@ -127,6 +145,7 @@ n_group = 5
 # top_limit_group_vect = [None, 1, 2, 3, 5, 10, 100]
 
 top_limit_group_vect = [None]
+# top_limit_group_vect = [1]
 
 for top_limit_group in top_limit_group_vect:
     # top_limit_group = None
@@ -199,7 +218,7 @@ for top_limit_group in top_limit_group_vect:
         # quit()
 
         if plot_scores:
-            years, scores = load_score_per_year(d, "metacritic", names[i])
+            years, scores = load_score_per_year(d, "metacritic", names[i], top_limit_group)
         else:
             years, scores = load_titles_per_year(d, "metacritic", names[i])
 
@@ -237,8 +256,9 @@ for top_limit_group in top_limit_group_vect:
         scores_vect_processed.append(scores_processed)
 
     # group by 5
-    # print(scores_processed)
-
+    print(scores_vect_processed)
+    print(len(scores_vect_processed))
+    print(len(scores_vect_processed[0]))
     # quit()
 
     scores_vect_processed_grouped = []
@@ -285,6 +305,8 @@ for top_limit_group in top_limit_group_vect:
                 group_count += 1
 
                 group_scores = sorted(group_scores, reverse=True)
+                print(group_scores)
+              
 
                 if top_limit_group is not None:
                     group_scores = group_scores[:top_limit_group]
@@ -298,6 +320,8 @@ for top_limit_group in top_limit_group_vect:
 
                 scores_processed_grouped.append(avg_score)
                 print(group_count, i_group_avg, avg_score)
+
+                # quit()
                 avg_score = 0
                 i_group = 0
                 i_group_avg = 0
@@ -322,8 +346,9 @@ for top_limit_group in top_limit_group_vect:
     print(stdev_score_disp)
 
     print(scores_vect_processed_grouped)
-
-    # quit()
+    save_csv(scores_vect_processed_grouped, filename + ".csv")
+    save_csv([years_grouped], filename + ".years.csv")
+    quit()
     # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",
     #                          "", years_grouped, [50,90], True, None, 0, None)
 
