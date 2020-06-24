@@ -11,6 +11,20 @@ def load_class_data(filename):
     return data
 
 
+def save_csv(data, filename):
+    stringdata = ""
+
+    for row in data:
+        for c, col in enumerate(row):
+            stringdata += str(col)
+            if c < len(row)-1:
+                stringdata += ","
+        stringdata += "\n"
+
+    with open(filename, "w") as f:
+        f.write(stringdata)
+
+
 def plot_titles_per_year(df, source, label):
     df["release_year"] = df["release_date"].apply(
         lambda e: int(e.split("-")[0]))
@@ -42,6 +56,9 @@ def plot_titles_per_year(df, source, label):
 
     plt.show()
 
+    return scores, years
+
+
 def get_score(s):
     sd = 0
     try:
@@ -49,6 +66,7 @@ def get_score(s):
     except:
         pass
     return sd
+
 
 def plot_score_per_year(df, source, label):
 
@@ -103,6 +121,8 @@ def plot_score_per_year(df, source, label):
 
     print(scaled_scores)
 
+    print(years)
+
     # scores = scaled_scores
 
     # plt.bar(score_per_year)
@@ -125,18 +145,19 @@ def plot_score_per_year(df, source, label):
 
     plt.show()
 
+    return scores, years
+
 
 with open("config.json", "r") as f:
     config = f.read()
     config = json.loads(config)
 
 
-
 top_limit = None
 # top_limit = 1000
 
 min_score = None
-min_score = 80
+# min_score = 80
 # min_score = 70
 # min_score = 65
 
@@ -157,8 +178,8 @@ d = d[filter]
 d["score"] = d["score"].apply(lambda e: get_score(e))
 
 filter = d["release_date"].apply(
-        lambda e: int(e.split("-")[0])) != 2020
-    
+    lambda e: int(e.split("-")[0])) != 2020
+
 d = d[filter]
 
 d = d.sort_values(by=['score'], ascending=False)
@@ -182,5 +203,9 @@ if top_limit is not None:
 if min_score is not None:
     class_name += "_" + str(min_score)
 
-plot_score_per_year(d, title, class_name)
-plot_titles_per_year(d, title, class_name)
+scores, years = plot_score_per_year(d, title, class_name)
+titles, years = plot_titles_per_year(d, title, class_name)
+
+save_csv([scores], "./figs/score_per_year_"+class_name+".png.1.csv")
+save_csv([titles], "./figs/titles_per_year_"+class_name+".png.1.csv")
+save_csv([years], "./figs/years_"+class_name+".png.1.csv")
