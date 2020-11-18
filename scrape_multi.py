@@ -6,7 +6,9 @@ import json
 
 user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
 
-with open("config.json", "r") as f:
+config_file = "config.json"
+
+with open(config_file, "r") as f:
     config = f.read()
     config = json.loads(config)
 

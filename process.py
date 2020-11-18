@@ -136,7 +136,7 @@ top_limit = None
 # top_limit = 1000
 
 min_score = None
-min_score = 80
+# min_score = 80
 # min_score = 70
 # min_score = 65
 
@@ -147,6 +147,8 @@ min_score = 80
 d = load_class_data("./data/metacritic/class_data.csv")
 
 class_name = "all_user"
+
+# class_name = "PC"
 
 # user score!
 d["score"] = d["user_score"]
