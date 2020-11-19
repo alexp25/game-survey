@@ -5,49 +5,74 @@ const writer = require('./writer');
 
 var self = module.exports = {
     test: () => {
-        const $ = cheerio.load('<h2 class="title">Hello world</h2>')
 
-        $('h2.title').text('Hello there!')
-        $('h2').addClass('welcome')
+        
+        // const $ = cheerio.load('<h2 class="title">Hello world</h2>');
 
-        $.html()
+        const $ = cheerio.load('<div id="title">Hello world</div>');
+
+        // $('h2.title').text('Hello there!');
+        // $('h2').addClass('welcome');
+
+        // $.html();
+
+        var text = $('div[id=title]').text();
+        console.log(text);
     },
-    getPostTitles: async (url, tags) => {
+    getPostElements: async (url, tags) => {
         try {
             const { data } = await axios.get(
                 url
             );
-            // await writer.writeFile(data, "index.html");
+            // await writer.writeFile(data, "index.2.html");
             const $ = cheerio.load(data);
-            const postTitles = [];
+            const postElements = [];
 
             // 'div > p.title > a'
             $(tags).each((_idx, el) => {
-                const postTitle = $(el).text();
-                postTitles.push(postTitle);
+                const post = $(el);
+                postElements.push(post);
             });
-            return postTitles;
+            return [$, postElements];
         } catch (error) {
             throw error;
         }
     },
-    getPostHref: async (url, tags) => {
+    getPostTitles: ($, posts) => {
         try {
-            const { data } = await axios.get(
-                url
-            );
-            // await writer.writeFile(data, "index.html");
-            const $ = cheerio.load(data);
-            const postTitles = [];
-
-            // 'div > p.title > a'
-            $(tags).each((_idx, el) => {
-                const postTitle = $(el).attr('href');
-                postTitles.push(postTitle);
+            // console.log(posts.length);
+            let postTitles = posts.map(post => post.text());
+            return postTitles;
+        } catch (error) {
+            console.error(error);
+            return [];
+        }
+    },
+    getPostHref: ($, posts) => {
+        try {
+            let postTitles = posts.map(post => post.attr("href"));
+            return postTitles;
+        } catch (error) {
+            console.error(error);
+            return [];
+        }
+    },
+    getPostHrefAnchor: ($, posts) => {
+        try {
+            let postTitles = posts.map(post => {
+                let href;
+                post.find('a').each((_idx, el) => {
+                    // console.log(el);
+                    if (_idx == 0) {
+                        href = $(el).attr("href");
+                    }
+                });
+                return href;
             });
             return postTitles;
         } catch (error) {
-            throw error;
+            console.error(error);
+            return [];
         }
     }
 }
