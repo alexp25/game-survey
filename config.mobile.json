@@ -1,0 +1,16 @@
+{
+    "note": "pages + 1",
+    "threads": [
+        {
+            "url1": "https://www.metacritic.com/browse/games/release-date/available/ios/metascore?view=condensed&page=",
+            "url2": "https://www.metacritic.com/browse/games/release-date/available/ios/metascore?view=detailed&page=",
+            "out_folder": "./data/metacritic_mobile_ios",
+            "name": "iOS",
+            "pages": [
+                0,
+                34
+            ]
+        }
+    ],
+    "archive": []
+}
