@@ -126,16 +126,16 @@ def save_csv(data, filename):
 # first file must be ALL
 
 
-# files = ["./data/metacritic/class_data.csv", "./data/metacritic_action/class_data.csv", "./data/metacritic_adventure/class_data.csv", "./data/metacritic_rpg/class_data.csv",
-#          "./data/metacritic_fps/class_data.csv", "./data/metacritic_racing/class_data.csv", "./data/metacritic_rts/class_data.csv", "./data/metacritic_simulation/class_data.csv", "./data/metacritic_third_person/class_data.csv"]
-# names = ["All", "Action", "Adventure", "RPG",
-#          "FPS", "Racing", "RTS", "Simulation", "3PS"]
+files = ["./data/metacritic/class_data.csv", "./data/metacritic_action/class_data.csv", "./data/metacritic_adventure/class_data.csv", "./data/metacritic_rpg/class_data.csv",
+         "./data/metacritic_fps/class_data.csv", "./data/metacritic_racing/class_data.csv", "./data/metacritic_rts/class_data.csv", "./data/metacritic_simulation/class_data.csv", "./data/metacritic_third_person/class_data.csv"]
+names = ["All", "Action", "Adventure", "RPG",
+         "FPS", "Racing", "RTS", "Simulation", "3PS"]
 
-# platform = "pc"
-# title = "metacritic"
-# n_group = 5
-# x10 = True
-# stdev_factor = 1
+platform = "pc"
+title = "metacritic"
+n_group = 5
+x10 = True
+stdev_factor = 1
 
 
 # folder = "./data/metacritic_v2/"
@@ -169,38 +169,38 @@ def save_csv(data, filename):
 # stdev_factor = 1
 
 
-folder = "./data/playstore/archive_combined/"
+# folder = "./data/playstore/archive_combined/"
 
-files = [
-    folder + "result_database.android.3.playstore.json.action.csv",
-    folder + "result_database.android.3.playstore.json.adventure.csv",
-    folder + "result_database.android.3.playstore.json.roleplaying.csv",
-    folder + "result_database.android.3.playstore.json.racing.csv",
-    folder + "result_database.android.3.playstore.json.strategy.csv",
-    folder + "result_database.android.3.playstore.json.simulation.csv",
+# files = [
+#     folder + "result_database.android.3.playstore.json.action.csv",
+#     folder + "result_database.android.3.playstore.json.adventure.csv",
+#     folder + "result_database.android.3.playstore.json.roleplaying.csv",
+#     folder + "result_database.android.3.playstore.json.racing.csv",
+#     folder + "result_database.android.3.playstore.json.strategy.csv",
+#     folder + "result_database.android.3.playstore.json.simulation.csv",
 
-    folder + "result_database.android.3.playstore.json.sports.csv",
-    folder + "result_database.android.3.playstore.json.educational.csv",
-    folder + "result_database.android.3.playstore.json.puzzle.csv"
-]
+#     folder + "result_database.android.3.playstore.json.sports.csv",
+#     folder + "result_database.android.3.playstore.json.educational.csv",
+#     folder + "result_database.android.3.playstore.json.puzzle.csv"
+# ]
 
-names = [
-    "Action",
-    "Adventure",
-    "RPG",
-    "Racing",
-    "Strategy",
-    "Simulation",
-    "Sports",
-    "Educational",
-    "Puzzle"
-]
+# names = [
+#     "Action",
+#     "Adventure",
+#     "RPG",
+#     "Racing",
+#     "Strategy",
+#     "Simulation",
+#     "Sports",
+#     "Educational",
+#     "Puzzle"
+# ]
 
-platform = "android"
-title = "Play Store"
-n_group = 2
-x10 = False
-stdev_factor = 3
+# platform = "android"
+# title = "Play Store"
+# n_group = 2
+# x10 = False
+# stdev_factor = 3
 
 top_limit = None
 
@@ -208,14 +208,14 @@ top_limit = None
 # top_limit = 100
 
 plot_scores = True
-# plot_scores = False
+plot_scores = False
 
 min_score = None
-# min_score = 80
+min_score = 80
 # min_score = 70
 # min_score = 65
 
-min_score = 4
+# min_score = 4
 
 use_limits = False
 use_limits = True
@@ -224,6 +224,9 @@ use_limits = True
 
 top_limit_group_vect = [None]
 # top_limit_group_vect = [1]
+
+if min_score is not None:
+    title += " / score " + str(min_score) + "+"
 
 
 for top_limit_group in top_limit_group_vect:
