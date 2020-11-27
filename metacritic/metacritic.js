@@ -13,7 +13,7 @@ var self = module.exports = {
      */
     listGames: async (url) => {
 
-        console.log("list papers from: " + url);
+        console.log("list games from: " + url);
         let response = await crawler.getPageHTML(url);
 
         let elements = crawler.getPostElementsCore(response, 'table.clamp-list > tbody > tr > td.score > a.metascore_anchor > div');
@@ -32,6 +32,7 @@ var self = module.exports = {
         let next = crawler.getPostHref(elements[0], elements[1]);
 
         // console.log(titles);
+        console.log(next);
 
         let list = [];
         for (let i = 0; i < titles.length; i++) {
@@ -58,19 +59,25 @@ var self = module.exports = {
     /**
      * list games from all pages by year 
      */
-    listGamesRecursive: async (platform, limitRecursive, useLegacy) => {
+    listGamesRecursive: async (platform, limitRecursive, useLegacy, genre) => {
         try {
             let list = [];
 
             let url = 'https://www.metacritic.com/browse/games/release-date/available/' + platform + '/metascore?view=condensed';
             if (useLegacy) {
-                url = 'https://www.metacritic.com/browse/games/score/metascore/all/' + platform + '/filtered?view=condensed';
+                let category = "all";
+                if (genre) {
+                    category = genre;
+                }
+                url = 'https://www.metacritic.com/browse/games/' + (genre ? 'genre' : 'score') + '/metascore/' + category + '/' + platform + '/filtered?view=condensed';
             }
+
+            // https://www.metacritic.com/browse/games/genre/metascore/action/pc?view=condensed
 
             let plist = useLegacy ? await self.listGamesLegacy(url) : await self.listGames(url);
             list = list.concat(plist);
 
-            console.log(list);
+            console.log(list[0]);
             console.log(list.length);
             console.log("next: ", plist[0].next);
 
@@ -84,7 +91,7 @@ var self = module.exports = {
             let nextUrl = "https://www.metacritic.com" + nextUrlCore;
 
             await utils.wait(2000);
-            
+
             let i = 0;
             while (true) {
 

@@ -32,11 +32,14 @@ def load_titles_per_year(df, source, label):
     return [years, scores]
 
 
-def get_score(s):
+def get_score(s, x10):
     sd = 0
     try:
         # sd = int(float(s))
-        sd = float(s)
+        if x10:
+            sd = float(s)*10
+        else:
+            sd = float(s)
     except:
         pass
     return sd
@@ -80,8 +83,8 @@ def load_score_per_year(df, source, label, top_limit_group):
     if top_limit_group is None:
         score_per_year = groups.mean()
     else:
-        score_per_year = groups["score"].nlargest(top_limit_group).groupby(['release_year']).mean()
-
+        score_per_year = groups["score"].nlargest(
+            top_limit_group).groupby(['release_year']).mean()
 
     print("groups: ")
     print(groups)
@@ -128,10 +131,48 @@ def save_csv(data, filename):
 # names = ["All", "Action", "Adventure", "RPG",
 #          "FPS", "Racing", "RTS", "Simulation", "3PS"]
 
+# platform = "pc"
+# title = "metacritic"
+# n_group = 5
+# x10 = True
+# stdev_factor = 1
+
+
+# folder = "./data/metacritic_v2/"
+
+# files = [
+#     folder + "result_database.ps2.json.csv",
+#     folder + "result_database.ps3.json.csv",
+#     folder + "result_database.ps4.json.csv",
+#     folder + "result_database.wii.json.csv",
+#     folder + "result_database.xbox.json.csv",
+#     folder + "result_database.xbox360.json.csv",
+#     folder + "result_database.xboxone.json.csv",
+#     folder + "result_database.ds.json.csv"
+# ]
+
+# names = [
+#     "PS2",
+#     "PS3",
+#     "PS4",
+#     "Wii",
+#     "Xbox",
+#     "Xbox360",
+#     "Xbox One",
+#     "DS"
+# ]
+
+# platform = "console_type"
+# title = "metacritic"
+# n_group = 3
+# x10 = True
+# stdev_factor = 1
+
+
 folder = "./data/playstore/archive_combined/"
 
 files = [
-    folder + "result_database.android.3.playstore.json.action.csv", 
+    folder + "result_database.android.3.playstore.json.action.csv",
     folder + "result_database.android.3.playstore.json.adventure.csv",
     folder + "result_database.android.3.playstore.json.roleplaying.csv",
     folder + "result_database.android.3.playstore.json.racing.csv",
@@ -140,20 +181,26 @@ files = [
 
     folder + "result_database.android.3.playstore.json.sports.csv",
     folder + "result_database.android.3.playstore.json.educational.csv",
-    folder + "result_database.android.3.playstore.json.puzzle.csv"  
+    folder + "result_database.android.3.playstore.json.puzzle.csv"
 ]
 
 names = [
-    "Action", 
-    "Adventure", 
+    "Action",
+    "Adventure",
     "RPG",
-    "Racing", 
-    "Strategy", 
-    "Simulation", 
-    "Sports", 
+    "Racing",
+    "Strategy",
+    "Simulation",
+    "Sports",
     "Educational",
     "Puzzle"
 ]
+
+platform = "android"
+title = "Play Store"
+n_group = 2
+x10 = False
+stdev_factor = 3
 
 top_limit = None
 
@@ -161,22 +208,23 @@ top_limit = None
 # top_limit = 100
 
 plot_scores = True
-plot_scores = False
+# plot_scores = False
 
 min_score = None
 # min_score = 80
 # min_score = 70
 # min_score = 65
 
-min_score = 3
+min_score = 4
 
-# n_group = 5
-n_group = 2
+use_limits = False
+use_limits = True
 
 # top_limit_group_vect = [None, 1, 2, 3, 5, 10, 100]
 
 top_limit_group_vect = [None]
 # top_limit_group_vect = [1]
+
 
 for top_limit_group in top_limit_group_vect:
     # top_limit_group = None
@@ -185,9 +233,9 @@ for top_limit_group in top_limit_group_vect:
     # top 10 pe perioada (grup)
 
     if plot_scores:
-        filename = "./figs/scores_per_year_android_combined"
+        filename = "./figs/scores_per_year_" + platform + "_combined"
     else:
-        filename = "./figs/titles_per_year_android_combined"
+        filename = "./figs/titles_per_year_" + platform + "_combined"
 
     if top_limit_group is not None:
         filename += "_top_" + str(top_limit_group) + "_group"
@@ -224,7 +272,7 @@ for top_limit_group in top_limit_group_vect:
         # user score!
         d["score"] = d["user_score"]
 
-        d["score"] = d["score"].apply(lambda e: get_score(e))
+        d["score"] = d["score"].apply(lambda e: get_score(e, x10))
 
         filter = d["score"] != "tbd"
         d = d[filter]
@@ -249,20 +297,31 @@ for top_limit_group in top_limit_group_vect:
         # quit()
 
         if plot_scores:
-            years, scores = load_score_per_year(d, "metacritic", names[i], top_limit_group)
+            years, scores = load_score_per_year(
+                d, "metacritic", names[i], top_limit_group)
         else:
             years, scores = load_titles_per_year(d, "metacritic", names[i])
 
         # print("scores: ", scores)
-
+        # years_all = set()
         if not got_years:
             got_years = True
-            years_all = years
+            years_all = set(years)
+        else:
+            for y in years:
+                years_all.add(y)
+            print(years_all)
+            # print(set(years))
 
         data.append(d)
         scores_vect.append(scores)
         years_vect.append(years)
-  
+
+    years_all = list(years_all)
+    years_all.sort()
+
+    print(years_all)
+    # quit()
     # assign all to correct years index
     # some years might be missing from some datasets (interpolate required)
     scores_vect_processed = []
@@ -270,7 +329,7 @@ for top_limit_group in top_limit_group_vect:
     for i in range(len(files)):
         scores_processed = []
         # for all years in combined dataset
-        for y in years_all:
+        for j, y in enumerate(years_all):
             found = False
             index = 0
             # check years in curent dataset
@@ -286,6 +345,10 @@ for top_limit_group in top_limit_group_vect:
                 scores_processed.append(scores_vect[i][index])
         scores_vect_processed.append(scores_processed)
 
+        print("file: " + files[i])
+        # group by 5
+        print(scores_processed)
+
     # group by 5
     print(scores_vect_processed)
     print(len(scores_vect_processed))
@@ -295,8 +358,6 @@ for top_limit_group in top_limit_group_vect:
     scores_vect_processed_grouped = []
     years_grouped = []
 
-    # print(len(years_all))
-
     # quit()
     i_group = 0
     group_count = 0
@@ -304,20 +365,40 @@ for top_limit_group in top_limit_group_vect:
     year_start = 0
     year_end = 0
 
-    year_start = str(list(years_all)[0])
+    year_start = str(years_all[0])
 
     print(years_all)
 
     # quit()
 
-    for j, y in enumerate(years_all):
-        i_group += 1
-        if i_group >= n_group or j == len(years_all):
-            i_group = 0
-            year_end = str(y)
-            years_grouped.append(year_start + "-" + year_end)
-            year_start = str(y)
+    # n_group = 5
 
+    if n_group == 1:
+        years_grouped = ["" + str(y) for y in years_all]
+    else:
+        r = len(years_all) / n_group
+        rm = len(years_all) % n_group
+        # print(rm)
+        # quit()
+
+        for j in range(int(r)):
+            start_year = years_all[j*n_group]
+            end_year = years_all[j*n_group + n_group-1]
+            if j == int(r)-1 and rm != 0:
+                end_year += rm
+            years_grouped.append(str(start_year) + "-" + str(end_year))
+
+        # for j, y in enumerate(years_all):
+        #     i_group += 1
+        #     if i_group >= n_group or j == len(years_all):
+        #         i_group = 0
+        #         year_end = y
+        #         # year_start += 1
+        #         years_grouped.append(str(year_start) + "-" + str(year_end))
+        #         year_start = y
+
+    print(years_grouped)
+    # quit()
     for i in range(len(files)):
         print(files[i])
         i_group = 0
@@ -341,7 +422,6 @@ for top_limit_group in top_limit_group_vect:
 
                 group_scores = sorted(group_scores, reverse=True)
                 print(group_scores)
-              
 
                 if top_limit_group is not None:
                     group_scores = group_scores[:top_limit_group]
@@ -387,6 +467,8 @@ for top_limit_group in top_limit_group_vect:
     # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",
     #                          "", years_grouped, [50,90], True, None, 0, None)
 
+    plt.rc('axes', axisbelow=True)
+
     if plot_scores:
         # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",
         #                          "Scores", years_grouped, [60,80], True, None, 0, None)
@@ -394,7 +476,11 @@ for top_limit_group in top_limit_group_vect:
         #                          "Average game scores by year (metacritic)", years_grouped, [60, 90], True, None, 0, None)
 
         fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Average score",
-                                          "Average game scores by year (Play Store)", years_grouped, [avg_score_disp-stdev_score_disp*3, avg_score_disp+stdev_score_disp*3], True, None, 0, None)
+                                          "Average game scores by year (" +
+                                          title + ")", years_grouped,
+                                          [avg_score_disp-stdev_score_disp*stdev_factor, avg_score_disp +
+                                              stdev_score_disp*stdev_factor] if use_limits else None,
+                                          True, None, 0, None)
 
         fig.savefig(filename, dpi=300)
 
@@ -407,8 +493,8 @@ for top_limit_group in top_limit_group_vect:
         #                                   "Number of titles by year (metacritic)", years_grouped, [avg_score_disp-stdev_score_disp, avg_score_disp+stdev_score_disp], True, None, 0, None)
 
         fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of titles",
-                                          "Number of titles by year (Play Store)", years_grouped, None, True, None, 0, None)
+                                          "Number of titles by year (" + title + ")", years_grouped, None, True, None, 0, None)
 
         fig.savefig(filename, dpi=300)
-    # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",
-    #                          "Title", years_grouped, [0, 40], True, None, 0, None)
+        # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",
+        #                          "Title", years_grouped, [0, 40], True, None, 0, None)

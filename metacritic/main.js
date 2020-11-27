@@ -3,13 +3,25 @@ const writer = require('./writer');
 const metacritic = require('./metacritic');
 const reader = require('./reader');
 
+let dataFolder = "../data/metacritic_v2/";
 
-var main = async (platform, useLegacy) => {
+dataFolder = "../data/metacritic_v3/";
+
+var getFilename = (platform, category) => {
+    let plt = platform.replace("-", "_");
+    if (category) {
+        plt += "." + (category.replace("-", "_"));
+    }
+    let filename = dataFolder + "result_database." + plt + ".json";
+    return filename;
+};
+
+var main = async (platform, useLegacy, category) => {
     // 2008 - 2020
-    let res = await metacritic.listGamesRecursive(platform, 50, useLegacy);
+    let res = await metacritic.listGamesRecursive(platform, 100, useLegacy, category);
 
     console.log("writing database file");
-    await writer.writeFile(JSON.stringify(res), "result_database." + platform + ".json");
+    await writer.writeFile(JSON.stringify(res), getFilename(platform, category));
     console.log("done");
 };
 
@@ -40,7 +52,29 @@ var extractCSV = async (filename, replacetoken) => {
     return true;
 };
 
-let dataFolder = "../data/metacritic_v2/"
+var mainCombined = async (useLegacy, category) => {
+    await main(platform, useLegacy, category);
+    await extractCSV(getFilename(platform, category), true);
+};
+
+var mainCombinedCategories = async (categories) => {
+    for (let i = 0; i < categories.length; i++) {
+        await mainCombined(true, categories[i]);
+    }
+}
+
+var concat = async (platforms, resultName) => {
+    let content = [];
+    for (let i = 0; i < platforms.length; i++) {
+        let platform = platforms[i];
+        let c = await reader.readFile(getFilename(platform, null));
+        c = JSON.parse(c);
+        content = content.concat(c);
+    }
+    await writer.writeFile(JSON.stringify(content), getFilename(resultName, null));
+}
+
+
 let platform = "ios";
 platform = "ps4";
 platform = "xboxone";
@@ -55,5 +89,9 @@ platform = "pc";
 // platform = "xbox";
 // platform = "ds";
 
-// main(platform, true);
-extractCSV(dataFolder + "result_database." + platform + ".json", true);
+// mainCombined(true, "action");
+// mainCombinedCategories(['action', 'adventure', 'first-person', 'role-playing', 'racing', 'third-person', 'simulation', 'real-time']);
+mainCombinedCategories(['action']);
+
+// concat(["ps4", "xboxone", "ps2", "xbox360", "wii", "xbox", "ds"], "console");
+// extractCSV(dataFolder + "result_database.console.json", true);

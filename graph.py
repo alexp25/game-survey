@@ -49,17 +49,23 @@ def plot_barchart_multi_core(data, colors, labels, xlabel, ylabel, title, xlabel
 
         index = np.arange(len(data[i]))
 
-        low1 = min([d for d in data[i] if d != 0])
+        if len([d for d in data[i] if d != 0]) != 0:
+            low1 = min([d for d in data[i] if d != 0])
+        else:
+            low1 = None
+        
         high1 = max(data[i])
 
         if low is None:
             low = low1
             high = high1
 
-        if low1 < low:
-            low = low1
-        if high1 > high:
-            high = high1
+        if low1 is not None:
+            if low1 < low:
+                low = low1
+        if high1 is not None:
+            if high1 > high:
+                high = high1
 
         rb = plt.bar(
             index + offset + i * bar_width,
