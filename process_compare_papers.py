@@ -276,7 +276,7 @@ for top_limit_group in top_limit_group_vect:
         #                                   "Number of titles by year (metacritic)", years_grouped, [avg_score_disp-stdev_score_disp, avg_score_disp+stdev_score_disp], True, None, 0, None)
 
         fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of papers",
-                                          "Number of papers by year (Google Scholar)", years_grouped, None, True, None, 0, None)
+                                          "Number of papers by year (Google Scholar)", years_grouped, None, True, -0.09, 0, None)
 
         fig.savefig(filename, dpi=300)
     # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",

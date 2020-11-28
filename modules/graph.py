@@ -99,7 +99,7 @@ def plot_barchart_multi_core(data, colors, labels, xlabel, ylabel, title, xlabel
 
     plt.xticks(rotation=rotation)
 
-    ax.grid(zorder=0)
+    ax.grid(zorder=0) 
 
     print("low limit: ", low)
     print("high limit: ", high)

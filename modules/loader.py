@@ -49,9 +49,10 @@ def get_release_year(df):
     else:
         df["release_year"] = df["year"]
 
-def load_score_per_year(df, source, label, top_limit_group):
+def load_score_per_year(df, source, label, top_limit_group, x10 = False):
 
     get_release_year(df)
+    df["score"] = df["score"].apply(lambda e: get_score(e, x10))
 
     df = pd.DataFrame(df, columns=['release_year', 'score'])
 
@@ -62,8 +63,8 @@ def load_score_per_year(df, source, label, top_limit_group):
 
     groups = df.groupby(['release_year'])
 
-    print(groups.groups.keys())
-    print(groups.mean())
+    print("keys: ", groups.groups.keys())
+    print("mean: ", groups.mean())
 
     # quit()
 

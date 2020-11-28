@@ -16,6 +16,8 @@ def plot_titles_per_year(df, source, label, top_limit_group = None):
     # plt.ylim([50, 100])
     # plt.xticks(years, scores)
 
+    plt.gca().grid(zorder=0)
+
     plt.legend([label])
 
     fig = plt.gcf()
@@ -26,8 +28,11 @@ def plot_titles_per_year(df, source, label, top_limit_group = None):
 
 def plot_score_per_year(df, source, label, x10 = None):
 
-    [years, scores] = loader.load_score_per_year(df, source, label, x10)
+    [years, scores] = loader.load_score_per_year(df, source, label, None, x10)
 
+    # print(years)
+    # print(scores)
+    # quit()
     # scores = scaled_scores
 
     # plt.bar(score_per_year)
@@ -42,6 +47,16 @@ def plot_score_per_year(df, source, label, x10 = None):
 
     # plt.ylim([0, 100])
     # plt.xticks(years, scores)
+
+    if x10:
+        locs, labels = plt.yticks()  # Get the current locations and labels.
+        yint = [int(e) for e in locs]
+        ylabels = [e for e in labels]
+        # plt.yticks(yint)
+        ax = plt.gca()     
+        ax.axes.yaxis.set_ticklabels(yint)
+
+    plt.gca().grid(zorder=0)
 
     plt.legend([label])
 

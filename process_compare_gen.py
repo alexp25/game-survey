@@ -6,108 +6,127 @@ import matplotlib
 import numpy as np
 from statistics import stdev
 from modules import loader
+import sys
+
+print ('Number of arguments:', len(sys.argv), 'arguments.')
+print ('Argument List:', str(sys.argv))
 
 # first file must be ALL
 
 
-files = ["./data/metacritic/class_data.csv", "./data/metacritic_action/class_data.csv", "./data/metacritic_adventure/class_data.csv", "./data/metacritic_rpg/class_data.csv",
-         "./data/metacritic_fps/class_data.csv", "./data/metacritic_racing/class_data.csv", "./data/metacritic_rts/class_data.csv", "./data/metacritic_simulation/class_data.csv", "./data/metacritic_third_person/class_data.csv"]
-names = ["All", "Action", "Adventure", "RPG",
-         "FPS", "Racing", "RTS", "Simulation", "3PS"]
+# quit()
 
-platform = "pc"
-title = "metacritic"
-n_group = 5
-x10 = True
-stdev_factor = 1
-
-
-# folder = "./data/metacritic_v2/"
-
-# files = [
-#     folder + "result_database.ps2.json.csv",
-#     folder + "result_database.ps3.json.csv",
-#     folder + "result_database.ps4.json.csv",
-#     folder + "result_database.wii.json.csv",
-#     folder + "result_database.xbox.json.csv",
-#     folder + "result_database.xbox360.json.csv",
-#     folder + "result_database.xboxone.json.csv",
-#     folder + "result_database.ds.json.csv"
-# ]
-
-# names = [
-#     "PS2",
-#     "PS3",
-#     "PS4",
-#     "Wii",
-#     "Xbox",
-#     "Xbox360",
-#     "Xbox One",
-#     "DS"
-# ]
-
-# platform = "console_type"
-# title = "metacritic"
-# n_group = 3
-# x10 = True
-# stdev_factor = 1
+if len(sys.argv) == 1:
+    platform = 1
+    mode = 1
+    min_score = 80
+    use_limits = True
+else:
+    args = sys.argv
+    platform = int(args[1].split("--platform=")[1])
+    mode = int(args[2].split("--mode=")[1])
+    min_score = int(args[3].split("--min-score=")[1])
+    if min_score == 0:
+        min_score = None
+    use_limits = True if int(args[4].split("--use-limits=")[1]) else False
 
 
-# folder = "./data/playstore/archive_combined/"
+print(platform, mode, min_score, use_limits)
 
-# files = [
-#     folder + "result_database.android.3.playstore.json.action.csv",
-#     folder + "result_database.android.3.playstore.json.adventure.csv",
-#     folder + "result_database.android.3.playstore.json.roleplaying.csv",
-#     folder + "result_database.android.3.playstore.json.racing.csv",
-#     folder + "result_database.android.3.playstore.json.strategy.csv",
-#     folder + "result_database.android.3.playstore.json.simulation.csv",
+# quit()
 
-#     folder + "result_database.android.3.playstore.json.sports.csv",
-#     folder + "result_database.android.3.playstore.json.educational.csv",
-#     folder + "result_database.android.3.playstore.json.puzzle.csv"
-# ]
 
-# names = [
-#     "Action",
-#     "Adventure",
-#     "RPG",
-#     "Racing",
-#     "Strategy",
-#     "Simulation",
-#     "Sports",
-#     "Educational",
-#     "Puzzle"
-# ]
+if platform == 1:
+    files = ["./data/metacritic/class_data.csv", "./data/metacritic_action/class_data.csv", "./data/metacritic_adventure/class_data.csv", "./data/metacritic_rpg/class_data.csv",
+            "./data/metacritic_fps/class_data.csv", "./data/metacritic_racing/class_data.csv", "./data/metacritic_rts/class_data.csv", "./data/metacritic_simulation/class_data.csv", "./data/metacritic_third_person/class_data.csv"]
+    names = ["All", "Action", "Adventure", "RPG",
+            "FPS", "Racing", "RTS", "Simulation", "3PS"]
 
-# platform = "android"
-# title = "Play Store"
-# n_group = 2
-# x10 = False
-# stdev_factor = 3
+    platform = "pc"
+    # title = "metacritic"
+    title = "PC"
+    n_group = 5
+    x10 = True
+    stdev_factor = 1
+
+elif platform == 2:
+    folder = "./data/metacritic_v2/"
+
+    files = [
+        folder + "result_database.ps2.json.csv",
+        folder + "result_database.ps3.json.csv",
+        folder + "result_database.ps4.json.csv",
+        folder + "result_database.wii.json.csv",
+        folder + "result_database.xbox.json.csv",
+        folder + "result_database.xbox360.json.csv",
+        folder + "result_database.xboxone.json.csv",
+        folder + "result_database.ds.json.csv"
+    ]
+
+    names = [
+        "PS2",
+        "PS3",
+        "PS4",
+        "Wii",
+        "Xbox",
+        "Xbox360",
+        "Xbox One",
+        "DS"
+    ]
+
+    platform = "console_type"
+    # title = "metacritic"
+    title = "console"
+    n_group = 3
+    x10 = True
+    stdev_factor = 1
+elif platform == 3:
+    folder = "./data/playstore/archive_combined/"
+
+    files = [
+        folder + "result_database.android.3.playstore.json.action.csv",
+        folder + "result_database.android.3.playstore.json.adventure.csv",
+        folder + "result_database.android.3.playstore.json.roleplaying.csv",
+        folder + "result_database.android.3.playstore.json.racing.csv",
+        folder + "result_database.android.3.playstore.json.strategy.csv",
+        folder + "result_database.android.3.playstore.json.simulation.csv",
+
+        folder + "result_database.android.3.playstore.json.sports.csv",
+        folder + "result_database.android.3.playstore.json.educational.csv",
+        folder + "result_database.android.3.playstore.json.puzzle.csv"
+    ]
+
+    names = [
+        "Action",
+        "Adventure",
+        "RPG",
+        "Racing",
+        "Strategy",
+        "Simulation",
+        "Sports",
+        "Educational",
+        "Puzzle"
+    ]
+
+    platform = "android"
+    title = "Play Store"
+    n_group = 2
+    x10 = False
+    stdev_factor = 3
+
 
 top_limit = None
 
 # top_limit = 1000
 # top_limit = 100
 
-plot_scores = True
-plot_scores = False
-
-min_score = None
-min_score = 80
-# min_score = 70
-# min_score = 65
-
-# min_score = 4
-
-use_limits = False
-use_limits = True
+plot_scores = mode == 1
 
 # top_limit_group_vect = [None, 1, 2, 3, 5, 10, 100]
 
 top_limit_group_vect = [None]
 # top_limit_group_vect = [1]
+
 
 if min_score is not None:
     title += " / score " + str(min_score) + "+"
