@@ -1,7 +1,7 @@
 import csv
 import numpy as np
 import matplotlib
-from graph import plot_barchart_multi_core
+from modules.graph import plot_barchart_multi_core
 from statistics import stdev
 
 def read_csv_2d(filename):

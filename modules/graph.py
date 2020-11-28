@@ -4,15 +4,22 @@ import csv
 import math
 import numpy as np
 import pandas as pd
+from matplotlib.ticker import MaxNLocator
 
 FSIZE_TITLE = 16
 FSIZE_LABEL = 14
 FSIZE_LABEL_S = 14
 FSIZE_LABEL_XS = 14
 OPACITY = 0.9
+rotation = 0
+
+def set_rotation(rot):
+    global rotation
+    rotation = rot
 
 
 def plot_barchart_multi_core(data, colors, labels, xlabel, ylabel, title, xlabels, limits, show, offset, bcount, legend_loc):
+    global rotation
 
     fig, ax = plt.subplots(figsize=(10, 8))
 
@@ -72,7 +79,7 @@ def plot_barchart_multi_core(data, colors, labels, xlabel, ylabel, title, xlabel
             data[i],
             bar_width,
             alpha=opacity,
-            color=colors[i],
+            color=colors[i] if colors is not None else None,
             label=labels[i],
             zorder=3)
 
@@ -90,6 +97,8 @@ def plot_barchart_multi_core(data, colors, labels, xlabel, ylabel, title, xlabel
 
     plt.legend(loc=legend_loc, fontsize=FSIZE_LABEL_XS)
 
+    plt.xticks(rotation=rotation)
+
     ax.grid(zorder=0)
 
     print("low limit: ", low)
@@ -99,9 +108,7 @@ def plot_barchart_multi_core(data, colors, labels, xlabel, ylabel, title, xlabel
     # plt.ylim([low, high])
 
     # kscale = 0.25
-    kscale = 0.1
-
-   
+    kscale = 0.1   
 
     if limits is not None:
         low = limits[0]
@@ -109,8 +116,6 @@ def plot_barchart_multi_core(data, colors, labels, xlabel, ylabel, title, xlabel
     else:
         high += kscale * high
         low -= kscale * low
-
-    from matplotlib.ticker import MaxNLocator
 
     ax.yaxis.set_major_locator(MaxNLocator(integer=True))
 
