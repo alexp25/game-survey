@@ -135,29 +135,33 @@ var extractCSV = async (filename, replacetoken) => {
     return true;
 };
 
-var postprocess = async () => {
-    let outputFilenames = await processDatabase(dataFolder + "result_database.json");
-    await extractCSV(dataFolder + "result_database_processed.json", true);
+var postprocess = async (filename) => {
+    let outputFilenames = await processDatabase(filename);
+    await extractCSV(filename, true);
     for (let i = 0; i < outputFilenames.length; i++) {
         await extractCSV(outputFilenames[i], true);
     }
 };
 
 var merge = async () => {
-    let files = [dataFolder + "result_database.1.json", dataFolder + "result_database.2.json"];
+    let files = [
+        dataFolder + "result_database.1.json",
+        dataFolder + "result_database.2.json",
+        dataFolder + "result_database.4.json"
+    ];
     let contentMerge = [];
     for (let i = 0; i < files.length; i++) {
         let content = await reader.readFile(files[i]);
         content = JSON.parse(content);
         contentMerge = contentMerge.concat(content);
     }
-    await writer.writeFile(JSON.stringify(contentMerge), dataFolder + "result_database.json");
+    await writer.writeFile(JSON.stringify(contentMerge), dataFolder + "result_database_2.json");
 }
 
 
 // let keywords = ["Crowdsensing", "Blockchain", "Crowdsensing Blockchain", "Serious Gaming"];
-// let keywords = ["Crowdsensing Blockchain"];
-// let outfile = dataFolder + "result_database.3.json";
+// let keywords = ["Urban Water", "Crowdsensing Water", "Blockchain Water", "Serious Gaming Water"];
+// let outfile = dataFolder + "result_database.4.json";
 // main(outfile, keywords, null);
 // merge();
-postprocess();
+postprocess(dataFolder + "result_database_2.json");

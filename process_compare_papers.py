@@ -22,14 +22,20 @@ files = [
     folder + "result_database.blockchain.json.csv",
     folder + "result_database.crowdsensing.json.csv",
     folder + "result_database.serious_gaming.json.csv",
-    folder + "result_database.crowdsensing_blockchain.json.csv"
+    folder + "result_database.crowdsensing_blockchain.json.csv",
+    folder + "result_database_2.urban_water.json.csv",
+    folder + "result_database_2.blockchain_water.json.csv",
+    folder + "result_database_2.crowdsensing_water.json.csv"
 ]
 
 names = [
     "Blockchain",
     "Crowdsensing",
     "Serious Gaming",
-    "Crowdsensing+Blockchain"
+    "Crowdsensing+Blockchain",
+    "Urban Water",
+    "Blockchain+Water",
+    "Crowdsensing+Water"
 ]
 
 top_limit = None
@@ -275,8 +281,9 @@ for top_limit_group in top_limit_group_vect:
         # fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of titles",
         #                                   "Number of titles by year (metacritic)", years_grouped, [avg_score_disp-stdev_score_disp, avg_score_disp+stdev_score_disp], True, None, 0, None)
 
+        # -0.09
         fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of papers",
-                                          "Number of papers by year (Google Scholar)", years_grouped, None, True, -0.09, 0, None)
+                                          "Number of papers by year (Google Scholar)", years_grouped, None, True, None, 0, None)
 
         fig.savefig(filename, dpi=300)
     # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",
