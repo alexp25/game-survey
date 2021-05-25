@@ -81,36 +81,49 @@ elif platform == 2:
     x10 = True
     stdev_factor = 1
 elif platform == 3:
-    folder = "./data/playstore/archive_combined/"
+    # folder = "./data/playstore/archive_combined/"
+
+    # files = [
+    #     folder + "result_database.android.3.playstore.json.action.csv",
+    #     folder + "result_database.android.3.playstore.json.adventure.csv",
+    #     folder + "result_database.android.3.playstore.json.roleplaying.csv",
+    #     folder + "result_database.android.3.playstore.json.racing.csv",
+    #     folder + "result_database.android.3.playstore.json.strategy.csv",
+    #     folder + "result_database.android.3.playstore.json.simulation.csv",
+
+    #     folder + "result_database.android.3.playstore.json.sports.csv",
+    #     folder + "result_database.android.3.playstore.json.educational.csv",
+    #     folder + "result_database.android.3.playstore.json.puzzle.csv"
+    # ]
+
+    # names = [
+    #     "Action",
+    #     "Adventure",
+    #     "RPG",
+    #     "Racing",
+    #     "Strategy",
+    #     "Simulation",
+    #     "Sports",
+    #     "Educational",
+    #     "Puzzle"
+    # ]
+
+
+    folder = "./data/playstore_apps/"
 
     files = [
-        folder + "result_database.android.3.playstore.json.action.csv",
-        folder + "result_database.android.3.playstore.json.adventure.csv",
-        folder + "result_database.android.3.playstore.json.roleplaying.csv",
-        folder + "result_database.android.3.playstore.json.racing.csv",
-        folder + "result_database.android.3.playstore.json.strategy.csv",
-        folder + "result_database.android.3.playstore.json.simulation.csv",
-
-        folder + "result_database.android.3.playstore.json.sports.csv",
-        folder + "result_database.android.3.playstore.json.educational.csv",
-        folder + "result_database.android.3.playstore.json.puzzle.csv"
+        folder + "health_fitness.csv",
+        folder + "travel_local.csv"
     ]
 
     names = [
-        "Action",
-        "Adventure",
-        "RPG",
-        "Racing",
-        "Strategy",
-        "Simulation",
-        "Sports",
-        "Educational",
-        "Puzzle"
+        "Health & Fitness",
+        "Travel & Local",
     ]
 
     platform = "android"
     title = "Play Store"
-    n_group = 2
+    n_group = 1
     x10 = False
     stdev_factor = 3
 
@@ -169,6 +182,8 @@ for top_limit_group in top_limit_group_vect:
     cmap = matplotlib.cm.get_cmap('viridis')
     color_scheme = [cmap(i) for i in np.linspace(0, 1, len(files))]
     print(color_scheme)
+
+    # color_scheme = ["tab:blue", "tab:orange"]
 
     # quit()
 
@@ -382,8 +397,8 @@ for top_limit_group in top_limit_group_vect:
         # fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Average score",
         #                          "Average game scores by year (metacritic)", years_grouped, [60, 90], True, None, 0, None)
 
-        fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Average score",
-                                          "Average game scores by year (" +
+        fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Average rating",
+                                          "Average rating by year (" +
                                           title + ")", years_grouped,
                                           [avg_score_disp-stdev_score_disp*stdev_factor, avg_score_disp +
                                               stdev_score_disp*stdev_factor] if use_limits else None,
@@ -396,11 +411,11 @@ for top_limit_group in top_limit_group_vect:
 
         # [0,100]
     else:
-        # fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of titles",
-        #                                   "Number of titles by year (metacritic)", years_grouped, [avg_score_disp-stdev_score_disp, avg_score_disp+stdev_score_disp], True, None, 0, None)
+        # fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of releases",
+        #                                   "Number of releases by year (metacritic)", years_grouped, [avg_score_disp-stdev_score_disp, avg_score_disp+stdev_score_disp], True, None, 0, None)
 
-        fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of titles",
-                                          "Number of titles by year (" + title + ")", years_grouped, None, True, None, 0, None)
+        fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of releases",
+                                          "Number of releases by year (" + title + ")", years_grouped, None, True, None, 0, None)
 
         fig.savefig(filename, dpi=300)
         # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",

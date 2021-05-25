@@ -2,3 +2,4 @@ node_modules/
 __pycache__/
 /data/*
 !/data/.gitkeep
+/playstore_apps/Google-Playstore.csv

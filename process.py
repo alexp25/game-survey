@@ -26,8 +26,14 @@ def save_csv(data, filename):
 
 
 def plot_titles_per_year(df, source, label):
-    df["release_year"] = df["release_date"].apply(
-        lambda e: int(e.split("-")[0]))
+    try:
+        df["release_year"] = df["release_date"].apply(
+            lambda e: int(e.split("-")[0]))
+    except:
+        df["release_year"] = df["release_date"]
+
+    df = df[df["release_year"] != 0]
+
     groups = df.groupby(['release_year'])
 
     titles_per_year = groups.count()
@@ -62,7 +68,8 @@ def plot_titles_per_year(df, source, label):
 def get_score(s):
     sd = 0
     try:
-        sd = int(float(s)*10)
+        # sd = int(float(s)*10)
+        sd = float(s)
     except:
         pass
     return sd
@@ -72,8 +79,13 @@ def plot_score_per_year(df, source, label):
 
     df = pd.DataFrame(df, columns=['release_date', 'score'])
 
-    df["release_year"] = df["release_date"].apply(
-        lambda e: int(e.split("-")[0]))
+    try:
+        df["release_year"] = df["release_date"].apply(
+            lambda e: int(e.split("-")[0]))
+    except:
+        df["release_year"] = df["release_date"]
+    
+    df = df[df["release_year"] != 0]
 
     df = df.drop(columns=["release_date"])
 
@@ -129,8 +141,8 @@ def plot_score_per_year(df, source, label):
     # color='blue'
     plt.bar(years, scores)
     plt.xlabel("Year")
-    plt.ylabel("Average score")
-    plt.title("Average game scores by year (" + source + ")")
+    plt.ylabel("Average rating")
+    plt.title("Average rating by year (" + source + ")")
 
     delta = (max(scores) - min(scores))/10
     plt.ylim([min(scores) - delta, max(scores) + delta])
@@ -165,9 +177,14 @@ min_score = None
 # d = load_class_data("./data/metacritic_fps/class_data.csv")
 # d = load_class_data("./data/metacritic_racing/class_data.csv")
 # d = load_class_data("./data/metacritic_rts/class_data.csv")
-d = load_class_data("./data/metacritic/class_data.csv")
+# d = load_class_data("./data/metacritic/class_data.csv")
 
-class_name = "all_user"
+d = load_class_data("./data/playstore_apps/health_fitness.csv")
+class_name = "health_fitness"
+
+# d = load_class_data("./data/playstore_apps/travel_local.csv")
+# class_name = "travel_local"
+
 
 # class_name = "PC"
 
@@ -179,10 +196,17 @@ d = d[filter]
 
 d["score"] = d["score"].apply(lambda e: get_score(e))
 
-filter = d["release_date"].apply(
-    lambda e: int(e.split("-")[0])) != 2020
+except_last_year = 2020
 
-d = d[filter]
+try:
+    filter = d["release_date"].apply(
+        lambda e: int(e.split("-")[0])) != except_last_year
+    d = d[filter]
+except:
+    filter = d["release_date"].apply(
+        lambda e: int(e) != except_last_year)
+    d = d[filter]
+    pass
 
 d = d.sort_values(by=['score'], ascending=False)
 
@@ -198,6 +222,8 @@ if min_score is not None:
 print(d)
 
 title = "metacritic"
+title = "Play Store"
+
 if top_limit is not None:
     title += " top " + str(top_limit)
     class_name += "_top_" + str(top_limit)
