@@ -20,13 +20,14 @@ let dataFolder = "../data/googlescholar/"
 
 /**
  * crawler first pass
+ * startFromItem not working properly
  */
 var main = async (outfile, keywords, startFromItem) => {
     let res = [];
     let maxpage = 2;
     maxpage = 50;
 
-    let q = await ui.question("type y to start");
+    let q = await ui.question("type y to start\n");
     if (q === "y") {
         console.log("starting");
     } else {
@@ -34,9 +35,12 @@ var main = async (outfile, keywords, startFromItem) => {
     }
 
     for (let i = 0; i < keywords.length; i++) {
-        console.log("fetching games from " + keywords[i]);
+        let find = ' ';
+        let re = new RegExp(find, 'g');
+        let kw = keywords[i].replace(re, "+");
+        console.log("fetching data from " + kw);
         try {
-            let res1 = await googlescholar.listPapersRecursive(keywords[i], maxpage, 60000, startFromItem);
+            let res1 = await googlescholar.listPapersRecursive(kw, maxpage, 20000, startFromItem);
             res = res.concat(res1);
             console.log("writing database file (checkpoint)");
             await writer.writeFile(JSON.stringify(res), outfile);
@@ -54,8 +58,6 @@ var main = async (outfile, keywords, startFromItem) => {
     console.log("writing database file");
     await writer.writeFile(JSON.stringify(res), outfile);
     console.log("done");
-    // let res = await moby.getGameDetails("https://www.mobygames.com/game/android/cascade-gem-jewel-adventure");
-    // console.log(res);
 };
 
 var processDatabase = async (filename) => {
@@ -79,18 +81,18 @@ var processDatabase = async (filename) => {
     });
 
     console.log("filtered results: " + content.length);
-
-    await writer.writeFile(JSON.stringify(content), dataFolder + "result_database_processed.json");
-
+    let mainOutputFilename = dataFolder + "result_database_processed.json";
+    await writer.writeFile(JSON.stringify(content), mainOutputFilename);
     var groups = utils.groupBy(content, "keyword");
-
     var groupsNames = Object.keys(groups);
     console.log(groupsNames);
-
     var outputFilenames = [];
 
     for (let i = 0; i < groupsNames.length; i++) {
-        let newFilename = filename.replace(".json", "") + "." + groupsNames[i].toLowerCase().replace(" ", "_") + ".json";
+        let find = ' ';
+        let re = new RegExp(find, 'g');
+        let fname = groupsNames[i].toLowerCase().replace(re, "_");
+        let newFilename = filename.replace(".json", "") + "." + fname + ".json";
         outputFilenames.push(newFilename);
         await writer.writeFile(JSON.stringify(groups[groupsNames[i]]), newFilename);
         console.log(newFilename);
@@ -98,7 +100,7 @@ var processDatabase = async (filename) => {
     }
 
     // console.log(Object.keys(groups));
-    return outputFilenames;
+    return [mainOutputFilename, outputFilenames];
 
 };
 
@@ -136,32 +138,53 @@ var extractCSV = async (filename, replacetoken) => {
 };
 
 var postprocess = async (filename) => {
-    let outputFilenames = await processDatabase(filename);
-    await extractCSV(filename, true);
+    let [mainOutputFilename, outputFilenames] = await processDatabase(filename);
+    await extractCSV(mainOutputFilename, true);
     for (let i = 0; i < outputFilenames.length; i++) {
         await extractCSV(outputFilenames[i], true);
     }
 };
 
-var merge = async () => {
-    let files = [
-        dataFolder + "result_database.1.json",
-        dataFolder + "result_database.2.json",
-        dataFolder + "result_database.4.json"
-    ];
+var merge = async (filenames) => {
+    let files = [];
+    for (let filename of filenames) {
+        files.push(dataFolder + filename);
+    }
     let contentMerge = [];
     for (let i = 0; i < files.length; i++) {
         let content = await reader.readFile(files[i]);
         content = JSON.parse(content);
         contentMerge = contentMerge.concat(content);
     }
-    await writer.writeFile(JSON.stringify(contentMerge), dataFolder + "result_database_2.json");
+    await writer.writeFile(JSON.stringify(contentMerge), dataFolder + "result_database_merge.json");
+}
+
+let mode = "collect";
+mode = "merge";
+mode = "process";
+let files = ["result_database.3.json", "result_database.4.json", "result_database.5.json", "result_database.7.json", "result_database.8.json"]
+
+console.log("mode: ", mode);
+
+switch (mode) {
+    case "collect":
+        let keywords = ["Crowdsensing", "Blockchain", "Crowdsensing Blockchain", "Serious Gaming"];
+        keywords = ["Urban Water", "Crowdsensing Water", "Blockchain Water", "Serious Gaming Water"];
+        keywords = ["IoT for water infrastructure monitoring", "Big Data in water infrastructure", "Anomaly detection in water infrastructure", "Decision Support System Water", "water smart cities"];
+        keywords = ["IoT water", "big data water", "anomaly detection water", "water smart cities OR water smart city"];
+        // keywords = ["big data water"];
+        // let outfile = dataFolder + "result_database.4.json";
+        keywords = ["water smart cities OR water smart city"];
+        keywords = ["decision support system water"];
+        let outfile = dataFolder + "result_database.8.json";
+        main(outfile, keywords, null);
+        break;
+    case "merge":
+        merge(files);
+        break;
+    case "process":
+        postprocess(dataFolder + "result_database_merge.json");
+        break;
 }
 
 
-// let keywords = ["Crowdsensing", "Blockchain", "Crowdsensing Blockchain", "Serious Gaming"];
-// let keywords = ["Urban Water", "Crowdsensing Water", "Blockchain Water", "Serious Gaming Water"];
-// let outfile = dataFolder + "result_database.4.json";
-// main(outfile, keywords, null);
-// merge();
-postprocess(dataFolder + "result_database_2.json");

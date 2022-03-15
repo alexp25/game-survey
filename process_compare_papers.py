@@ -8,34 +8,44 @@ from statistics import stdev
 from modules import loader
 
 
-# first file must be ALL
-
-
-# files = ["./data/metacritic/class_data.csv", "./data/metacritic_action/class_data.csv", "./data/metacritic_adventure/class_data.csv", "./data/metacritic_rpg/class_data.csv",
-#          "./data/metacritic_fps/class_data.csv", "./data/metacritic_racing/class_data.csv", "./data/metacritic_rts/class_data.csv", "./data/metacritic_simulation/class_data.csv", "./data/metacritic_third_person/class_data.csv"]
-# names = ["All", "Action", "Adventure", "RPG",
-#          "FPS", "Racing", "RTS", "Simulation", "3PS"]
-
 folder = "./data/googlescholar/"
 
+# files = [
+#     folder + "result_database.blockchain.json.csv",
+#     folder + "result_database.crowdsensing.json.csv",
+#     folder + "result_database.serious_gaming.json.csv",
+#     folder + "result_database.crowdsensing_blockchain.json.csv",
+#     folder + "result_database_2.urban_water.json.csv",
+#     folder + "result_database_2.blockchain_water.json.csv",
+#     folder + "result_database_2.crowdsensing_water.json.csv"
+# ]
+
+# names = [
+#     "Blockchain",
+#     "Crowdsensing",
+#     "Serious Gaming",
+#     "Crowdsensing+Blockchain",
+#     "Urban Water",
+#     "Blockchain+Water",
+#     "Crowdsensing+Water"
+# ]
+
 files = [
-    folder + "result_database.blockchain.json.csv",
-    folder + "result_database.crowdsensing.json.csv",
-    folder + "result_database.serious_gaming.json.csv",
-    folder + "result_database.crowdsensing_blockchain.json.csv",
-    folder + "result_database_2.urban_water.json.csv",
-    folder + "result_database_2.blockchain_water.json.csv",
-    folder + "result_database_2.crowdsensing_water.json.csv"
+    folder + "result_database_processed.json.csv",
+    folder + "result_database_merge.iot+water.json.csv",
+    folder + "result_database_merge.big+data+water.json.csv",
+    folder + "result_database_merge.anomaly+detection+water.json.csv",
+    folder + "result_database_merge.decision+support+system+water.json.csv",
+    folder + "result_database_merge.water+smart+cities+or+water+smart+city.json.csv",
 ]
 
 names = [
-    "Blockchain",
-    "Crowdsensing",
-    "Serious Gaming",
-    "Crowdsensing+Blockchain",
-    "Urban Water",
-    "Blockchain+Water",
-    "Crowdsensing+Water"
+    "All",
+    "IoT + Water",
+    "Big Data + Water",
+    "Anomaly Detection + Water",
+    "Decision Support System + Water",
+    "Smart City + Water"
 ]
 
 top_limit = None
@@ -43,7 +53,6 @@ top_limit = None
 # top_limit = 1000
 # top_limit = 100
 
-plot_scores = True
 plot_scores = False
 
 min_score = None
@@ -60,6 +69,8 @@ n_group = 1
 
 top_limit_group_vect = [None]
 # top_limit_group_vect = [1]
+
+min_year = 2012
 
 for top_limit_group in top_limit_group_vect:
     # top_limit_group = None
@@ -104,13 +115,18 @@ for top_limit_group in top_limit_group_vect:
     for i in range(len(files)):
         d = loader.load_class_data(files[i])
         # index,keyword,title,details,year
-       
+
         filter = d["year"] != "null"
         d = d[filter]
 
         if min_score is not None:
             filter = d["score"].apply(
                 lambda e: e >= min_score)
+            d = d[filter]
+
+        if min_year is not None:
+            filter = d["year"].apply(
+                lambda e: e >= min_year)
             d = d[filter]
 
         d = d[filter]
@@ -128,7 +144,10 @@ for top_limit_group in top_limit_group_vect:
             years, scores = loader.load_score_per_year(
                 d, "metacritic", names[i], top_limit_group)
         else:
-            years, scores = loader.load_titles_per_year(d, "metacritic", names[i])
+            years, scores = loader.load_titles_per_year(
+                d, "metacritic", names[i])
+
+        years = [int(y) for y in years]
 
         # print("scores: ", scores)
 
@@ -283,7 +302,7 @@ for top_limit_group in top_limit_group_vect:
 
         # -0.09
         fig, _ = plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Number of papers",
-                                          "Number of papers by year (Google Scholar)", years_grouped, None, True, None, 0, None)
+                                          "Number of papers by year (Google Scholar)", years_grouped, None, True, -0.2, 0, None)
 
         fig.savefig(filename, dpi=300)
     # plot_barchart_multi_core(scores_vect_processed_grouped, color_scheme, names, "Year", "Score",

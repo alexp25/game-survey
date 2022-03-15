@@ -42,12 +42,15 @@ var self = module.exports = {
     listPapersRecursive: async (keyword, limitRecursive, timeoutBase, startFromItem) => {
         try {
             let list = [];
-            let url = "https://scholar.google.com/scholar?start=" + (startFromItem ? startFromItem : "0") + "&q=allintitle:+" + keyword + "&hl=en&as_sdt=0,5";
+            let url = "https://scholar.google.com/scholar?start=" + (startFromItem ? startFromItem : "0") + "&q=allintitle:" + keyword + "&hl=en&as_sdt=0,5";
             let rootUrl = "https://scholar.google.com";
             let res = await self.listPapers(url);
             let urls = res[1];
             let plist = res[0];
-
+            if (plist.length === 0) {
+                console.log("empty page, skipping");
+                return [];
+            }
             list = list.concat(plist);
 
             let ms = utils.getTimeoutRandom(timeoutBase);
@@ -74,10 +77,15 @@ var self = module.exports = {
                     if (process) {
                         res = await self.listPapers(rootUrl + urls[i]);
                         plist = res[0];
+                        if (plist.length === 0) {
+                            console.log("empty page, skipping");
+                            break;
+                        }
                         let urls1 = res[1];
                         if (urls1[urls1.length - 1] !== urls[urls.length - 1]) {
                             urls.push(urls1[urls1.length - 1]);
                         }
+
                         list = list.concat(plist);
                         ms = utils.getTimeoutRandom(timeoutBase);
                         console.log("robot waiting: " + ms);

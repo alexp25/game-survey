@@ -2,6 +2,10 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const { JSDOM } = require('jsdom');
 const writer = require('./writer');
+const puppeteer = require('puppeteer-extra');
+// add stealth plugin and use defaults (all evasion techniques)
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+puppeteer.use(StealthPlugin());
 
 var self = module.exports = {
     test: () => {
@@ -21,13 +25,26 @@ var self = module.exports = {
     },
     getPageHTML: async (url) => {
         try {
-            const { data } = await axios.get(
-                url,
-                { headers: { 'User-Agent': 'Mozilla/5.0' } }
-            );
+            // const { data } = await axios.get(
+            //     url,
+            //     { headers: { 'User-Agent': 'Mozilla/5.0' } }
+            // );
+            // await writer.writeFile(data, "index.html");
+            const browser = await puppeteer.launch({ headless: true });
+            const page = await browser.newPage();
+            const response = await page.goto(url);
+            console.log("waiting for timeout");
+            await page.waitForTimeout(5000);
+            console.log("fetching response");
+            let data = await response.text();
             await writer.writeFile(data, "index.html");
+            await page.screenshot({ path: 'index.png', fullPage: true });
+            console.log("closing browser");
+            await browser.close();
+            console.log("browser closed");
             return data;
         } catch (error) {
+            console.error(error);
             throw error;
         }
     },
