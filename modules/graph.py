@@ -6,10 +6,10 @@ import numpy as np
 import pandas as pd
 from matplotlib.ticker import MaxNLocator
 
-FSIZE_TITLE = 16
-FSIZE_LABEL = 14
-FSIZE_LABEL_S = 14
-FSIZE_LABEL_XS = 14
+FSIZE_TITLE = 20
+FSIZE_LABEL = 18
+FSIZE_LABEL_S = 18
+FSIZE_LABEL_XS = 16
 OPACITY = 0.9
 rotation = 0
 

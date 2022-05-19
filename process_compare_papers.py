@@ -48,6 +48,16 @@ names = [
     "Smart City + Water"
 ]
 
+
+add_years = [[2006, 2007, 2010, 2011, 2012, 2013, 2014,
+             2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022]]
+add_titles = [[1, 2, 1, 1, 1, 2, 4, 3, 10, 19, 25, 17, 22, 18, 5]]
+add_names = ["References"]
+
+add_years = []
+add_titles = []
+add_names = []
+
 top_limit = None
 
 # top_limit = 1000
@@ -182,12 +192,19 @@ for top_limit_group in top_limit_group_vect:
                 scores_processed.append(scores_vect[i][index])
         scores_vect_processed.append(scores_processed)
 
-    # group by 5
+    for add_years_vect in add_years:
+        years_vect.append(add_years_vect)
+    for add_titles_vect in add_titles:
+        scores_vect_processed.append(add_titles_vect)
+    for add_name in add_names:
+        names.append(add_name)
+
+    print(years_vect)
     print(scores_vect_processed)
     print(len(scores_vect_processed))
     print(len(scores_vect_processed[0]))
-    # quit()
 
+    # group by 5
     scores_vect_processed_grouped = []
     years_grouped = []
 

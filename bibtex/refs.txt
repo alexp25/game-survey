@@ -1,0 +1,1442 @@
+
+@Article{Jan2021IoT,
+AUTHOR = {Jan, Farmanullah and Min-Allah, Nasro and Düştegör, Dilek},
+TITLE = {IoT Based Smart Water Quality Monitoring: Recent Techniques, Trends and Challenges for Domestic Applications},
+JOURNAL = {Water},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {13},
+ARTICLE-NUMBER = {1729},
+URL = {https://www.mdpi.com/2073-4441/13/13/1729},
+ISSN = {2073-4441},
+DOI = {10.3390/w13131729}
+}
+
+
+@Article{Jan2021IoTSolutions,
+AUTHOR = {Jan, Farmanullah and Min-Allah, Nasro and Saeed, Saqib and Iqbal, Sardar Zafar and Ahmed, Rashad},
+TITLE = {IoT-Based Solutions to Monitor Water Level, Leakage, and Motor Control for Smart Water Tanks},
+JOURNAL = {Water},
+VOLUME = {14},
+YEAR = {2022},
+NUMBER = {3},
+ARTICLE-NUMBER = {309},
+URL = {https://www.mdpi.com/2073-4441/14/3/309},
+ISSN = {2073-4441},
+DOI = {10.3390/w14030309}
+}
+
+@book{Danilenko2010ClimateChange,
+author = {Danilenko, A. and Dickson, E. and Jacobsen, M.},
+title = {Climate Change and Urban Water Utilities : Challenges and Opportunities},
+year = {2010},
+publisher = {World Bank, Washington, DC}
+}
+
+
+@Article{Pamidimukkala2021Resilience,
+AUTHOR = {Pamidimukkala, Apurva and Kermanshachi, Sharareh and Adepu, Nikhitha and Safapour, Elnaz},
+TITLE = {Resilience in Water Infrastructures: A Review of Challenges and Adoption Strategies},
+JOURNAL = {Sustainability},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {23},
+ARTICLE-NUMBER = {12986},
+URL = {https://www.mdpi.com/2071-1050/13/23/12986},
+ISSN = {2071-1050},
+DOI = {10.3390/su132312986}
+}
+
+
+@Article{Stubinger2020Understanding,
+AUTHOR = {Stübinger, Johannes and Schneider, Lucas},
+TITLE = {Understanding Smart City—A Data-Driven Literature Review},
+JOURNAL = {Sustainability},
+VOLUME = {12},
+YEAR = {2020},
+NUMBER = {20},
+ARTICLE-NUMBER = {8460},
+URL = {https://www.mdpi.com/2071-1050/12/20/8460},
+ISSN = {2071-1050},
+DOI = {10.3390/su12208460}
+}
+
+
+@Article{Bellini2022IoT,
+AUTHOR = {Bellini, Pierfrancesco and Nesi, Paolo and Pantaleo, Gianni},
+TITLE = {IoT-Enabled Smart Cities: A Review of Concepts, Frameworks and Key Technologies},
+JOURNAL = {Applied Sciences},
+VOLUME = {12},
+YEAR = {2022},
+NUMBER = {3},
+ARTICLE-NUMBER = {1607},
+URL = {https://www.mdpi.com/2076-3417/12/3/1607},
+ISSN = {2076-3417},
+DOI = {10.3390/app12031607}
+}
+
+@Article{Sultana2019Design,
+author = {Sultana, Qamar},
+year = {2021},
+month = {02},
+title = {Design of Water Supply Distribution System: A Case Study},
+JOURNAL = {International Journal of Scientific Research and Review},
+VOLUME = {7},
+NUMBER = {6},
+YEAR = {2019},
+ISSN = {2279-543X}
+}
+
+@INPROCEEDINGS{Predescu2020DataDrivenSurvey,  author={Predescu, Alexandru and Mocanu, Mariana},  booktitle={2020 12th International Conference on Electronics, Computers and Artificial Intelligence (ECAI)},   title={A data driven survey of video games},   year={2020},  volume={},  number={},  pages={1-6},  doi={10.1109/ECAI50035.2020.9223203}}
+
+@misc{EnergyStar,
+  title = {ENERGY STAR},
+  howpublished = {\url{https://www.energystar.gov/}},
+  note = {Accessed: 2022-04-08}
+}
+
+@misc{EPA,
+  title = {EPA, Environmental Protection Agency},
+  howpublished = {\url{https://www.epa.gov/watersense/water-score-multifamily-housing}},
+  note = {Accessed: 2022-04-08}
+}
+
+
+@Article{Predescu2021SeriousGaming,
+AUTHOR = {Predescu, Alexandru and Arsene, Diana and Pahonțu, Bogdan and Mocanu, Mariana and Chiru, Costin},
+TITLE = {A Serious Gaming Approach for Crowdsensing in Urban Water Infrastructure with Blockchain Support},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {4},
+ARTICLE-NUMBER = {1449},
+URL = {https://www.mdpi.com/2076-3417/11/4/1449},
+ISSN = {2076-3417},
+DOI = {10.3390/app11041449}
+}
+
+@article{Oberascher2022TowardsASmartWaterCity,
+title = {Towards a smart water city: A comprehensive review of applications, data requirements, and communication technologies for integrated management},
+journal = {Sustainable Cities and Society},
+volume = {76},
+pages = {103442},
+year = {2022},
+issn = {2210-6707},
+doi = {https://doi.org/10.1016/j.scs.2021.103442},
+url = {https://www.sciencedirect.com/science/article/pii/S2210670721007150},
+author = {Martin Oberascher and Wolfgang Rauch and Robert Sitzenfrei},
+keywords = {Applications, ICT, Technical framework, Smart water city, Urban water infrastructure}
+}
+
+
+@Article{Radu2020Disruptive,
+AUTHOR = {Radu, Laura-Diana},
+TITLE = {Disruptive Technologies in Smart Cities: A Survey on Current Trends and Challenges},
+JOURNAL = {Smart Cities},
+VOLUME = {3},
+YEAR = {2020},
+NUMBER = {3},
+PAGES = {1022--1038},
+URL = {https://www.mdpi.com/2624-6511/3/3/51},
+ISSN = {2624-6511},
+DOI = {10.3390/smartcities3030051}
+}
+
+
+@Article{Talari2017AReview,
+AUTHOR = {Talari, Saber and Shafie-khah, Miadreza and Siano, Pierluigi and Loia, Vincenzo and Tommasetti, Aurelio and Catalão, João P. S.},
+TITLE = {A Review of Smart Cities Based on the Internet of Things Concept},
+JOURNAL = {Energies},
+VOLUME = {10},
+YEAR = {2017},
+NUMBER = {4},
+ARTICLE-NUMBER = {421},
+URL = {https://www.mdpi.com/1996-1073/10/4/421},
+ISSN = {1996-1073},
+DOI = {10.3390/en10040421}
+}
+
+@article{Hashem2016TheRole,
+title = {The role of big data in smart city},
+journal = {International Journal of Information Management},
+volume = {36},
+number = {5},
+pages = {748-758},
+year = {2016},
+issn = {0268-4012},
+doi = {https://doi.org/10.1016/j.ijinfomgt.2016.05.002},
+url = {https://www.sciencedirect.com/science/article/pii/S0268401216302778},
+author = {Ibrahim Abaker Targio Hashem and Victor Chang and Nor Badrul Anuar and Kayode Adewole and Ibrar Yaqoob and Abdullah Gani and Ejaz Ahmed and Haruna Chiroma},
+keywords = {Smart city, Big data, Internet of things, Smart environments, Cloud computing, Distributed computing}
+}
+
+@incollection{Voda2019How,
+title = {Chapter 12 - How can artificial intelligence respond to smart cities challenges?},
+editor = {Anna Visvizi and Miltiadis D. Lytras},
+booktitle = {Smart Cities: Issues and Challenges},
+publisher = {Elsevier},
+pages = {199-216},
+year = {2019},
+isbn = {978-0-12-816639-0},
+doi = {https://doi.org/10.1016/B978-0-12-816639-0.00012-0},
+url = {https://www.sciencedirect.com/science/article/pii/B9780128166390000120},
+author = {Ana Iolanda Voda and Laura-Diana Radu},
+keywords = {Artificial intelligence, Challenges, Framework, Smart cities, Technologies}
+}
+
+@article{Ullah2020Applications,
+title = {Applications of Artificial Intelligence and Machine learning in smart cities},
+journal = {Computer Communications},
+volume = {154},
+pages = {313-323},
+year = {2020},
+issn = {0140-3664},
+doi = {https://doi.org/10.1016/j.comcom.2020.02.069},
+url = {https://www.sciencedirect.com/science/article/pii/S0140366419320821},
+author = {Zaib Ullah and Fadi Al-Turjman and Leonardo Mostarda and Roberto Gagliardi},
+keywords = {Smart city, 5G and B5G communication, UAVs, Intelligent Transportation System, Smart grids, Cyber-security, Internet of Things, mmWave communication}
+}
+
+@article{Beck2017Blockchain,
+author = {Beck, Roman and Avital, Michel and Rossi, Matti and Thatcher, Jason},
+year = {2017},
+month = {11},
+pages = {},
+title = {Blockchain Technology in Business and Information Systems Research},
+volume = {59},
+journal = {Business \& Information Systems Engineering},
+publisher = {Springer},
+doi = {https://doi.org/10.1007/s12599-017-0505-1},
+url = {https://link.springer.com/article/10.1007/s12599-017-0505-1}
+}
+
+@article{Bhushan2020Blockchain,
+title = {Blockchain for smart cities: A review of architectures, integration trends and future research directions},
+journal = {Sustainable Cities and Society},
+volume = {61},
+pages = {102360},
+year = {2020},
+issn = {2210-6707},
+doi = {https://doi.org/10.1016/j.scs.2020.102360},
+url = {https://www.sciencedirect.com/science/article/pii/S2210670720305813},
+author = {Bharat Bhushan and Aditya Khamparia and K. Martin Sagayam and Sudhir Kumar Sharma and Mohd Abdul Ahad and Narayan C. Debnath},
+keywords = {Smart cities, Blockchain, Security, Privacy, Consensus protocols, Smart contract, Smart communities}
+}
+
+@article{Lim2018SmartCities,
+title = {Smart cities with big data: Reference models, challenges, and considerations},
+journal = {Cities},
+volume = {82},
+pages = {86-99},
+year = {2018},
+issn = {0264-2751},
+doi = {https://doi.org/10.1016/j.cities.2018.04.011},
+url = {https://www.sciencedirect.com/science/article/pii/S0264275117308545},
+author = {Chiehyeon Lim and Kwang-Jae Kim and Paul P. Maglio},
+keywords = {Smart city, Big data, Reference model, Challenge, Consideration}
+}
+
+@article{Pule2017Wireless,
+title = {Wireless sensor networks: A survey on monitoring water quality},
+journal = {Journal of Applied Research and Technology},
+volume = {15},
+number = {6},
+pages = {562-570},
+year = {2017},
+issn = {1665-6423},
+doi = {https://doi.org/10.1016/j.jart.2017.07.004},
+url = {https://www.sciencedirect.com/science/article/pii/S1665642317301037},
+author = {Mompoloki Pule and Abid Yahya and Joseph Chuma},
+keywords = {Real-time, Remote, Water quality monitoring, Wireless sensor networks}
+}
+
+
+@misc{GISForSmartCities,
+  title = {Cover Story: GIS for Smart Cities},
+  author = {esri India},
+  howpublished = {\url{https://www.esri.in/esri-news/publication/vol9-issue1/articles/gis-for-smart-cities}},
+  note = {Accessed: 2022-04-08}
+}
+
+@book{Chinnici2021DataScience,
+author = {Negru, Catalin and Pop, Florin and Chinnici, Marta},
+year = {2020},
+month = {12},
+pages = {},
+title = {Data Science and Big Data Analytics in Smart Environments},
+isbn = {9780367814397},
+doi = {10.1201/9780367814397}
+}
+
+
+@Article{Bruno2021APressureMonitoring,
+AUTHOR = {Bruno, Federica and De Marchis, Mauro and Milici, Barbara and Saccone, Domenico and Traina, Fabrizio},
+TITLE = {A Pressure Monitoring System for Water Distribution Networks Based on Arduino Microcontroller},
+JOURNAL = {Water},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {17},
+ARTICLE-NUMBER = {2321},
+URL = {https://www.mdpi.com/2073-4441/13/17/2321},
+ISSN = {2073-4441},
+DOI = {10.3390/w13172321}
+}
+
+
+
+@Article{Perez2020Design,
+AUTHOR = {Pérez-Padillo, José and García Morillo, Jorge and Ramirez-Faz, José and Torres Roldán, Manuel and Montesinos, Pilar},
+TITLE = {Design and Implementation of a Pressure Monitoring System Based on IoT for Water Supply Networks},
+JOURNAL = {Sensors},
+VOLUME = {20},
+YEAR = {2020},
+NUMBER = {15},
+ARTICLE-NUMBER = {4247},
+URL = {https://www.mdpi.com/1424-8220/20/15/4247},
+ISSN = {1424-8220},
+DOI = {10.3390/s20154247}
+}
+
+
+@Article{Quintiliani2020Optimal,
+AUTHOR = {Quintiliani, Claudia and Vertommen, Ina and Laarhoven, Karel van and Vliet, Joey van der and Thienen, Peter van},
+TITLE = {Optimal Pressure Sensor Locations for Leak Detection in a Dutch Water Distribution Network},
+JOURNAL = {Environmental Sciences Proceedings},
+VOLUME = {2},
+YEAR = {2020},
+NUMBER = {1},
+ARTICLE-NUMBER = {40},
+URL = {https://www.mdpi.com/2673-4931/2/1/40},
+ISSN = {2673-4931},
+DOI = {10.3390/environsciproc2020002040}
+}
+
+
+
+@misc{IoTBoards,
+  title = {IoT Boards},
+  author = {EDUCBA},
+  howpublished = {\url{https://www.educba.com/iot-boards/}},
+  note = {Accessed: 2022-04-08}
+}
+
+@misc{Dhruva2022Computing,
+  title = {Computing Boards for Internet of Things: A Comparative Survey},
+  author = {Dhruva, A. and Babu, S. and Chakraborty, A. & S.},
+  howpublished = {\url{https://www.techrxiv.org/articles/preprint/Computing_Boards_for_Internet_of_Things_A_Comparative_Survey/18517235}},
+  note = {Accessed: 2022-04-08}
+}
+
+@INPROCEEDINGS{Che2018IoT,  author={Che Soh, Zainal Hisham and Shafie, Muhammad S. and Shafie, Mohd. Affandi and Noraini Sulaiman, Siti and Ibrahim, Mohammad Nizam and Afzal Che Abdullah, Syahrul},  booktitle={2018 International Conference on Electrical Engineering and Informatics (ICELTICs)},   title={IoT Water Consumption Monitoring \& Alert System},   year={2018},  volume={},  number={},  pages={168-172},  doi={10.1109/ICELTICS.2018.8548930}}
+
+@article{Liu2016Advancing,
+    author = {Liu, Ariane and Giurco, Damien and Mukheibir, Pierre},
+    title = "{Advancing household water-use feedback to inform customer behaviour for sustainable urban water}",
+    journal = {Water Supply},
+    volume = {17},
+    number = {1},
+    pages = {198-205},
+    year = {2016},
+    month = {07},
+    issn = {1606-9749},
+    doi = {10.2166/ws.2016.119},
+    url = {https://doi.org/10.2166/ws.2016.119}
+}
+
+@inproceedings{Mazhelis2014AFramework,
+  title={A framework for evaluating Internet-of-Things platforms: Application provider viewpoint},
+  author={Mazhelis, Oleksiy and Tyrv{\"a}inen, Pasi},
+  booktitle={2014 IEEE World Forum on Internet of Things (WF-IoT)},
+  pages={147--152},
+  year={2014},
+  organization={IEEE}
+}
+
+@book{Perry2016Evaluating,
+  title={Evaluating and Choosing an IoT platform},
+  author={Perry, Matthew J},
+  year={2016},
+  publisher={O'Reilly Media}
+}
+
+
+@misc{KelltonIoTPlatform,
+  title = {IoT Platform Evaluation - Investigating the Right Analogy},
+  author = {Kellton Tech},
+  howpublished = {\url{https://www.kelltontech.com/kellton-tech-white-paper/iot-platform-evaluation-investigating-right-analogy}},
+  note = {Accessed: 2022-04-08}
+}
+
+@article{Cominola2019DataMining,
+author = {Cominola, A. and Nguyen, K. and Giuliani, M. and Stewart, R. A. and Maier, H. R. and Castelletti, A.},
+title = {Data Mining to Uncover Heterogeneous Water Use Behaviors From Smart Meter Data},
+journal = {Water Resources Research},
+volume = {55},
+number = {11},
+pages = {9315-9333},
+keywords = {water demand management, water end uses, segmentation analysis, data mining, water use behaviors, smart meters},
+doi = {https://doi.org/10.1029/2019WR024897},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019WR024897},
+year = {2019}
+}
+
+
+@Article{Yang2018Enhacing,
+AUTHOR = {Yang, Ao and Zhang, Hong and Stewart, Rodney A. and Nguyen, Khoi},
+TITLE = {Enhancing Residential Water End Use Pattern Recognition Accuracy Using Self-Organizing Maps and K-Means Clustering Techniques: Autoflow v3.1},
+JOURNAL = {Water},
+VOLUME = {10},
+YEAR = {2018},
+NUMBER = {9},
+ARTICLE-NUMBER = {1221},
+URL = {https://www.mdpi.com/2073-4441/10/9/1221},
+ISSN = {2073-4441},
+DOI = {10.3390/w10091221}
+}
+
+
+@Article{Singh2021WaterQuality,
+AUTHOR = {Singh, Rajesh and Baz, Mohammed and Gehlot, Anita and Rashid, Mamoon and Khurana, Manpreet and Akram, Shaik Vaseem and Alshamrani, Sultan S. and AlGhamdi, Ahmed Saeed},
+TITLE = {Water Quality Monitoring and Management of Building Water Tank Using Industrial Internet of Things},
+JOURNAL = {Sustainability},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {15},
+ARTICLE-NUMBER = {8452},
+URL = {https://www.mdpi.com/2071-1050/13/15/8452},
+ISSN = {2071-1050},
+DOI = {10.3390/su13158452}
+}
+
+@article{Mekki2019AComparative,
+title = {A comparative study of LPWAN technologies for large-scale IoT deployment},
+journal = {ICT Express},
+volume = {5},
+number = {1},
+pages = {1-7},
+year = {2019},
+issn = {2405-9595},
+doi = {https://doi.org/10.1016/j.icte.2017.12.005},
+url = {https://www.sciencedirect.com/science/article/pii/S2405959517302953},
+author = {Kais Mekki and Eddy Bajic and Frederic Chaxel and Fernand Meyer},
+keywords = {Internet of Things, LPWAN, LoRa, Sigfox, NB-IoT}
+}
+
+@inproceedings{Mekki2018Overview,
+  TITLE = {{Overview of cellular LPWAN technologies for IoT deployment: Sigfox, LoRaWAN, and NB-IoT}},
+  AUTHOR = {Mekki, Kais and BAJIC, Eddy and Chaxel, Fr{\'e}d{\'e}ric and Meyer, Fernand},
+  URL = {https://hal.archives-ouvertes.fr/hal-01739635},
+  NOTE = {Part of International Conference on Pervasive Computing and Communications, PerCom2018, Athens, Greece, March 19-23, 2018.},
+  BOOKTITLE = {{2nd International Workshop on Mobile and Pervasive Internet of Things, PERIOT 2018}},
+  ADDRESS = {Athens, Greece},
+  HAL_LOCAL_REFERENCE = {ISET},
+  YEAR = {2018},
+  MONTH = {03},
+  KEYWORDS = {Low Power Wide Area Networks ; Sigfox ; Internet of Things ; NB-IoT ; LoRaWAN},
+  HAL_ID = {hal-01739635},
+  HAL_VERSION = {v1},
+}
+
+@Article{Singh2020Energy,
+AUTHOR = {Singh, Ritesh Kumar and Puluckul, Priyesh Pappinisseri and Berkvens, Rafael and Weyn, Maarten},
+TITLE = {Energy Consumption Analysis of LPWAN Technologies and Lifetime Estimation for IoT Application},
+JOURNAL = {Sensors},
+VOLUME = {20},
+YEAR = {2020},
+NUMBER = {17},
+ARTICLE-NUMBER = {4794},
+URL = {https://www.mdpi.com/1424-8220/20/17/4794},
+ISSN = {1424-8220},
+DOI = {10.3390/s20174794}
+}
+
+
+@Article{Pointl2021Assessing,
+AUTHOR = {Pointl, Michael and Fuchs-Hanusch, Daniela},
+TITLE = {Assessing the Potential of LPWAN Communication Technologies for Near Real-Time Leak Detection in Water Distribution Systems},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {1},
+ARTICLE-NUMBER = {293},
+URL = {https://www.mdpi.com/1424-8220/21/1/293},
+PubMedID = {33406751},
+ISSN = {1424-8220},
+DOI = {10.3390/s21010293}
+}
+
+
+@Article{Gautam2021Usage,
+AUTHOR = {Gautam, Ganesh and Sharma, Gajendra and Magar, Bipin Thapa and Shrestha, Bhanu and Cho, Seongsoo and Seo, Changho},
+TITLE = {Usage of IoT Framework in Water Supply Management for Smart City in Nepal},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {12},
+ARTICLE-NUMBER = {5662},
+URL = {https://www.mdpi.com/2076-3417/11/12/5662},
+ISSN = {2076-3417},
+DOI = {10.3390/app11125662}
+}
+
+
+@Article{Goncalves2020AnIoT,
+AUTHOR = {Gonçalves, Rosiberto and J. M. Soares, Jesse and M. F. Lima, Ricardo},
+TITLE = {An IoT-Based Framework for Smart Water Supply Systems Management},
+JOURNAL = {Future Internet},
+VOLUME = {12},
+YEAR = {2020},
+NUMBER = {7},
+ARTICLE-NUMBER = {114},
+URL = {https://www.mdpi.com/1999-5903/12/7/114},
+ISSN = {1999-5903},
+DOI = {10.3390/fi12070114}
+}
+
+@incollection{Raciti2012,
+  title={Anomaly detection in water management systems},
+  author={Raciti, Massimiliano and Cucurull, Jordi and Nadjm-Tehrani, Simin},
+  booktitle={Critical infrastructure protection},
+  pages={98--119},
+  year={2012},
+  publisher={Springer}
+}
+
+@article{Burbeck2007,
+  title={Adaptive real-time anomaly detection with incremental clustering},
+  author={Burbeck, Kalle and Nadjm-Tehrani, Simin},
+  journal={information security technical report},
+  volume={12},
+  number={1},
+  pages={56--67},
+  year={2007},
+  publisher={Elsevier}
+}
+
+@article{Shalyga2018,
+  title={Anomaly detection for water treatment system based on neural network with automatic architecture optimization},
+  author={Shalyga, Dmitry and Filonov, Pavel and Lavrentyev, Andrey},
+  journal={arXiv preprint arXiv:1807.07282},
+  year={2018}
+}
+
+@article{Leigh2019,
+  title={A framework for automated anomaly detection in high frequency water-quality data from in situ sensors},
+  author={Leigh, Catherine and Alsibai, Omar and Hyndman, Rob J and Kandanaarachchi, Sevvandi and King, Olivia C and McGree, James M and Neelamraju, Catherine and Strauss, Jennifer and Talagala, Priyanga Dilini and Turner, Ryan DR and others},
+  journal={Science of The Total Environment},
+  volume={664},
+  pages={885--898},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{Ramotsoela2018,
+  title={A survey of anomaly detection in industrial wireless sensor networks with critical water system infrastructure as a case study},
+  author={Ramotsoela, Daniel and Abu-Mahfouz, Adnan and Hancke, Gerhard},
+  journal={Sensors},
+  volume={18},
+  number={8},
+  pages={2491},
+  year={2018},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@inproceedings{Vercruyssen2018,
+  title={Semi-supervised anomaly detection with an application to water analytics},
+  author={Vercruyssen, Vincent and Meert, Wannes and Verbruggen, Gust and Maes, Koen and Baumer, Ruben and Davis, Jesse},
+  booktitle={2018 ieee international conference on data mining (icdm)},
+  volume={2018},
+  pages={527--536},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{Gauthama2020,
+  title={A multilayer perceptron model for anomaly detection in water treatment plants},
+  author={MR, Gauthama Raman and Somu, Nivethitha and Mathur, Aditya P},
+  journal={International Journal of Critical Infrastructure Protection},
+  volume={31},
+  pages={100393},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{Muharemi2019,
+  title={Machine learning approaches for anomaly detection of water quality on a real-world data set},
+  author={Muharemi, Fitore and Logof{\u{a}}tu, Doina and Leon, Florin},
+  journal={Journal of Information and Telecommunication},
+  volume={3},
+  number={3},
+  pages={294--307},
+  year={2019},
+  publisher={Taylor \& Francis}
+}
+
+@article{Dogo2019,
+  title={A survey of machine learning methods applied to anomaly detection on drinking-water quality data},
+  author={Dogo, Eustace M and Nwulu, Nnamdi I and Twala, Bhekisipho and Aigbavboa, Clinton},
+  journal={Urban Water Journal},
+  volume={16},
+  number={3},
+  pages={235--248},
+  year={2019},
+  publisher={Taylor \& Francis}
+}
+
+@article{Patabendige2018,
+  title={Detection and interpretation of anomalous water use for non-residential customers},
+  author={Patabendige, Samitha and Cardell-Oliver, Rachel and Wang, Rui and Liu, Wei},
+  journal={Environmental modelling \& software},
+  volume={100},
+  pages={291--301},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{Fuentes2020,
+  title={Smart water consumption measurement system for houses using IoT and cloud computing},
+  author={Fuentes, Henry and Mauricio, David},
+  journal={Environmental Monitoring and Assessment},
+  volume={192},
+  number={9},
+  pages={1--16},
+  year={2020},
+  publisher={Springer}
+}
+
+@article{Abu-Bakar2021,
+  title={Quantifying the impact of the COVID-19 lockdown on household water consumption patterns in England},
+  author={Abu-Bakar, Halidu and Williams, Leon and Hallett, Stephen H},
+  journal={NPJ Clean Water},
+  volume={4},
+  number={1},
+  pages={1--9},
+  year={2021},
+  publisher={Nature Publishing Group}
+}
+
+@article{Ludtke2021,
+  title={Increase in daily household water demand during the first wave of the covid-19 pandemic in germany},
+  author={L{\"u}dtke, Deike U and Luetkemeier, Robert and Schneemann, Michael and Liehr, Stefan},
+  journal={Water},
+  volume={13},
+  number={3},
+  pages={260},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{Kalbusch2020,
+  title={Impact of coronavirus (COVID-19) spread-prevention actions on urban water consumption},
+  author={Kalbusch, Andreza and Henning, Elisa and Brikalski, Miqueias Paulo and de Luca, Felipe Vieira and Konrath, Andrea Cristina},
+  journal={Resources, Conservation and Recycling},
+  volume={163},
+  pages={105098},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{Dziminska2021,
+  title={The use of cluster analysis to evaluate the impact of COVID-19 pandemic on daily water demand patterns},
+  author={Dzimi{\'n}ska, Paulina and Drzewiecki, Stanis{\l}aw and Ruman, Marek and Kosek, Klaudia and Miko{\l}ajewski, Karol and Licznar, Pawe{\l}},
+  journal={Sustainability},
+  volume={13},
+  number={11},
+  pages={5772},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{kotsiantis2006data,
+  title={Data preprocessing for supervised leaning},
+  author={Kotsiantis, Sotiris B and Kanellopoulos, Dimitris and Pintelas, Panagiotis E},
+  journal={International journal of computer science},
+  volume={1},
+  number={2},
+  pages={111--117},
+  year={2006},
+  publisher={Citeseer}
+}
+
+@inproceedings{wu2018comparing,
+  title={Comparing deep learning with statistical control methods for anomaly detection},
+  author={Wu, Zheng Yi and He, Yekun and Li, Qiao},
+  booktitle={WDSA/CCWI Joint Conference Proceedings},
+  volume={1},
+  year={2018}
+}
+
+@article{kofinas2018methodology,
+  title={A methodology for synthetic household water consumption data generation},
+  author={Kofinas, Dimitris T and Spyropoulou, Alexandra and Laspidou, Chrysi S},
+  journal={Environmental modelling \& software},
+  volume={100},
+  pages={48--66},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{zubaidi2020novel,
+  title={A novel methodology for prediction urban water demand by wavelet denoising and adaptive neuro-fuzzy inference system approach},
+  author={Zubaidi, Salah L and Al-Bugharbee, Hussein and Ortega-Martorell, Sandra and Gharghan, Sadik Kamel and Olier, Ivan and Hashim, Khalid S and Al-Bdairi, Nabeel Saleem Saad and Kot, Patryk},
+  journal={Water},
+  volume={12},
+  number={6},
+  pages={1628},
+  year={2020},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@inproceedings{wang2019understanding,
+  title={Understanding the water-energy nexus in urban areas: a cluster analysis of urban water and energy consumption},
+  author={Wang, Lufan and El-Gohary, Nora M},
+  booktitle={Proceedings, annual conference—Canadian society for civil engineering},
+  pages={1--10},
+  year={2019}
+}
+
+@article{dogo2021accessing,
+  title={Accessing imbalance learning using dynamic selection approach in water quality anomaly detection},
+  author={Dogo, Eustace M and Nwulu, Nnamdi I and Twala, Bhekisipho and Aigbavboa, Clinton},
+  journal={Symmetry},
+  volume={13},
+  number={5},
+  pages={818},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{abu2021review,
+  title={A review of household water demand management and consumption measurement},
+  author={Abu-Bakar, Halidu and Williams, Leon and Hallett, Stephen Henry},
+  journal={Journal of Cleaner Production},
+  volume={292},
+  pages={125872},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{de2019predicting,
+  title={Predicting water demand: A review of the methods employed and future possibilities},
+  author={de Souza Groppo, Gustavo and Costa, Marcelo Azevedo and Lib{\^a}nio, Marcelo},
+  journal={Water Supply},
+  volume={19},
+  number={8},
+  pages={2179--2198},
+  year={2019},
+  publisher={IWA Publishing}
+}
+
+@article{rinaudo2015long,
+  title={Long-term water demand forecasting},
+  author={Rinaudo, Jean-Daniel},
+  journal={Understanding and managing urban water in transition},
+  pages={239--268},
+  year={2015},
+  publisher={Springer}
+}
+
+@article{kossieris2018exploring,
+  title={Exploring the statistical and distributional properties of residential water demand at fine time scales},
+  author={Kossieris, Panagiotis and Makropoulos, Christos},
+  journal={Water},
+  volume={10},
+  number={10},
+  pages={1481},
+  year={2018},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@inproceedings{alvi2018dynamic,
+  title={Dynamic behavioural modeling, simulation and analysis of household water consumption in an urban area: a hybrid approach},
+  author={Alvi, Muhammad Saad Qaisar and Mahmood, Imran and Javed, Fahad and Malik, Asad Waqar and Sarjoughian, Hessam},
+  booktitle={2018 Winter Simulation Conference (WSC)},
+  pages={2411--2422},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{abu2021empirical,
+  title={An empirical water consumer segmentation and the characterisation of consumption patterns underpinning demand peaks},
+  author={Abu-Bakar, Halidu and Williams, Leon and Hallett, Stephen H},
+  journal={Resources, Conservation and Recycling},
+  volume={174},
+  pages={105792},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{rahim2021clustering,
+  title={A clustering solution for analyzing residential water consumption patterns},
+  author={Rahim, Md Shamsur and Nguyen, Khoi Anh and Stewart, Rodney Anthony and Ahmed, Tanvir and Giurco, Damien and Blumenstein, Michael},
+  journal={Knowledge-Based Systems},
+  volume={233},
+  pages={107522},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{padulano2018identification,
+  title={Identification of annual water demand patterns in the City of Naples},
+  author={Padulano, Roberta and Giudice, Giuseppe Del and Giugni, Maurizio and Fontana, Nicola and Uberti, Gianluca Sorgenti Degli},
+  journal={Multidisciplinary Digital Publishing Institute Proceedings},
+  volume={2},
+  number={11},
+  pages={587},
+  year={2018}
+}
+
+
+ @article{benitez2019short,
+  title={A short-term data based water consumption prediction approach},
+  author={Ben{\'\i}tez, Rafael and Ortiz-Caraballo, Carmen and Preciado, Juan Carlos and Conejero, Jos{\'e} M and S{\'a}nchez Figueroa, Fernando and Rubio-Largo, Alvaro},
+  journal={Energies},
+  volume={12},
+  number={12},
+  pages={2359},
+  year={2019},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{boudhaouia2021real,
+  title={A Real-Time Data Analysis Platform for Short-Term Water Consumption Forecasting with Machine Learning},
+  author={Boudhaouia, Aida and Wira, Patrice},
+  journal={Forecasting},
+  volume={3},
+  number={4},
+  pages={682--694},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{koo2021performance,
+  title={Performance Assessment for Short-Term Water Demand Forecasting Models on Distinctive Water Uses in Korea},
+  author={Koo, Kang-Min and Han, Kuk-Heon and Jun, Kyung-Soo and Lee, Gyumin and Kim, Jung-Sik and Yum, Kyung-Taek},
+  journal={Sustainability},
+  volume={13},
+  number={11},
+  pages={6056},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{du2020arima,
+  title={ARIMA-M: A new model for daily water consumption prediction based on the autoregressive integrated moving average model and the markov chain error correction},
+  author={Du, Hongyan and Zhao, Zhihua and Xue, Huifeng},
+  journal={Water},
+  volume={12},
+  number={3},
+  pages={760},
+  year={2020},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@INPROCEEDINGS{Karafiloski2017Blockchain,
+  author={Karafiloski, Elena and Mishev, Anastas},
+  booktitle={IEEE EUROCON 2017 -17th International Conference on Smart Technologies}, 
+  title={Blockchain solutions for big data challenges: A literature review}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={763-768},
+  doi={10.1109/EUROCON.2017.8011213}}
+  
+@article{Samaali2017ABlockchain,
+  title={A Blockchain-based Access Control for Big Data},
+  author={A Outchakoucht Jp Leroy H Es-Samaali and Nn Van and R Nakagawa T Tanouchi S Kodama},
+  journal={Journal of Computer Networks and Communications},
+  year={2017},
+  volume={5},
+  pages={137-147}}
+
+@ARTICLE{Yu2016Decentralized,
+  author={Yu, Haiyang and Yang, Zhen and Sinnott, Richard O.},
+  journal={IEEE Access}, 
+  title={Decentralized Big Data Auditing for Smart City Environments Leveraging Blockchain Technology}, 
+  year={2019},
+  volume={7},
+  number={},
+  pages={6288-6296},
+  doi={10.1109/ACCESS.2018.2888940}}
+  
+@Article{Hassani2018Big-Crypto,
+    AUTHOR = {Hassani, Hossein and Huang, Xu and Silva, Emmanuel},
+    TITLE = {Big-Crypto: Big Data, Blockchain and Cryptocurrency},
+    JOURNAL = {Big Data and Cognitive Computing},
+    VOLUME = {2},
+    YEAR = {2018},
+    NUMBER = {4},
+    ARTICLE-NUMBER = {34},
+    URL = {https://www.mdpi.com/2504-2289/2/4/34},
+    ISSN = {2504-2289},
+    DOI = {10.3390/bdcc2040034}}
+
+@article{Hassani2018Big,
+	author = {Hassani, Hossein and Silva, Emmanuel Sirimal},
+	title = {Big Data: a big opportunity for the petroleum and petrochemical industry},
+	journal = {OPEC Energy Review},
+	volume = {42},
+	number = {1},
+	pages = {74-89},
+	doi = {https://doi.org/10.1111/opec.12118},
+	url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/opec.12118},
+	year = {2018}}
+	
+@Article{Hassani2018Digitalisation,
+	AUTHOR = {Hassani, Hossein and Huang, Xu and Silva, Emmanuel},
+	TITLE = {Digitalisation and Big Data Mining in Banking},
+	JOURNAL = {Big Data and Cognitive Computing},
+	VOLUME = {2},
+	YEAR = {2018},
+	NUMBER = {3},
+	ARTICLE-NUMBER = {18},
+	URL = {https://www.mdpi.com/2504-2289/2/3/18},
+	ISSN = {2504-2289},
+	DOI = {10.3390/bdcc2030018}}
+
+@Article{Hassani2017Big,
+	AUTHOR = {Hassani, Hossein and Huang, Xu and Ghodsi, Mansi},
+	TITLE = {Big Data and Causality},
+	JOURNAL = {Annals of Data Science},
+	VOLUME = {5},
+	YEAR = {2018},
+	NUMBER = {133},
+	ARTICLE-NUMBER = {156},
+	URL = {https://doi.org/10.1007/s40745-017-0122-3},
+	ISSN = {2198-5812},
+	DOI = {10.1007/s40745-017-0122-3}}
+
+@Article{Hassani2015Big,
+	AUTHOR = {Hassani, Hossein and Silva, Emmanuel},
+	TITLE = {Forecasting with Big Data: A Review},
+	JOURNAL = {Annals of Data Science},
+	VOLUME = {2},
+	YEAR = {2015},
+	NUMBER = {5},
+	ARTICLE-NUMBER = {19},
+	URL = {https://doi.org/10.1007/s40745-015-0029-9},
+	ISSN = {2198-5812},
+	DOI = {10.1007/s40745-015-0029-9}}
+	
+@INPROCEEDINGS{Bandara2018Mystiko,
+  author={BANDARA, ERANGA and NG, WEE KEONG and DE ZOYSA, KASUN and FERNANDO, NEWTON and THARAKA, SUPUN and MAURAKIRINATHAN, P. and JAYASURIYA, NAMAL},
+  booktitle={2018 IEEE International Conference on Big Data (Big Data)}, 
+  title={Mystiko—Blockchain Meets Big Data}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={3024-3032},
+  doi={10.1109/BigData.2018.8622341}}
+  
+@inbook{Sahoo2018HBasechainDB,
+	author = {Sahoo, Manuj and Baruah, Pallav Kumar},
+	year = {2018},
+	month = {03},
+	pages = {18-29},
+	title = {HBasechainDB – A Scalable Blockchain Framework on Hadoop Ecosystem},
+	isbn = {978-3-319-69952-3},
+	doi = {10.1007/978-3-319-69953-0_2}}
+	
+@article{Adamala2017AnOverview,
+	author = {Adamala, Sirisha},
+	year = {2017},
+	month = {01},
+	pages = {10-18},
+	title = {An Overview of Big Data Applications in Water Resources Engineering},
+	volume = {2},
+	doi = {10.11648/j.mlr.20170201.12}}
+	
+@Article{Romero2017Leveraging,
+	AUTHOR = {Ponce Romero, Juan Manuel and Hallett, Stephen H. and Jude, Simon},
+	TITLE = {Leveraging Big Data Tools and Technologies: Addressing the Challenges of the Water Quality Sector},
+	JOURNAL = {Sustainability},
+	VOLUME = {9},
+	YEAR = {2017},
+	NUMBER = {12},
+	ARTICLE-NUMBER = {2160},
+	URL = {https://www.mdpi.com/2071-1050/9/12/2160},
+	ISSN = {2071-1050},
+	DOI = {10.3390/su9122160}}
+
+@article{Ghernaout2018Applying,
+	author = {Ghernaout, Djamel and Aichouni, Mohamed and Alghamdi, Abdulaziz},
+	year = {2018},
+	month = {01},
+	pages = {89-97},
+	title = {Applying Big Data in Water Treatment Industry: A New Era of Advance},
+	volume = {5},
+	journal = {International Journal of ADVANCED AND APPLIED SCIENCES}}
+	
+@INPROCEEDINGS{Dragulinescu2021SmartWatering,
+  author={Drăgulinescu, Ana-Maria and Constantin, Filip and Orza, Oana and Bosoc, Sabina and Streche, Robert and Negoita, Alexandru and Osiac, Filip and Balaceanu, Cristina and Suciu, George},
+  booktitle={2021 13th International Conference on Electronics, Computers and Artificial Intelligence (ECAI)}, 
+  title={Smart Watering System Security Technologies using Blockchain}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-4},
+  doi={10.1109/ECAI52376.2021.9515114}}
+  
+@ARTICLE{Hakak2020IndustrialWastewater,
+  author={Hakak, Saqib and Khan, Wazir Zada and Gilkar, Gulshan Amin and Haider, Noman and Imran, Muhammad and Alkatheiri, M. Saeed},
+  journal={IEEE Internet of Things Magazine}, 
+  title={Industrial Wastewater Management using Blockchain Technology: Architecture, Requirements, and Future Directions}, 
+  year={2020},
+  volume={3},
+  number={2},
+  pages={38-43},
+  doi={10.1109/IOTM.0001.1900092}}
+@article{Russo2017Depletion,
+	author = {Russo, Tess and Lall, Upmanu},
+	year = {2017},
+	month = {01},
+	pages = {},
+	title = {Depletion and response of deep groundwater to climate-induced pumping variability},
+	volume = {10},
+	journal = {Nature Geoscience},
+	doi = {10.1038/ngeo2883}}
+@article{Zhou2020Variational,
+	author = {Zhou, Xiaokang and Hu, Yiyong and Liang, Wei and Ma, Jianhua and Jin, Qun},
+	year = {2020},
+	month = {09},
+	pages = {1-1},
+	title = {Variational LSTM Enhanced Anomaly Detection for Industrial Big Data},
+	volume = {PP},
+	journal = {IEEE Transactions on Industrial Informatics},
+	doi = {10.1109/TII.2020.3022432}}
+@article{Fullerton2016Short,
+	author = {Fullerton, Tom and Ceballos, Alejandro and Walke, Adam},
+	year = {2016},
+	month = {01},
+	pages = {},
+	title = {Short-Term Forecasting Analysis for Municipal Water Demand (In Press)},
+	volume = {108},
+	journal = {Journal - American Water Works Association},
+	doi = {10.5942/jawwa.2016.108.0003}}
+@article{Pacchin2019A,
+	author = {Pacchin, Elena and Gagliardi, F. and Alvisi, Stefano and Franchini, Marco},
+	year = {2019},
+	month = {03},
+	pages = {},
+	title = {A Comparison of Short-Term Water Demand Forecasting Models},
+	volume = {33},
+	journal = {Water Resources Management},
+	doi = {10.1007/s11269-019-02213-y}}
+@article{Zhou2020Deep,
+	author = {Zhou, Xiaokang and Liang, Wei and Wang, Kevin and Wang, Hao and Yang, Laurence and Jin, Qun},
+	year = {2020},
+	month = {04},
+	pages = {1-1},
+	title = {Deep Learning Enhanced Human Activity Recognition for Internet of Healthcare Things},
+	volume = {PP},
+	journal = {IEEE Internet of Things Journal},
+	doi = {10.1109/JIOT.2020.2985082}
+	}
+@article{Guo2020Robust,
+	author = {Guo, Zhiwei and Shen, Yu and Bashir, Ali and Imran, Muhammad and Kumar, Neeraj and Zhang, Di and Yu, Keping},
+	year = {2020},
+	month = {06},
+	pages = {1-1},
+	title = {Robust Spammer Detection Using Collaborative Neural Network in Internet of Thing Applications},
+	volume = {PP},
+	journal = {IEEE Internet of Things Journal},
+	doi = {10.1109/JIOT.2020.3003802}}
+@article{Zhou2019Recycling,
+	author = {Yueming, Zhou and Chen, You-Peng and Guo, Jin-Song and Shen, Yu and Yan, Peng and Yang, Jixiang},
+	year = {2018},
+	month = {12},
+	pages = {},
+	title = {Recycling of orange waste for single cell protein production and the synergistic and antagonistic effects on production quality},
+	volume = {213},
+	journal = {Journal of Cleaner Production},
+	doi = {10.1016/j.jclepro.2018.12.168}}
+@article{Yin2018Comprehensive,
+	author = {Yin, Ziyi and Jia, Benyou and Wu, Shiqiang and Dai, Jiangyu and Tang, Deshan},
+	year = {2018},
+	month = {03},
+	pages = {385},
+	title = {Comprehensive Forecast of Urban Water-Energy Demand Based on a Neural Network Model},
+	volume = {10},
+	journal = {Water},
+	doi = {10.3390/w10040385}}
+@article{Alamanos2020Urban,
+	author = {Alamanos, Angelos and Sfyris, Stamatis and Fafoutis, Chrysostomos and Mylopoulos, Nikitas},
+	year = {2019},
+	month = {12},
+	pages = {},
+	title = {Urban water demand assessment for sustainable water resources management, under climate change and socioeconomic changes},
+	volume = {20},
+	journal = {Water Supply},
+	doi = {10.2166/ws.2019.199}}
+@article{Oyebode2019Evolutionary,
+	author = {Oyebode, Oluwaseun},
+	year = {2019},
+	month = {04},
+	pages = {264-281},
+	title = {Evolutionary modelling of municipal water demand with multiple feature selection techniques},
+	volume = {68},
+	journal = {Aqua},
+	doi = {10.2166/aqua.2019.145}}
+@article{Zhang2019Performance,
+	author = {Zhang, Di and Liu, Yuanwei and Dai, Linglong and Bashir, Ali and Nallanathan, Arumugam and Shim, Byonghyo},
+	year = {2019},
+	month = {05},
+	pages = {1-1},
+	title = {Performance analysis of FD-NOMA-based decentralized V2X systems},
+	journal = {IEEE Transactions on Communications},
+	doi = {10.1109/TCOMM.2019.2904499}}
+@article{Siddiqui2017Optimizing,
+	author = {Siddiqui, Isma and Lee, Scott Uk-Jin and Abbas, Asad and Bashir, Ali},
+	year = {2017},
+	month = {09},
+	pages = {20945},
+	title = {Optimizing Lifespan and Energy Consumption by Smart Meters in Green-Cloud-Based Smart Grids},
+	volume = {PP},
+	journal = {IEEE Access},
+	doi = {10.1109/ACCESS.2017.2752242}}
+@article{Bashir2011Energy,
+	author = {Bashir, Ali and Lim, Se-Jung and Chauhdary, Sajjad and Park, Myong-Soon},
+	year = {2011},
+	month = {12},
+	pages = {7004-21},
+	title = {Energy Efficient In-network RFID Data Filtering Scheme in Wireless Sensor Networks},
+	volume = {11},
+	journal = {Sensors (Basel, Switzerland)},
+	doi = {10.3390/s110707004}}
+@article{Bashir2019An,
+	author = {Bashir, Ali and Arul, Rajakumar and Basheer, Shakila and Raja, Gunasekaran and Jayaraman, Ramkumar and Qureshi, Nawab Muhammad Faseeh},
+	year = {2019},
+	month = {08},
+	pages = {},
+	title = {An optimal multitier resource allocation of cloud RAN in 5G using machine learning},
+	volume = {30},
+	journal = {Transactions on Emerging Telecommunications Technologies},
+	doi = {10.1002/ett.3627}}
+@article{Zhao2020ARIMA,
+	author = {Du, Hongyan and Zhao, Zhihua and Xue, Huifeng},
+	year = {2020},
+	month = {03},
+	pages = {760},
+	title = {ARIMA-M: A New Model for Daily Water Consumption Prediction Based on the Autoregressive Integrated Moving Average Model and the Markov Chain Error Correction},
+	volume = {12},
+	journal = {Water},
+	doi = {10.3390/w12030760}}
+@article{Su2018Dynamic,
+	author = {Su, Yin and Gao, Weijun and Guan, Dongjie and Su, Weici},
+	year = {2018},
+	month = {05},
+	pages = {},
+	title = {Dynamic assessment and forecast of urban water ecological footprint based on exponential smoothing analysis},
+	volume = {195},
+	journal = {Journal of Cleaner Production},
+	doi = {10.1016/j.jclepro.2018.05.184}}
+@article{Yuan2020A,
+	author = {Yuan, Yanbin and Li, Qian and Yuan, Xiaohui and Luo, Xiang and Liu, Suoxuan},
+	year = {2020},
+	month = {03},
+	pages = {},
+	title = {A SAFSA- and Metabolism-Based Nonlinear Grey Bernoulli Model for Annual Water Consumption Prediction},
+	volume = {44},
+	journal = {Iranian Journal of Science and Technology, Transactions of Civil Engineering},
+	doi = {10.1007/s40996-020-00366-0}}
+@article{Chen2017Multiple,
+	author = {Chen, Guoqiang and Long, Tianyu and Xiong, Jiangong and Bai, Yun},
+	year = {2017},
+	month = {12},
+	pages = {},
+	title = {Multiple Random Forests Modelling for Urban Water Consumption Forecasting},
+	volume = {31},
+	journal = {Water Resources Management},
+	doi = {10.1007/s11269-017-1774-7}}
+@article{Dong2020Data,
+	author = {Dong, Wei and Yang, Qiang},
+	year = {2019},
+	month = {12},
+	pages = {1-1},
+	title = {Data-Driven Solution for Optimal Pumping Units Scheduling of Smart Water Conservancy},
+	volume = {PP},
+	journal = {IEEE Internet of Things Journal},
+	doi = {10.1109/JIOT.2019.2963250}}
+@article{Zahrani2015Urban,
+	author = {Al-Zahrani, Muhammad and Abo-Monasar, Amin},
+	year = {2015},
+	month = {08},
+	pages = {},
+	title = {Urban Residential Water Demand Prediction Based on Artificial Neural Networks and Time Series Models},
+	volume = {29},
+	journal = {Water Resources Management},
+	doi = {10.1007/s11269-015-1021-z}}
+@article{Surendra2020Fuzzy,
+	author = {Surendra, H. and Deka, Paresh},
+	year = {2020},
+	month = {08},
+	pages = {},
+	title = {Fuzzy and improved fuzzy-wavelet approach in modeling municipal residential water consumption estimation using climatic variables},
+	volume = {24},
+	journal = {Soft Computing},
+	doi = {10.1007/s00500-020-05053-w}}
+@inbook{Parnell2013Handbook,
+	author = {Parnell, Gregory and Bresnick, Terry},
+	year = {2013},
+	month = {02},
+	pages = {1-21},
+	title = {Handbook of Decision Analysis},
+	isbn = {9781118173138},
+	doi = {10.1002/9781118515853.ch1}}
+@article{Vinas2019Overview,
+	author = {Viñas, Victor and Malm, Annika and Pettersson, Thomas},
+	year = {2018},
+	month = {11},
+	pages = {},
+	title = {Overview of microbial risks in water distribution networks and their health consequences: Quantification, modelling, trends, and future implications},
+	volume = {46},
+	journal = {Canadian Journal of Civil Engineering},
+	doi = {10.1139/cjce-2018-0216}}
+@article{Hu2022Integrated,
+	author = {Hu, Guangji and Mian, Haroon and Abedin, Zawad and Li, Jianbing and Hewage, Kasun and Sadiq, Rehan},
+	year = {2022},
+	month = {01},
+	pages = {113937},
+	title = {Integrated probabilistic-fuzzy synthetic evaluation of drinking water quality in rural and remote communities},
+	volume = {301},
+	journal = {Journal of Environmental Management},
+	doi = {10.1016/j.jenvman.2021.113937}}
+@article{Nils2022Risk,
+	author = {Sköld, Nils-Petter and Bergion, Viktor and Lindhe, Andreas and Keucken, Alexander and Rosén, Lars},
+	year = {2022},
+	month = {03},
+	pages = {},
+	title = {Risk-Based Evaluation of Improvements in Drinking WaterTreatment Using Cost-Benefit Analysis},
+	journal = {Water Services},
+	doi = {10.3390/w14050782}}
+@article{Baldassi2016Unreasonable,
+	author = {Baldassi, Carlo and Borgs, Christian and Chayes, Jennifer and Ingrosso, Alessandro and Lucibello, Carlo and Saglietti, Luca and Zecchina, Riccardo},
+	year = {2016},
+	month = {08},
+	pages = {},
+	title = {Unreasonable Effectiveness of Learning Neural Networks: From Accessible States and Robust Ensembles to Basic Algorithmic Schemes},
+	volume = {113},
+	journal = {Proceedings of the National Academy of Sciences of the United States of America},
+	doi = {10.1073/pnas.1608103113}}
+@inproceedings{Sun2017Revisiting,
+	author = {Sun, Chen and Shrivastava, Abhinav and Singh, Saurabh and Gupta, Abhinav},
+	year = {2017},
+	month = {10},
+	pages = {843-852},
+	title = {Revisiting Unreasonable Effectiveness of Data in Deep Learning Era},
+	doi = {10.1109/ICCV.2017.97}}
+@article{Schmidhuber2015Deep,
+	author = {Schmidhuber, Juergen},
+	year = {2014},
+	month = {04},
+	pages = {},
+	title = {Deep Learning in Neural Networks: An Overview},
+	volume = {61},
+	journal = {Neural Networks},
+	doi = {10.1016/j.neunet.2014.09.003}}
+@article{Sivapalan2017The,
+	author = {Sivapalan, Murugesu and Blöschl, Günter},
+	year = {2017},
+	month = {09},
+	pages = {},
+	title = {The Growth of Hydrological Understanding: Technologies, Ideas and Societal Needs Shape the Field},
+	journal = {Water Resources Research},
+	doi = {10.1002/2017WR021396}}
+@article{Cai2018Understanding,
+	author = {Cai, Ximing and Wallington, Kevin and Shafiee-Jood, Majid and Marston, Landon},
+	year = {2017},
+	month = {11},
+	pages = {},
+	title = {Understanding and Managing the Food-Energy-Water Nexus – Opportunities for Water Resources Research},
+	volume = {111},
+	journal = {Advances in Water Resources},
+	doi = {10.1016/j.advwatres.2017.11.014}}
+@article{Ponce2017Leveraging,
+	author = {Ponce Romero, Juan Manuel and Hallett, Stephen and Jude, Simon},
+	year = {2017},
+	month = {11},
+	pages = {2160},
+	title = {Leveraging Big Data Tools and Technologies: Addressing the Challenges of the Water Quality Sector},
+	volume = {9},
+	journal = {Sustainability},
+	doi = {10.3390/su9122160}}
+@inproceedings{Curry2014Linked,
+	author = {Curry, Edward and Degeler, Viktoriya and Clifford, Eoghan and Coakley, Daniel and Costa, Andrea and Andel, Schalk and van de Giesen, Nick and Kouroupetroglou, Christos and Messervey, Thomas and Mink, Jan and Smit, Sander},
+	year = {2014},
+	month = {08},
+	pages = {},
+	title = {Linked Water Data for Water Information Management}}
+@article{David2016An,
+	author = {Blodgett, David and Read, Emily and Lucido, Jessica and Slawecki, Tad and Young, Dwane},
+	year = {2016},
+	month = {04},
+	pages = {},
+	title = {An Analysis of Water Data Systems to Inform the Open Water Data Initiative},
+	volume = {52},
+	journal = {JAWRA Journal of the American Water Resources Association},
+	doi = {10.1111/1752-1688.12417}}
+@inbook{Bianchini2018Exploiting,
+	author = {Bianchini, Devis and De Antonellis, Valeria and Garda, Massimiliano and Melchiori, Michele},
+	year = {2018},
+	month = {10},
+	pages = {372-389},
+	title = {Exploiting Smart City Ontology and Citizens’ Profiles for Urban Data Exploration: Confederated International Conferences: CoopIS, C\&TC, and ODBASE 2018, Valletta, Malta, October 22-26, 2018, Proceedings, Part I},
+	isbn = {978-3-030-02609-7},
+	doi = {10.1007/978-3-030-02610-3_21}}
+@inproceedings{Rani2016Ontology,
+	author = {Rani, Monika and Alekh, Sanchit and Bhardwaj, Aditya and Gupta, Abhinav and Vyas, O.},
+	year = {2016},
+	month = {03},
+	pages = {509-514},
+	title = {Ontology-based Classification and Analysis of non- emergency Smart-city Events},
+	doi = {10.1109/ICCTICT.2016.7514633}}
+@inproceedings{Goel2017Smart,
+	author = {Goel, Deepti and Chaudhury, Santanu and Ghosh, Hiranmay},
+	year = {2017},
+	month = {11},
+	pages = {639-646},
+	title = {Smart Water Management: An Ontology-Driven Context-Aware IoT Application},
+	isbn = {978-3-319-69899-1},
+	doi = {10.1007/978-3-319-69900-4_81}}
+@inproceedings{Ahmedi2013An,
+	author = {Ahmedi, Lule and Jajaga, Edmond and Ahmedi, Figene},
+	year = {2013},
+	month = {10},
+	pages = {},
+	title = {An Ontology Framework for Water Quality Management},
+	volume = {1063},
+	journal = {CEUR Workshop Proceedings}}
+@article{Katsiri2016An,
+	author = {Katsiri, Eleftheria and Makropoulos, Christos},
+	year = {2016},
+	month = {08},
+	pages = {1-14},
+	title = {An ontology framework for decentralized water management and analytics using wireless sensor networks},
+	volume = {57},
+	journal = {Desalination and Water Treatment},
+	doi = {10.1080/19443994.2016.1202144}}
+@inproceedings{Rivera2017Adaptation,
+	author = {Sánchez de Rivera, Diego and Robles, Tomas and Lopez Morales, Juan Antonio and Miguel, Azucena and Navarro, Mariano and Sofía, María and Gómez, Iglesias and Martinez, Juan and Skarmeta, Antonio},
+	year = {2017},
+	month = {09},
+	pages = {},
+	title = {Adaptation of ontology sets for water related scenarios management with IoT systems for a more productive and sustainable agriculture systems}}
+@inproceedings{Auer2007Nucleus,
+	author = {Auer, Sören and Bizer, Christian and Kobilarov, Georgi and Lehmann, Jens and Cyganiak, Richard and Ives, Zachary},
+	year = {2007},
+	month = {01},
+	pages = {722-735},
+	title = {DBpedia: A Nucleus for a Web of Open Data},
+	volume = {6},
+	isbn = {978-3-540-76297-3},
+	journal = {Lecture Notes in Computer Science},
+	doi = {10.1007/978-3-540-76298-0_52}}
+@inproceedings{Tanon2016From,
+	author = {Tanon, Thomas and Vrandečić, Denny and Schaffert, Sebastian and Steiner, Thomas and Pintscher, Lydia},
+	year = {2016},
+	month = {04},
+	pages = {1419-1428},
+	title = {From Freebase to Wikidata: The Great Migration},
+	doi = {10.1145/2872427.2874809}}
+@inproceedings{Rebele2016In,
+	author = {Rebele, Thomas and Suchanek, Fabian and Hoffart, Johannes and Biega, Joanna and Kuzey, Erdal and Weikum, Gerhard},
+	year = {2016},
+	month = {10},
+	pages = {177-185},
+	title = {YAGO: A Multilingual Knowledge Base from Wikipedia, Wordnet, and Geonames},
+	isbn = {978-3-319-46546-3},
+	doi = {10.1007/978-3-319-46547-0_19}}
+@article{Farber2018Linked,
+	author = {Faerber, Michael and Bartscherer, Frederic and Menne, Carsten and Rettinger, Achim},
+	year = {2017},
+	month = {03},
+	pages = {1-53},
+	title = {Linked data quality of DBpedia, Freebase, OpenCyc, Wikidata, and YAGO},
+	volume = {9},
+	journal = {Semantic Web},
+	doi = {10.3233/SW-170275}}
+
+
+@misc{EUDataPortal2017ReUsing,
+  title = {Re-Using Open Data},
+  author = {European Data Portal},
+  year = {2017},
+  howpublished = {\url{https://data.europa.eu/sites/default/files/re-using_open_data.pdf}},
+  note = {Accessed: 2022-05-08}
+}
+
+@misc{Tennison2014TheRDFDataCube,
+  title = {The RDF Data Cube Vocabulary},
+  author = {Jeni Tennison},
+  year = {2014},
+  howpublished = {\url{https://www.w3.org/TR/vocab-data-cube/}},
+  note = {Accessed: 2022-05-08}
+}
+
+@misc{Leopold2017NvidiasHuang,
+  title = {Nvidia’s Huang Sees AI ‘Cambrian Explosion’},
+  author = {George Leopold},
+  year = {2017},
+  howpublished = {\url{https://www.datanami.com/2017/05/24/nvidias-huang-sees-ai-cambrian-explosion/ }},
+  note = {Accessed: 2022-05-08}
+}
+
+@article{Joshi2019Novel,
+  title={Novel Water Sustainability Technologies: Key Projects and Opportunities, Financing, and Venture Capital, Transactions and Trends},
+  year = {2019},
+  author={Joshi, B},
+  journal={Research and Markets}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

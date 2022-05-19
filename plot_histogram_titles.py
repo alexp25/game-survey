@@ -12,23 +12,22 @@ import json
 folder = "./data/googlescholar/"
 
 files = [
-    folder + "result_database.blockchain.json.csv",
-    folder + "result_database.crowdsensing.json.csv",
-    folder + "result_database.serious_gaming.json.csv",
-    folder + "result_database.crowdsensing_blockchain.json.csv",
-    folder + "result_database_2.urban_water.json.csv",
-    folder + "result_database_2.blockchain_water.json.csv",
-    folder + "result_database_2.crowdsensing_water.json.csv"
+    folder + "result_database_processed.json.csv",
+    folder + "result_database_merge.iot+water.json.csv",
+    folder + "result_database_merge.big+data+water.json.csv",
+    folder + "result_database_merge.anomaly+detection+water.json.csv",
+    folder + "result_database_merge.decision+support+system+water.json.csv",
+    folder + "result_database_merge.water+smart+cities+or+water+smart+city.json.csv",
 ]
 
+
 names = [
-    "Blockchain",
-    "Crowdsensing",
-    "Serious Gaming",
-    "Crowdsensing+Blockchain",
-    "Urban Water",
-    "Blockchain+Water",
-    "Crowdsensing+Water"
+    "All",
+    "IoT + Water",
+    "Big Data + Water",
+    "Anomaly Detection + Water",
+    "Decision Support System + Water",
+    "Smart City + Water"
 ]
 
 # very slow
